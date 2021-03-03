@@ -2,20 +2,20 @@
 # for bootloader for FMUv3 hardware (ie. for Pixhawk1, Pixhawk2 cube, XUAV2.1 etc)
 
 # MCU class and specific type
-MCU STM32F4xx STM32F427xx
+MCU STM32F4xx STM32F407xx
 
 # board ID for firmware load
 APJ_BOARD_ID 9
 
 # crystal frequency
-OSCILLATOR_HZ 24000000
+OSCILLATOR_HZ 8000000
 
 
 # ChibiOS system timer
 STM32_ST_USE_TIMER 5
 
 # flash size
-FLASH_SIZE_KB 2048
+FLASH_SIZE_KB 1024
 
 # location of application code
 FLASH_BOOTLOADER_LOAD_KB 16
@@ -42,8 +42,8 @@ PA11 OTG_FS_DM OTG1
 PA12 OTG_FS_DP OTG1
 
 # these are the pins for SWD debugging with a STlinkv2 or black-magic probe
-PA13 JTMS-SWDIO SWD
-PA14 JTCK-SWCLK SWD
+#PA13 JTMS-SWDIO SWD
+#PA14 JTCK-SWCLK SWD
 
 # Another USART, this one for telem1
 PD5 USART2_TX USART2
@@ -59,8 +59,8 @@ PD11 USART3_CTS USART3
 PD12 USART3_RTS USART3
 
 # UART7 maps to uartF in the HAL (serial5 in SERIALn_ parameters)
-PE7 UART7_RX UART7
-PE8 UART7_TX UART7
+#PE7 UART7_RX UART7
+#PE8 UART7_TX UART7
 
 # define a LED
 PE12 LED_BOOTLOADER OUTPUT
