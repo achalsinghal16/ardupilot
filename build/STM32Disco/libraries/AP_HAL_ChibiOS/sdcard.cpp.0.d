@@ -96,22 +96,27 @@ libraries/AP_HAL_ChibiOS/sdcard.cpp.0.o: \
  ../../modules/ChibiOS/os/hal/ports/STM32/LLD/GPIOv2/hal_pal_lld.h \
  ../../modules/ChibiOS/os/hal/ports/STM32/LLD/GPIOv2/stm32_gpio.h \
  ../../modules/ChibiOS/os/hal/include/hal_adc.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/ADCv2/hal_adc_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_can.h \
  ../../modules/ChibiOS/os/hal/include/hal_crypto.h \
  ../../modules/ChibiOS/os/hal/include/hal_dac.h \
  ../../modules/ChibiOS/os/hal/include/hal_gpt.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2c.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2s.h \
  ../../modules/ChibiOS/os/hal/include/hal_icu.h \
  ../../modules/ChibiOS/os/hal/include/hal_eicu.h \
  ../../modules/ChibiOS/os/hal/include/hal_mac.h \
  ../../modules/ChibiOS/os/hal/include/hal_pwm.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_rtc.h \
  ../../modules/ChibiOS/os/hal/include/hal_serial.h \
  ../../modules/ChibiOS/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sdc.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SDIOv1/hal_sdc_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sio.h \
  ../../modules/ChibiOS/os/hal/include/hal_spi.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SPIv1/hal_spi_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_trng.h \
  ../../modules/ChibiOS/os/hal/include/hal_uart.h \
  ../../modules/ChibiOS/os/hal/include/hal_usb.h \
@@ -136,8 +141,15 @@ libraries/AP_HAL_ChibiOS/sdcard.cpp.0.o: \
  ../../libraries/AP_HAL/Flash.h \
  ../../libraries/AP_HAL_ChibiOS/HAL_ChibiOS_Class.h \
  ../../libraries/AP_HAL_Empty/AP_HAL_Empty_Namespace.h \
+ ../../modules/ChibiOS/ext/fatfs/src/ff.h \
+ ../../modules/ChibiOS/ext/fatfs/src/integer.h \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/ffconf.h \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/stdio.h \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/hrt.h \
+ ../../libraries/AP_HAL_ChibiOS/Scheduler.h \
+ ../../libraries/AP_HAL_ChibiOS/Device.h \
+ ../../libraries/AP_HAL_ChibiOS/shared_dma.h \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/bouncebuffer.h \
  ../../libraries/AP_HAL_ChibiOS/sdcard.h \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/spi_hook.h \
  ../../libraries/AP_BoardConfig/AP_BoardConfig.h \
@@ -146,4 +158,5 @@ libraries/AP_HAL_ChibiOS/sdcard.cpp.0.o: \
  ../../libraries/AP_RTC/AP_RTC.h ../../libraries/AC_PID/AC_PI.h \
  ../../libraries/AP_Filesystem/AP_Filesystem.h \
  ../../libraries/AP_Filesystem/AP_Filesystem_Available.h \
+ ../../libraries/AP_Filesystem/AP_Filesystem_FATFS.h \
  ../../libraries/AP_Filesystem/AP_Filesystem_backend.h
