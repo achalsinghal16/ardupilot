@@ -1,4 +1,4 @@
-APJ_BOARD_ID = '9'
+APJ_BOARD_ID = '10'
 APJ_BOARD_TYPE = 'STM32F407xx'
 APJ_TOOL = '/home/alex/ArduPilot/ardupilot/Tools/scripts/apj_tool.py'
 AP_HAL_REL = '../../libraries/AP_HAL_ChibiOS'
@@ -110,7 +110,7 @@ PYTHON = ['/usr/bin/python']
 PYTHONARCHDIR = '/usr/lib/python2.7/dist-packages'
 PYTHONDIR = '/usr/lib/python2.7/dist-packages'
 PYTHON_VERSION = '2.7'
-ROMFS_FILES = [('hwdef.dat', '/home/alex/ArduPilot/ardupilot/build/STM32Disco/hw.dat'), ('io_firmware.bin', 'Tools/IO_Firmware/iofirmware_lowpolh.bin')]
+ROMFS_FILES = [('hwdef.dat', '/home/alex/ArduPilot/ardupilot/build/STM32Disco/hw.dat'), ('io_firmware.bin', 'Tools/IO_Firmware/iofirmware_lowpolh.bin'), ('bootloader.bin', '/home/alex/ArduPilot/ardupilot/Tools/bootloaders/STM32Disco_bl.bin')]
 RPATH_ST = '-Wl,-rpath,%s'
 RSYNC = ['/usr/bin/rsync']
 SERIAL_PORT = '/home/alex/ArduPilot/ardupilot/dev/serial/by-id/*_STLink*'

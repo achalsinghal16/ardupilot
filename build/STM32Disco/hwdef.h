@@ -40,7 +40,6 @@
 #define HAL_BOARD_TERRAIN_DIRECTORY "/APM/TERRAIN"
 #define HAL_STORAGE_SIZE 16384
 #define HAL_HAVE_SAFETY_SWITCH 1
-#define HAL_WITH_RAMTRON 1
 #define HAL_OS_FATFS_IO 1
 #define HAL_BATT_VOLT_PIN 2
 #define HAL_BATT_CURR_PIN 3
@@ -64,7 +63,7 @@
 
 
 // APJ board ID (for bootloaders)
-#define APJ_BOARD_ID 9
+#define APJ_BOARD_ID 10
 
 #ifndef HAL_ENABLE_THREAD_STATISTICS
 #define HAL_ENABLE_THREAD_STATISTICS FALSE
@@ -85,8 +84,7 @@
 #define HAL_SPI_DEVICE5  SPIDesc("hmc5843"        ,  0,  5, PAL_LINE(GPIOC,1U) , SPIDEV_MODE3,  11*MHZ,  11*MHZ)
 #define HAL_SPI_DEVICE6  SPIDesc("lsm9ds0_g"      ,  0,  1, PAL_LINE(GPIOC,13U), SPIDEV_MODE3,  11*MHZ,  11*MHZ)
 #define HAL_SPI_DEVICE7  SPIDesc("lsm9ds0_am"     ,  0,  2, PAL_LINE(GPIOC,15U), SPIDEV_MODE3,  11*MHZ,  11*MHZ)
-#define HAL_SPI_DEVICE8  SPIDesc("ramtron"        ,  1, 10, PAL_LINE(GPIOD,10U), SPIDEV_MODE3,   8*MHZ,   8*MHZ)
-#define HAL_SPI_DEVICE_LIST HAL_SPI_DEVICE0,HAL_SPI_DEVICE1,HAL_SPI_DEVICE2,HAL_SPI_DEVICE3,HAL_SPI_DEVICE4,HAL_SPI_DEVICE5,HAL_SPI_DEVICE6,HAL_SPI_DEVICE7,HAL_SPI_DEVICE8
+#define HAL_SPI_DEVICE_LIST HAL_SPI_DEVICE0,HAL_SPI_DEVICE1,HAL_SPI_DEVICE2,HAL_SPI_DEVICE3,HAL_SPI_DEVICE4,HAL_SPI_DEVICE5,HAL_SPI_DEVICE6,HAL_SPI_DEVICE7
 
 #define HAL_WITH_SPI_MS5611 1
 #define HAL_WITH_SPI_MPU6000 1
@@ -96,7 +94,6 @@
 #define HAL_WITH_SPI_HMC5843 1
 #define HAL_WITH_SPI_LSM9DS0_G 1
 #define HAL_WITH_SPI_LSM9DS0_AM 1
-#define HAL_WITH_SPI_RAMTRON 1
 
 // ADC config
 #define ANALOG_VCC_5V_PIN 4
@@ -133,7 +130,6 @@
 #define HAL_GPIO_PIN_BATT_VOLTAGE_SENS    PAL_LINE(GPIOA,2U)
 #define HAL_GPIO_PIN_CAN1_RX              PAL_LINE(GPIOD,0U)
 #define HAL_GPIO_PIN_CAN1_TX              PAL_LINE(GPIOD,1U)
-#define HAL_GPIO_PIN_FRAM_CS              PAL_LINE(GPIOD,10U)
 #define HAL_GPIO_PIN_GYRO_EXT_CS          PAL_LINE(GPIOC,13U)
 #define HAL_GPIO_PIN_I2C1_SCL             PAL_LINE(GPIOB,8U)
 #define HAL_GPIO_PIN_I2C1_SDA             PAL_LINE(GPIOB,9U)
@@ -370,7 +366,7 @@
 // USB configuration
 #define HAL_USB_VENDOR_ID 0x1209
 #define HAL_USB_PRODUCT_ID 0x5741
-#define HAL_USB_STRING_MANUFACTURER "ArduPilot"
+#define HAL_USB_STRING_MANUFACTURER "ArduPilotNew"
 #define HAL_USB_STRING_PRODUCT "%BOARD%"
 #define HAL_USB_STRING_SERIAL "%SERIAL%"
 
@@ -761,7 +757,6 @@
  PD7 BARO_CS CS
  PD8 USART3_TX USART3 AF7
  PD9 USART3_RX USART3 AF7
- PD10 FRAM_CS CS
  PD11 USART3_CTS USART3 AF7
  PD12 USART3_RTS USART3
  PD13 TIM4_CH2 TIM4 AF2 PWM5
@@ -779,7 +774,7 @@
                            PIN_MODE_OUTPUT(7U) | \
                            PIN_MODE_ALTERNATE(8U) | \
                            PIN_MODE_ALTERNATE(9U) | \
-                           PIN_MODE_OUTPUT(10U) | \
+                           PIN_MODE_INPUT(10U) | \
                            PIN_MODE_ALTERNATE(11U) | \
                            PIN_MODE_OUTPUT(12U) | \
                            PIN_MODE_ALTERNATE(13U) | \
@@ -813,7 +808,7 @@
                            PIN_OSPEED_MEDIUM(7U) | \
                            PIN_OSPEED_MEDIUM(8U) | \
                            PIN_OSPEED_MEDIUM(9U) | \
-                           PIN_OSPEED_VERYLOW(10U) | \
+                           PIN_OSPEED_MEDIUM(10U) | \
                            PIN_OSPEED_MEDIUM(11U) | \
                            PIN_OSPEED_MEDIUM(12U) | \
                            PIN_OSPEED_MEDIUM(13U) | \
@@ -830,7 +825,7 @@
                            PIN_PUPDR_PULLUP(7U) | \
                            PIN_PUPDR_PULLUP(8U) | \
                            PIN_PUPDR_PULLUP(9U) | \
-                           PIN_PUPDR_PULLUP(10U) | \
+                           PIN_PUPDR_FLOATING(10U) | \
                            PIN_PUPDR_PULLUP(11U) | \
                            PIN_PUPDR_PULLUP(12U) | \
                            PIN_PUPDR_FLOATING(13U) | \
