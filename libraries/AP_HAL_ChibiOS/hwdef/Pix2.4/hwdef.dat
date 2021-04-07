@@ -371,7 +371,7 @@ PD10 FRAM_CS CS SPEED_VERYLOW
 #PE8 UART7_TX UART7
 
 # Define a LED, mapping it to GPIO(0). LOW will illuminate the LED
-#PE12 FMU_LED_AMBER OUTPUT HIGH OPENDRAIN GPIO(0)
+PE12 FMU_LED_AMBER OUTPUT HIGH OPENDRAIN GPIO(0)
 
 # Power flag pins: these tell the MCU the status of the various power
 # supplies that are available. The pin names need to exactly match the

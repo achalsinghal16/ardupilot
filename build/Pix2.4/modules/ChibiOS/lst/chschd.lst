@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccjRrDZN.s 			page 1
+ARM GAS  /tmp/cchjsrEN.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
   55 000a 1B61     		str	r3, [r3, #16]
   56              		.loc 1 71 0
   57 000c 5B61     		str	r3, [r3, #20]
-ARM GAS  /tmp/ccjRrDZN.s 			page 2
+ARM GAS  /tmp/cchjsrEN.s 			page 2
 
 
   58 000e 7047     		bx	lr
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  112 001e 00BF     		.align	2
  113              	.L7:
  114 0020 00000000 		.word	.LANCHOR0
-ARM GAS  /tmp/ccjRrDZN.s 			page 3
+ARM GAS  /tmp/cchjsrEN.s 			page 3
 
 
  115              		.cfi_endproc
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  169 001c 06       		.byte	(.L10-.L12)/2
  170 001d 13       		.byte	(.L14-.L12)/2
  171              		.p2align 1
-ARM GAS  /tmp/ccjRrDZN.s 			page 4
+ARM GAS  /tmp/cchjsrEN.s 			page 4
 
 
  172              	.L13:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  226 0042 0268     		ldr	r2, [r0]
  227 0044 5360     		str	r3, [r2, #4]
  228 0046 ECE7     		b	.L10
-ARM GAS  /tmp/ccjRrDZN.s 			page 5
+ARM GAS  /tmp/cchjsrEN.s 			page 5
 
 
  229              	.LBE129:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  283              		.cfi_endproc
  284              	.LFE292:
  285              		.size	chSchReadyAheadI, .-chSchReadyAheadI
-ARM GAS  /tmp/ccjRrDZN.s 			page 6
+ARM GAS  /tmp/cchjsrEN.s 			page 6
 
 
  286              		.section	.text.chSchGoSleepS,"ax",%progbits
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  340              		.syntax unified
  341              	@ 251 "../../modules/ChibiOS/os/common/ext/ARM/CMSIS/Core/Include/cmsis_gcc.h" 1
  342 001a EFF30982 		MRS r2, psp
-ARM GAS  /tmp/ccjRrDZN.s 			page 7
+ARM GAS  /tmp/cchjsrEN.s 			page 7
 
 
  343              	@ 0 "" 2
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  397              		.loc 1 375 0
  398              		.cfi_startproc
  399              		@ args = 0, pretend = 0, frame = 24
-ARM GAS  /tmp/ccjRrDZN.s 			page 8
+ARM GAS  /tmp/cchjsrEN.s 			page 8
 
 
  400              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  454 0032 F8E7     		b	.L30
  455              	.L35:
  456              		.align	2
-ARM GAS  /tmp/ccjRrDZN.s 			page 9
+ARM GAS  /tmp/cchjsrEN.s 			page 9
 
 
  457              	.L34:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  511              	.L37:
  512              		.cfi_restore_state
  513              		.loc 1 433 0
-ARM GAS  /tmp/ccjRrDZN.s 			page 10
+ARM GAS  /tmp/cchjsrEN.s 			page 10
 
 
  514 001a 1846     		mov	r0, r3
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  568              	.L40:
  569 0046 00BF     		.align	2
  570              	.L39:
-ARM GAS  /tmp/ccjRrDZN.s 			page 11
+ARM GAS  /tmp/cchjsrEN.s 			page 11
 
 
  571 0048 00000000 		.word	.LANCHOR0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  625              		.cfi_startproc
  626              		@ args = 0, pretend = 0, frame = 0
  627              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccjRrDZN.s 			page 12
+ARM GAS  /tmp/cchjsrEN.s 			page 12
 
 
  628 0000 38B5     		push	{r3, r4, r5, lr}
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  682 0024 9A42     		cmp	r2, r3
  683 0026 01D9     		bls	.L45
  684              	.LBB152:
-ARM GAS  /tmp/ccjRrDZN.s 			page 13
+ARM GAS  /tmp/cchjsrEN.s 			page 13
 
 
  685              		.loc 1 528 0 is_stmt 0 discriminator 1
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  739 0004 2368     		ldr	r3, [r4]
  740              	.LBE155:
  741              	.LBE154:
-ARM GAS  /tmp/ccjRrDZN.s 			page 14
+ARM GAS  /tmp/cchjsrEN.s 			page 14
 
 
  742              		.loc 1 571 0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  796              		.cfi_restore 14
  797              		.cfi_restore 5
  798              		.cfi_restore 4
-ARM GAS  /tmp/ccjRrDZN.s 			page 15
+ARM GAS  /tmp/cchjsrEN.s 			page 15
 
 
  799              		.cfi_restore 3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  853              		.global	chSchDoRescheduleAhead
  854              		.syntax unified
  855              		.thumb
-ARM GAS  /tmp/ccjRrDZN.s 			page 16
+ARM GAS  /tmp/cchjsrEN.s 			page 16
 
 
  856              		.thumb_func
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  906 0011 79040000 		.4byte	.LASF181
  907 0015 17090000 		.4byte	.LASF182
  908 0019 C0000000 		.4byte	.Ldebug_ranges0+0xc0
-ARM GAS  /tmp/ccjRrDZN.s 			page 17
+ARM GAS  /tmp/cchjsrEN.s 			page 17
 
 
  909 001d 00000000 		.4byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  963 0089 04       		.uleb128 0x4
  964 008a 04       		.byte	0x4
  965 008b 05       		.byte	0x5
-ARM GAS  /tmp/ccjRrDZN.s 			page 18
+ARM GAS  /tmp/cchjsrEN.s 			page 18
 
 
  966 008c A1020000 		.4byte	.LASF11
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1020 0101 59060000 		.4byte	.LASF22
  1021 0105 08       		.byte	0x8
  1022 0106 2A       		.byte	0x2a
-ARM GAS  /tmp/ccjRrDZN.s 			page 19
+ARM GAS  /tmp/cchjsrEN.s 			page 19
 
 
  1023 0107 B4000000 		.4byte	0xb4
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1077 017c 45050000 		.4byte	.LASF32
  1078 0180 02       		.byte	0x2
  1079 0181 90       		.byte	0x90
-ARM GAS  /tmp/ccjRrDZN.s 			page 20
+ARM GAS  /tmp/cchjsrEN.s 			page 20
 
 
  1080 0182 21010000 		.4byte	0x121
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1134 01ed 6A060000 		.4byte	0x66a
  1135 01f1 24       		.byte	0x24
  1136 01f2 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccjRrDZN.s 			page 21
+ARM GAS  /tmp/cchjsrEN.s 			page 21
 
 
  1137 01f3 3C030000 		.4byte	.LASF40
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1191 0265 76020000 		.4byte	0x276
  1192 0269 08       		.uleb128 0x8
  1193 026a 1C010000 		.4byte	.LASF50
-ARM GAS  /tmp/ccjRrDZN.s 			page 22
+ARM GAS  /tmp/cchjsrEN.s 			page 22
 
 
  1194 026e 02       		.byte	0x2
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1248 02dd 02       		.byte	0x2
  1249 02de 6201     		.2byte	0x162
  1250 02e0 E0040000 		.4byte	0x4e0
-ARM GAS  /tmp/ccjRrDZN.s 			page 23
+ARM GAS  /tmp/cchjsrEN.s 			page 23
 
 
  1251 02e4 0C       		.byte	0xc
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1305 0355 0B       		.uleb128 0xb
  1306 0356 57000000 		.4byte	.LASF53
  1307 035a 02       		.byte	0x2
-ARM GAS  /tmp/ccjRrDZN.s 			page 24
+ARM GAS  /tmp/cchjsrEN.s 			page 24
 
 
  1308 035b 3B01     		.2byte	0x13b
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1362 03cf 5601     		.2byte	0x156
  1363 03d1 56040000 		.4byte	0x456
  1364 03d5 0C       		.byte	0xc
-ARM GAS  /tmp/ccjRrDZN.s 			page 25
+ARM GAS  /tmp/cchjsrEN.s 			page 25
 
 
  1365 03d6 00       		.byte	0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1419 0449 0A       		.uleb128 0xa
  1420 044a 746D00   		.ascii	"tm\000"
  1421 044d 02       		.byte	0x2
-ARM GAS  /tmp/ccjRrDZN.s 			page 26
+ARM GAS  /tmp/cchjsrEN.s 			page 26
 
 
  1422 044e A501     		.2byte	0x1a5
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1476 04c5 4F       		.byte	0x4f
  1477 04c6 BA040000 		.4byte	0x4ba
  1478 04ca 03       		.uleb128 0x3
-ARM GAS  /tmp/ccjRrDZN.s 			page 27
+ARM GAS  /tmp/cchjsrEN.s 			page 27
 
 
  1479 04cb 08030000 		.4byte	.LASF80
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1533 053e 0E       		.byte	0xe
  1534 053f 5F01     		.2byte	0x15f
  1535 0541 CA040000 		.4byte	0x4ca
-ARM GAS  /tmp/ccjRrDZN.s 			page 28
+ARM GAS  /tmp/cchjsrEN.s 			page 28
 
 
  1536 0545 10       		.byte	0x10
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1590 05ba 34       		.byte	0x34
  1591 05bb 0A       		.uleb128 0xa
  1592 05bc 73333000 		.ascii	"s30\000"
-ARM GAS  /tmp/ccjRrDZN.s 			page 29
+ARM GAS  /tmp/cchjsrEN.s 			page 29
 
 
  1593 05c0 0E       		.byte	0xe
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1647 062f 0E       		.byte	0xe
  1648 0630 7301     		.2byte	0x173
  1649 0632 CA040000 		.4byte	0x4ca
-ARM GAS  /tmp/ccjRrDZN.s 			page 30
+ARM GAS  /tmp/cchjsrEN.s 			page 30
 
 
  1650 0636 5C       		.byte	0x5c
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1704 069f E3000000 		.4byte	.LASF90
  1705 06a3 02       		.byte	0x2
  1706 06a4 E7       		.byte	0xe7
-ARM GAS  /tmp/ccjRrDZN.s 			page 31
+ARM GAS  /tmp/cchjsrEN.s 			page 31
 
 
  1707 06a5 2C010000 		.4byte	0x12c
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1761 0715 08       		.uleb128 0x8
  1762 0716 0B070000 		.4byte	.LASF96
  1763 071a 10       		.byte	0x10
-ARM GAS  /tmp/ccjRrDZN.s 			page 32
+ARM GAS  /tmp/cchjsrEN.s 			page 32
 
 
  1764 071b 3C       		.byte	0x3c
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1818 0788 34       		.byte	0x34
  1819 0789 66080000 		.4byte	0x866
  1820 078d 08       		.uleb128 0x8
-ARM GAS  /tmp/ccjRrDZN.s 			page 33
+ARM GAS  /tmp/cchjsrEN.s 			page 33
 
 
  1821 078e E6070000 		.4byte	.LASF99
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1875 07fa 0F050000 		.4byte	.LASF108
  1876 07fe 12       		.byte	0x12
  1877 07ff 3E       		.byte	0x3e
-ARM GAS  /tmp/ccjRrDZN.s 			page 34
+ARM GAS  /tmp/cchjsrEN.s 			page 34
 
 
  1878 0800 B4000000 		.4byte	0xb4
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1932 086f 14       		.uleb128 0x14
  1933 0870 6C040000 		.4byte	0x46c
  1934 0874 03       		.byte	0x3
-ARM GAS  /tmp/ccjRrDZN.s 			page 35
+ARM GAS  /tmp/cchjsrEN.s 			page 35
 
 
  1935 0875 00       		.byte	0
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  1989 08e7 55       		.byte	0x55
  1990 08e8 FA080000 		.4byte	0x8fa
  1991 08ec 00       		.byte	0
-ARM GAS  /tmp/ccjRrDZN.s 			page 36
+ARM GAS  /tmp/cchjsrEN.s 			page 36
 
 
  1992 08ed 08       		.uleb128 0x8
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2046 0956 57030000 		.4byte	.LASF129
  2047 095a 14       		.byte	0x14
  2048 095b 44       		.byte	0x44
-ARM GAS  /tmp/ccjRrDZN.s 			page 37
+ARM GAS  /tmp/cchjsrEN.s 			page 37
 
 
  2049 095c 37000000 		.4byte	0x37
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2103 09cb 07       		.uleb128 0x7
  2104 09cc 03050000 		.4byte	.LASF134
  2105 09d0 04       		.byte	0x4
-ARM GAS  /tmp/ccjRrDZN.s 			page 38
+ARM GAS  /tmp/cchjsrEN.s 			page 38
 
 
  2106 09d1 15       		.byte	0x15
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2160 0a43 0B       		.uleb128 0xb
  2161 0a44 4A050000 		.4byte	.LASF141
  2162 0a48 15       		.byte	0x15
-ARM GAS  /tmp/ccjRrDZN.s 			page 39
+ARM GAS  /tmp/cchjsrEN.s 			page 39
 
 
  2163 0a49 5D01     		.2byte	0x15d
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2217 0ac5 5E02     		.2byte	0x25e
  2218 0ac7 44060000 		.4byte	0x644
  2219 0acb 34000000 		.4byte	.LLST26
-ARM GAS  /tmp/ccjRrDZN.s 			page 40
+ARM GAS  /tmp/cchjsrEN.s 			page 40
 
 
  2220 0acf 21       		.uleb128 0x21
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2274 0b50 FD110000 		.4byte	0x11fd
  2275 0b54 6D000000 		.4byte	.LLST25
  2276 0b58 00       		.byte	0
-ARM GAS  /tmp/ccjRrDZN.s 			page 41
+ARM GAS  /tmp/cchjsrEN.s 			page 41
 
 
  2277 0b59 00       		.byte	0
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2331 0bc8 20       		.uleb128 0x20
  2332 0bc9 78000000 		.4byte	.Ldebug_ranges0+0x78
  2333 0bcd 3F0C0000 		.4byte	0xc3f
-ARM GAS  /tmp/ccjRrDZN.s 			page 42
+ARM GAS  /tmp/cchjsrEN.s 			page 42
 
 
  2334 0bd1 1F       		.uleb128 0x1f
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2388 0c53 2A       		.uleb128 0x2a
  2389 0c54 F1110000 		.4byte	0x11f1
  2390 0c58 D5000000 		.4byte	.LLST20
-ARM GAS  /tmp/ccjRrDZN.s 			page 43
+ARM GAS  /tmp/cchjsrEN.s 			page 43
 
 
  2391 0c5c 2B       		.uleb128 0x2b
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2445 0cc6 C801     		.2byte	0x1c8
  2446 0cc8 00000000 		.4byte	.LFB297
  2447 0ccc 12000000 		.4byte	.LFE297-.LFB297
-ARM GAS  /tmp/ccjRrDZN.s 			page 44
+ARM GAS  /tmp/cchjsrEN.s 			page 44
 
 
  2448 0cd0 01       		.uleb128 0x1
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2502 0d5f 70050000 		.4byte	.LASF147
  2503 0d63 01       		.byte	0x1
  2504 0d64 BD01     		.2byte	0x1bd
-ARM GAS  /tmp/ccjRrDZN.s 			page 45
+ARM GAS  /tmp/cchjsrEN.s 			page 45
 
 
  2505 0d66 700D0000 		.4byte	0xd70
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2559 0dd0 E5100000 		.4byte	0x10e5
  2560 0dd4 24       		.uleb128 0x24
  2561 0dd5 01       		.uleb128 0x1
-ARM GAS  /tmp/ccjRrDZN.s 			page 46
+ARM GAS  /tmp/cchjsrEN.s 			page 46
 
 
  2562 0dd6 50       		.byte	0x50
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2616 0e54 01       		.uleb128 0x1
  2617 0e55 50       		.byte	0x50
  2618 0e56 02       		.uleb128 0x2
-ARM GAS  /tmp/ccjRrDZN.s 			page 47
+ARM GAS  /tmp/cchjsrEN.s 			page 47
 
 
  2619 0e57 91       		.byte	0x91
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2673 0eb3 3F01     		.2byte	0x13f
  2674 0eb5 29030000 		.4byte	0x329
  2675 0eb9 74020000 		.4byte	.LLST2
-ARM GAS  /tmp/ccjRrDZN.s 			page 48
+ARM GAS  /tmp/cchjsrEN.s 			page 48
 
 
  2676 0ebd 1F       		.uleb128 0x1f
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2730 0f4a 08000000 		.4byte	.LBE123-.LBB123
  2731 0f4e 0E       		.byte	0xe
  2732 0f4f 8E02     		.2byte	0x28e
-ARM GAS  /tmp/ccjRrDZN.s 			page 49
+ARM GAS  /tmp/cchjsrEN.s 			page 49
 
 
  2733 0f51 3B       		.uleb128 0x3b
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2787 0fca 9C       		.byte	0x9c
  2788 0fcb 90100000 		.4byte	0x1090
  2789 0fcf 38       		.uleb128 0x38
-ARM GAS  /tmp/ccjRrDZN.s 			page 50
+ARM GAS  /tmp/cchjsrEN.s 			page 50
 
 
  2790 0fd0 1B060000 		.4byte	.LASF154
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2844 1056 77120000 		.4byte	0x1277
  2845 105a 00       		.byte	0
  2846 105b 00       		.byte	0
-ARM GAS  /tmp/ccjRrDZN.s 			page 51
+ARM GAS  /tmp/cchjsrEN.s 			page 51
 
 
  2847 105c 28       		.uleb128 0x28
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2901 10df 00       		.byte	0
  2902 10e0 05       		.uleb128 0x5
  2903 10e1 D0100000 		.4byte	0x10d0
-ARM GAS  /tmp/ccjRrDZN.s 			page 52
+ARM GAS  /tmp/cchjsrEN.s 			page 52
 
 
  2904 10e5 3F       		.uleb128 0x3f
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  2958 1164 00       		.byte	0
  2959 1165 00       		.byte	0
  2960 1166 44       		.uleb128 0x44
-ARM GAS  /tmp/ccjRrDZN.s 			page 53
+ARM GAS  /tmp/cchjsrEN.s 			page 53
 
 
  2961 1167 37060000 		.4byte	.LASF167
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3015 11d8 02       		.byte	0x2
  3016 11d9 7002     		.2byte	0x270
  3017 11db 4C020000 		.4byte	0x24c
-ARM GAS  /tmp/ccjRrDZN.s 			page 54
+ARM GAS  /tmp/cchjsrEN.s 			page 54
 
 
  3018 11df 00       		.byte	0
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3072 124d 4B       		.uleb128 0x4b
  3073 124e A1070000 		.4byte	.LASF173
  3074 1252 03       		.byte	0x3
-ARM GAS  /tmp/ccjRrDZN.s 			page 55
+ARM GAS  /tmp/cchjsrEN.s 			page 55
 
 
  3075 1253 EB01     		.2byte	0x1eb
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3129 0009 1B       		.uleb128 0x1b
  3130 000a 0E       		.uleb128 0xe
  3131 000b 55       		.uleb128 0x55
-ARM GAS  /tmp/ccjRrDZN.s 			page 56
+ARM GAS  /tmp/cchjsrEN.s 			page 56
 
 
  3132 000c 17       		.uleb128 0x17
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3186 0042 00       		.byte	0
  3187 0043 00       		.byte	0
  3188 0044 07       		.uleb128 0x7
-ARM GAS  /tmp/ccjRrDZN.s 			page 57
+ARM GAS  /tmp/cchjsrEN.s 			page 57
 
 
  3189 0045 13       		.uleb128 0x13
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3243 007b 13       		.uleb128 0x13
  3244 007c 38       		.uleb128 0x38
  3245 007d 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccjRrDZN.s 			page 58
+ARM GAS  /tmp/cchjsrEN.s 			page 58
 
 
  3246 007e 00       		.byte	0
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3300 00b4 13       		.uleb128 0x13
  3301 00b5 00       		.byte	0
  3302 00b6 00       		.byte	0
-ARM GAS  /tmp/ccjRrDZN.s 			page 59
+ARM GAS  /tmp/cchjsrEN.s 			page 59
 
 
  3303 00b7 10       		.uleb128 0x10
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3357 00ed 13       		.uleb128 0x13
  3358 00ee 2F       		.uleb128 0x2f
  3359 00ef 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccjRrDZN.s 			page 60
+ARM GAS  /tmp/cchjsrEN.s 			page 60
 
 
  3360 00f0 00       		.byte	0
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3414 0126 19       		.uleb128 0x19
  3415 0127 34       		.uleb128 0x34
  3416 0128 00       		.byte	0
-ARM GAS  /tmp/ccjRrDZN.s 			page 61
+ARM GAS  /tmp/cchjsrEN.s 			page 61
 
 
  3417 0129 03       		.uleb128 0x3
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3471 015f 00       		.byte	0
  3472 0160 00       		.byte	0
  3473 0161 1E       		.uleb128 0x1e
-ARM GAS  /tmp/ccjRrDZN.s 			page 62
+ARM GAS  /tmp/cchjsrEN.s 			page 62
 
 
  3474 0162 2E       		.uleb128 0x2e
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3528 0199 06       		.uleb128 0x6
  3529 019a 01       		.uleb128 0x1
  3530 019b 13       		.uleb128 0x13
-ARM GAS  /tmp/ccjRrDZN.s 			page 63
+ARM GAS  /tmp/cchjsrEN.s 			page 63
 
 
  3531 019c 00       		.byte	0
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3585 01d7 00       		.byte	0
  3586 01d8 00       		.byte	0
  3587 01d9 26       		.uleb128 0x26
-ARM GAS  /tmp/ccjRrDZN.s 			page 64
+ARM GAS  /tmp/cchjsrEN.s 			page 64
 
 
  3588 01da 0B       		.uleb128 0xb
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3642 0213 01       		.byte	0x1
  3643 0214 55       		.uleb128 0x55
  3644 0215 17       		.uleb128 0x17
-ARM GAS  /tmp/ccjRrDZN.s 			page 65
+ARM GAS  /tmp/cchjsrEN.s 			page 65
 
 
  3645 0216 00       		.byte	0
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3699 024c 0B       		.uleb128 0xb
  3700 024d 3B       		.uleb128 0x3b
  3701 024e 05       		.uleb128 0x5
-ARM GAS  /tmp/ccjRrDZN.s 			page 66
+ARM GAS  /tmp/cchjsrEN.s 			page 66
 
 
  3702 024f 27       		.uleb128 0x27
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3756 0288 13       		.uleb128 0x13
  3757 0289 00       		.byte	0
  3758 028a 00       		.byte	0
-ARM GAS  /tmp/ccjRrDZN.s 			page 67
+ARM GAS  /tmp/cchjsrEN.s 			page 67
 
 
  3759 028b 34       		.uleb128 0x34
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3813 02c7 0E       		.uleb128 0xe
  3814 02c8 3A       		.uleb128 0x3a
  3815 02c9 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccjRrDZN.s 			page 68
+ARM GAS  /tmp/cchjsrEN.s 			page 68
 
 
  3816 02ca 3B       		.uleb128 0x3b
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3870 0303 05       		.uleb128 0x5
  3871 0304 00       		.byte	0
  3872 0305 00       		.byte	0
-ARM GAS  /tmp/ccjRrDZN.s 			page 69
+ARM GAS  /tmp/cchjsrEN.s 			page 69
 
 
  3873 0306 3C       		.uleb128 0x3c
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3927 033c 11       		.uleb128 0x11
  3928 033d 01       		.uleb128 0x1
  3929 033e 12       		.uleb128 0x12
-ARM GAS  /tmp/ccjRrDZN.s 			page 70
+ARM GAS  /tmp/cchjsrEN.s 			page 70
 
 
  3930 033f 06       		.uleb128 0x6
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  3984 0376 12       		.uleb128 0x12
  3985 0377 06       		.uleb128 0x6
  3986 0378 40       		.uleb128 0x40
-ARM GAS  /tmp/ccjRrDZN.s 			page 71
+ARM GAS  /tmp/cchjsrEN.s 			page 71
 
 
  3987 0379 18       		.uleb128 0x18
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4041 03b0 01       		.byte	0x1
  4042 03b1 03       		.uleb128 0x3
  4043 03b2 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccjRrDZN.s 			page 72
+ARM GAS  /tmp/cchjsrEN.s 			page 72
 
 
  4044 03b3 3A       		.uleb128 0x3a
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4098 03e9 19       		.uleb128 0x19
  4099 03ea 49       		.uleb128 0x49
  4100 03eb 13       		.uleb128 0x13
-ARM GAS  /tmp/ccjRrDZN.s 			page 73
+ARM GAS  /tmp/cchjsrEN.s 			page 73
 
 
  4101 03ec 20       		.uleb128 0x20
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4155 0422 3A       		.uleb128 0x3a
  4156 0423 0B       		.uleb128 0xb
  4157 0424 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccjRrDZN.s 			page 74
+ARM GAS  /tmp/cchjsrEN.s 			page 74
 
 
  4158 0425 0B       		.uleb128 0xb
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4212 0020 55       		.byte	0x55
  4213 0021 34000000 		.4byte	.LVL64
  4214 0025 37000000 		.4byte	.LVL65-1
-ARM GAS  /tmp/ccjRrDZN.s 			page 75
+ARM GAS  /tmp/cchjsrEN.s 			page 75
 
 
  4215 0029 0100     		.2byte	0x1
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4269 00b8 24000000 		.4byte	.LVL53
  4270 00bc 0100     		.2byte	0x1
  4271 00be 53       		.byte	0x53
-ARM GAS  /tmp/ccjRrDZN.s 			page 76
+ARM GAS  /tmp/cchjsrEN.s 			page 76
 
 
  4272 00bf 24000000 		.4byte	.LVL53
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4326 014c 51       		.byte	0x51
  4327 014d 0A000000 		.4byte	.LVL37
  4328 0151 19000000 		.4byte	.LVL38-1
-ARM GAS  /tmp/ccjRrDZN.s 			page 77
+ARM GAS  /tmp/cchjsrEN.s 			page 77
 
 
  4329 0155 0200     		.2byte	0x2
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4383 01d7 00000000 		.4byte	0
  4384 01db 00000000 		.4byte	0
  4385              	.LLST18:
-ARM GAS  /tmp/ccjRrDZN.s 			page 78
+ARM GAS  /tmp/cchjsrEN.s 			page 78
 
 
  4386 01df 2E000000 		.4byte	.LVL42
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4440 0262 3C000000 		.4byte	.LFE295
  4441 0266 0400     		.2byte	0x4
  4442 0268 F3       		.byte	0xf3
-ARM GAS  /tmp/ccjRrDZN.s 			page 79
+ARM GAS  /tmp/cchjsrEN.s 			page 79
 
 
  4443 0269 01       		.uleb128 0x1
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4497 02eb 30       		.byte	0x30
  4498 02ec 9F       		.byte	0x9f
  4499 02ed 00000000 		.4byte	0
-ARM GAS  /tmp/ccjRrDZN.s 			page 80
+ARM GAS  /tmp/cchjsrEN.s 			page 80
 
 
  4500 02f1 00000000 		.4byte	0
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4554 037c 00000000 		.4byte	0
  4555              	.LLST11:
  4556 0380 0C000000 		.4byte	.LVL19
-ARM GAS  /tmp/ccjRrDZN.s 			page 81
+ARM GAS  /tmp/cchjsrEN.s 			page 81
 
 
  4557 0384 12000000 		.4byte	.LVL20
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4611 0028 00000000 		.4byte	.LFB292
  4612 002c 24000000 		.4byte	.LFE292-.LFB292
  4613 0030 00000000 		.4byte	.LFB293
-ARM GAS  /tmp/ccjRrDZN.s 			page 82
+ARM GAS  /tmp/cchjsrEN.s 			page 82
 
 
  4614 0034 3C000000 		.4byte	.LFE293-.LFB293
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4668 0094 06000000 		.4byte	.LBE154
  4669 0098 08000000 		.4byte	.LBB157
  4670 009c 0E000000 		.4byte	.LBE157
-ARM GAS  /tmp/ccjRrDZN.s 			page 83
+ARM GAS  /tmp/cchjsrEN.s 			page 83
 
 
  4671 00a0 00000000 		.4byte	0
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4715 0021 75696E74 		.ascii	"uint64_t\000"
  4715      36345F74 
  4715      00
-ARM GAS  /tmp/ccjRrDZN.s 			page 84
+ARM GAS  /tmp/cchjsrEN.s 			page 84
 
 
  4716              	.LASF146:
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4741 00c2 63685654 		.ascii	"chVTDoResetI\000"
  4741      446F5265 
  4741      73657449 
-ARM GAS  /tmp/ccjRrDZN.s 			page 85
+ARM GAS  /tmp/cchjsrEN.s 			page 85
 
 
  4741      00
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4766              	.LASF180:
  4767 0161 474E5520 		.ascii	"GNU C11 6.3.1 20170620 (release) [ARM/embedded-6-br"
  4767      43313120 
-ARM GAS  /tmp/ccjRrDZN.s 			page 86
+ARM GAS  /tmp/cchjsrEN.s 			page 86
 
 
  4767      362E332E 
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4787              	.LASF23:
  4788 02b8 74737461 		.ascii	"tstate_t\000"
  4788      74655F74 
-ARM GAS  /tmp/ccjRrDZN.s 			page 87
+ARM GAS  /tmp/cchjsrEN.s 			page 87
 
 
  4788      00
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4814      785F7400 
  4815              	.LASF129:
  4816 0357 616C6967 		.ascii	"align\000"
-ARM GAS  /tmp/ccjRrDZN.s 			page 88
+ARM GAS  /tmp/cchjsrEN.s 			page 88
 
 
  4816      6E00
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4844 03e2 6E616D65 		.ascii	"name\000"
  4844      00
  4845              	.LASF31:
-ARM GAS  /tmp/ccjRrDZN.s 			page 89
+ARM GAS  /tmp/cchjsrEN.s 			page 89
 
 
  4846 03e7 71756575 		.ascii	"queue\000"
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4874      6500
  4875              	.LASF124:
  4876 0472 656E646D 		.ascii	"endmem\000"
-ARM GAS  /tmp/ccjRrDZN.s 			page 90
+ARM GAS  /tmp/cchjsrEN.s 			page 90
 
 
  4876      656D00
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4901              	.LASF82:
  4902 0527 706F7274 		.ascii	"port_context\000"
  4902      5F636F6E 
-ARM GAS  /tmp/ccjRrDZN.s 			page 91
+ARM GAS  /tmp/cchjsrEN.s 			page 91
 
 
  4902      74657874 
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4929              	.LASF161:
  4930 05bd 63685379 		.ascii	"chSysUnlockFromISR\000"
  4930      73556E6C 
-ARM GAS  /tmp/ccjRrDZN.s 			page 92
+ARM GAS  /tmp/cchjsrEN.s 			page 92
 
 
  4930      6F636B46 
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4956 064f 63685F73 		.ascii	"ch_system\000"
  4956      79737465 
  4956      6D00
-ARM GAS  /tmp/ccjRrDZN.s 			page 93
+ARM GAS  /tmp/cchjsrEN.s 			page 93
 
 
  4957              	.LASF22:
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  4980      00
  4981              	.LASF92:
  4982 06e8 77746D74 		.ascii	"wtmtxp\000"
-ARM GAS  /tmp/ccjRrDZN.s 			page 94
+ARM GAS  /tmp/cchjsrEN.s 			page 94
 
 
  4982      787000
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  5009              	.LASF166:
  5010 077c 71756575 		.ascii	"queue_fifo_remove\000"
  5010      655F6669 
-ARM GAS  /tmp/ccjRrDZN.s 			page 95
+ARM GAS  /tmp/cchjsrEN.s 			page 95
 
 
  5010      666F5F72 
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  5035              	.LASF151:
  5036 0816 63685363 		.ascii	"chSchWakeupS\000"
  5036      6857616B 
-ARM GAS  /tmp/ccjRrDZN.s 			page 96
+ARM GAS  /tmp/cchjsrEN.s 			page 96
 
 
  5036      65757053 
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  5062 08b1 63685363 		.ascii	"chSchGoSleepTimeoutS\000"
  5062      68476F53 
  5062      6C656570 
-ARM GAS  /tmp/ccjRrDZN.s 			page 97
+ARM GAS  /tmp/cchjsrEN.s 			page 97
 
 
  5062      54696D65 
@@ -5801,49 +5801,49 @@ ARM GAS  /tmp/ccjRrDZN.s 			page 1
  5078 094a 6E657874 		.ascii	"nextmem\000"
  5078      6D656D00 
  5079              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /tmp/ccjRrDZN.s 			page 98
+ARM GAS  /tmp/cchjsrEN.s 			page 98
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chschd.c
-     /tmp/ccjRrDZN.s:18     .text._scheduler_init:0000000000000000 $t
-     /tmp/ccjRrDZN.s:25     .text._scheduler_init:0000000000000000 _scheduler_init
-     /tmp/ccjRrDZN.s:62     .text._scheduler_init:0000000000000010 $d
-     /tmp/ccjRrDZN.s:67     .text.chSchReadyI:0000000000000000 $t
-     /tmp/ccjRrDZN.s:74     .text.chSchReadyI:0000000000000000 chSchReadyI
-     /tmp/ccjRrDZN.s:114    .text.chSchReadyI:0000000000000020 $d
-     /tmp/ccjRrDZN.s:119    .text.wakeup:0000000000000000 $t
-     /tmp/ccjRrDZN.s:125    .text.wakeup:0000000000000000 wakeup
-     /tmp/ccjRrDZN.s:163    .text.wakeup:0000000000000016 $d
-     /tmp/ccjRrDZN.s:171    .text.wakeup:000000000000001e $t
-     /tmp/ccjRrDZN.s:235    .text.chSchReadyAheadI:0000000000000000 $t
-     /tmp/ccjRrDZN.s:242    .text.chSchReadyAheadI:0000000000000000 chSchReadyAheadI
-     /tmp/ccjRrDZN.s:282    .text.chSchReadyAheadI:0000000000000020 $d
-     /tmp/ccjRrDZN.s:287    .text.chSchGoSleepS:0000000000000000 $t
-     /tmp/ccjRrDZN.s:294    .text.chSchGoSleepS:0000000000000000 chSchGoSleepS
-     /tmp/ccjRrDZN.s:382    .text.chSchGoSleepS:0000000000000038 $d
-     /tmp/ccjRrDZN.s:388    .text.chSchGoSleepTimeoutS:0000000000000000 $t
-     /tmp/ccjRrDZN.s:395    .text.chSchGoSleepTimeoutS:0000000000000000 chSchGoSleepTimeoutS
-     /tmp/ccjRrDZN.s:458    .text.chSchGoSleepTimeoutS:0000000000000034 $d
-     /tmp/ccjRrDZN.s:464    .text.chSchWakeupS:0000000000000000 $t
-     /tmp/ccjRrDZN.s:471    .text.chSchWakeupS:0000000000000000 chSchWakeupS
-     /tmp/ccjRrDZN.s:571    .text.chSchWakeupS:0000000000000048 $d
-     /tmp/ccjRrDZN.s:577    .text.chSchIsPreemptionRequired:0000000000000000 $t
-     /tmp/ccjRrDZN.s:584    .text.chSchIsPreemptionRequired:0000000000000000 chSchIsPreemptionRequired
-     /tmp/ccjRrDZN.s:609    .text.chSchIsPreemptionRequired:0000000000000014 $d
-     /tmp/ccjRrDZN.s:584    .text.chSchIsPreemptionRequired:0000000000000000 chSchIsRescRequiredI
-     /tmp/ccjRrDZN.s:615    .text.chSchDoRescheduleBehind:0000000000000000 $t
-     /tmp/ccjRrDZN.s:622    .text.chSchDoRescheduleBehind:0000000000000000 chSchDoRescheduleBehind
-     /tmp/ccjRrDZN.s:709    .text.chSchDoRescheduleBehind:0000000000000038 $d
-     /tmp/ccjRrDZN.s:715    .text.chSchDoReschedule:0000000000000000 $t
-     /tmp/ccjRrDZN.s:722    .text.chSchDoReschedule:0000000000000000 chSchDoReschedule
-     /tmp/ccjRrDZN.s:809    .text.chSchDoReschedule:0000000000000038 $d
-     /tmp/ccjRrDZN.s:815    .text.chSchRescheduleS:0000000000000000 $t
-     /tmp/ccjRrDZN.s:822    .text.chSchRescheduleS:0000000000000000 chSchRescheduleS
-     /tmp/ccjRrDZN.s:852    .text.chSchDoRescheduleAhead:0000000000000000 $t
-     /tmp/ccjRrDZN.s:859    .text.chSchDoRescheduleAhead:0000000000000000 chSchDoRescheduleAhead
-     /tmp/ccjRrDZN.s:875    .bss.ch:0000000000000000 ch
-     /tmp/ccjRrDZN.s:871    .bss.ch:0000000000000000 $d
+     /tmp/cchjsrEN.s:18     .text._scheduler_init:0000000000000000 $t
+     /tmp/cchjsrEN.s:25     .text._scheduler_init:0000000000000000 _scheduler_init
+     /tmp/cchjsrEN.s:62     .text._scheduler_init:0000000000000010 $d
+     /tmp/cchjsrEN.s:67     .text.chSchReadyI:0000000000000000 $t
+     /tmp/cchjsrEN.s:74     .text.chSchReadyI:0000000000000000 chSchReadyI
+     /tmp/cchjsrEN.s:114    .text.chSchReadyI:0000000000000020 $d
+     /tmp/cchjsrEN.s:119    .text.wakeup:0000000000000000 $t
+     /tmp/cchjsrEN.s:125    .text.wakeup:0000000000000000 wakeup
+     /tmp/cchjsrEN.s:163    .text.wakeup:0000000000000016 $d
+     /tmp/cchjsrEN.s:171    .text.wakeup:000000000000001e $t
+     /tmp/cchjsrEN.s:235    .text.chSchReadyAheadI:0000000000000000 $t
+     /tmp/cchjsrEN.s:242    .text.chSchReadyAheadI:0000000000000000 chSchReadyAheadI
+     /tmp/cchjsrEN.s:282    .text.chSchReadyAheadI:0000000000000020 $d
+     /tmp/cchjsrEN.s:287    .text.chSchGoSleepS:0000000000000000 $t
+     /tmp/cchjsrEN.s:294    .text.chSchGoSleepS:0000000000000000 chSchGoSleepS
+     /tmp/cchjsrEN.s:382    .text.chSchGoSleepS:0000000000000038 $d
+     /tmp/cchjsrEN.s:388    .text.chSchGoSleepTimeoutS:0000000000000000 $t
+     /tmp/cchjsrEN.s:395    .text.chSchGoSleepTimeoutS:0000000000000000 chSchGoSleepTimeoutS
+     /tmp/cchjsrEN.s:458    .text.chSchGoSleepTimeoutS:0000000000000034 $d
+     /tmp/cchjsrEN.s:464    .text.chSchWakeupS:0000000000000000 $t
+     /tmp/cchjsrEN.s:471    .text.chSchWakeupS:0000000000000000 chSchWakeupS
+     /tmp/cchjsrEN.s:571    .text.chSchWakeupS:0000000000000048 $d
+     /tmp/cchjsrEN.s:577    .text.chSchIsPreemptionRequired:0000000000000000 $t
+     /tmp/cchjsrEN.s:584    .text.chSchIsPreemptionRequired:0000000000000000 chSchIsPreemptionRequired
+     /tmp/cchjsrEN.s:609    .text.chSchIsPreemptionRequired:0000000000000014 $d
+     /tmp/cchjsrEN.s:584    .text.chSchIsPreemptionRequired:0000000000000000 chSchIsRescRequiredI
+     /tmp/cchjsrEN.s:615    .text.chSchDoRescheduleBehind:0000000000000000 $t
+     /tmp/cchjsrEN.s:622    .text.chSchDoRescheduleBehind:0000000000000000 chSchDoRescheduleBehind
+     /tmp/cchjsrEN.s:709    .text.chSchDoRescheduleBehind:0000000000000038 $d
+     /tmp/cchjsrEN.s:715    .text.chSchDoReschedule:0000000000000000 $t
+     /tmp/cchjsrEN.s:722    .text.chSchDoReschedule:0000000000000000 chSchDoReschedule
+     /tmp/cchjsrEN.s:809    .text.chSchDoReschedule:0000000000000038 $d
+     /tmp/cchjsrEN.s:815    .text.chSchRescheduleS:0000000000000000 $t
+     /tmp/cchjsrEN.s:822    .text.chSchRescheduleS:0000000000000000 chSchRescheduleS
+     /tmp/cchjsrEN.s:852    .text.chSchDoRescheduleAhead:0000000000000000 $t
+     /tmp/cchjsrEN.s:859    .text.chSchDoRescheduleAhead:0000000000000000 chSchDoRescheduleAhead
+     /tmp/cchjsrEN.s:875    .bss.ch:0000000000000000 ch
+     /tmp/cchjsrEN.s:871    .bss.ch:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

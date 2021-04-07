@@ -66,12 +66,15 @@
 }
 
 // GPIO config
+#define HAL_GPIO_LINE_GPIO0 PAL_LINE(GPIOE, 12U)
 #define HAL_GPIO_PINS { \
+{   0, true,  0, PAL_LINE(GPIOE, 12U)}, /* PE12 FMU_LED_AMBER OUTPUT */ \
 }
 
 // full pin define list
 #define HAL_GPIO_PIN_BATT_CURRENT_SENS    PAL_LINE(GPIOA,3U)
 #define HAL_GPIO_PIN_BATT_VOLTAGE_SENS    PAL_LINE(GPIOA,2U)
+#define HAL_GPIO_PIN_FMU_LED_AMBER        PAL_LINE(GPIOE,12U)
 #define HAL_GPIO_PIN_FRAM_CS              PAL_LINE(GPIOD,10U)
 #define HAL_GPIO_PIN_OTG_FS_DM            PAL_LINE(GPIOA,11U)
 #define HAL_GPIO_PIN_OTG_FS_DP            PAL_LINE(GPIOA,12U)
@@ -629,6 +632,7 @@
                            PIN_AFIO_AF(15U, 0U))
 
 /* PORTE:
+ PE12 FMU_LED_AMBER OUTPUT
 */
 
 #define VAL_GPIOE_MODER   (PIN_MODE_INPUT(0U) | \
@@ -643,7 +647,7 @@
                            PIN_MODE_INPUT(9U) | \
                            PIN_MODE_INPUT(10U) | \
                            PIN_MODE_INPUT(11U) | \
-                           PIN_MODE_INPUT(12U) | \
+                           PIN_MODE_OUTPUT(12U) | \
                            PIN_MODE_INPUT(13U) | \
                            PIN_MODE_INPUT(14U) | \
                            PIN_MODE_INPUT(15U))
@@ -660,7 +664,7 @@
                            PIN_OTYPE_PUSHPULL(9U) | \
                            PIN_OTYPE_PUSHPULL(10U) | \
                            PIN_OTYPE_PUSHPULL(11U) | \
-                           PIN_OTYPE_PUSHPULL(12U) | \
+                           PIN_OTYPE_OPENDRAIN(12U) | \
                            PIN_OTYPE_PUSHPULL(13U) | \
                            PIN_OTYPE_PUSHPULL(14U) | \
                            PIN_OTYPE_PUSHPULL(15U))
