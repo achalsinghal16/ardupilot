@@ -93,17 +93,21 @@ libraries/AP_PiccoloCAN/AP_PiccoloCAN.cpp.0.o: \
  ../../modules/ChibiOS/os/hal/include/hal_dac.h \
  ../../modules/ChibiOS/os/hal/include/hal_gpt.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2c.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2s.h \
  ../../modules/ChibiOS/os/hal/include/hal_icu.h \
  ../../modules/ChibiOS/os/hal/include/hal_eicu.h \
  ../../modules/ChibiOS/os/hal/include/hal_mac.h \
  ../../modules/ChibiOS/os/hal/include/hal_pwm.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_rtc.h \
  ../../modules/ChibiOS/os/hal/include/hal_serial.h \
  ../../modules/ChibiOS/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sdc.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SDIOv1/hal_sdc_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sio.h \
  ../../modules/ChibiOS/os/hal/include/hal_spi.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SPIv1/hal_spi_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_trng.h \
  ../../modules/ChibiOS/os/hal/include/hal_uart.h \
  ../../modules/ChibiOS/os/hal/include/hal_usb.h \
@@ -423,4 +427,78 @@ libraries/AP_PiccoloCAN/AP_PiccoloCAN.cpp.0.o: \
  ../../libraries/AP_PiccoloCAN/piccolo_protocol/ESCVelocityProtocol.h \
  ../../libraries/AP_PiccoloCAN/piccolo_protocol/ESCDefines.h \
  ../../libraries/AP_PiccoloCAN/piccolo_protocol/LegacyESCPackets.h \
- ../../libraries/AP_PiccoloCAN/piccolo_protocol/LegacyESCDefines.h
+ ../../libraries/AP_PiccoloCAN/piccolo_protocol/LegacyESCDefines.h \
+ ../../libraries/AP_BoardConfig/AP_BoardConfig.h \
+ ../../libraries/AP_RTC/AP_RTC.h ../../libraries/AC_PID/AC_PI.h \
+ ../../libraries/AP_CANManager/AP_CANManager.h \
+ ../../libraries/AP_CANManager/AP_SLCANIface.h \
+ ../../libraries/AP_Scheduler/AP_Scheduler.h \
+ ../../libraries/AP_Scheduler/PerfInfo.h \
+ ../../libraries/AP_HAL/utility/sparse-endian.h \
+ ../../libraries/AP_Common/missing/byteswap.h \
+ ../../libraries/AP_Common/missing/endian.h \
+ ../../libraries/SRV_Channel/SRV_Channel.h \
+ ../../libraries/AP_Common/Bitmask.h \
+ ../../libraries/AP_InternalError/AP_InternalError.h \
+ ../../libraries/AP_Volz_Protocol/AP_Volz_Protocol.h \
+ ../../libraries/AP_RobotisServo/AP_RobotisServo.h \
+ ../../libraries/AP_SBusOut/AP_SBusOut.h \
+ ../../libraries/AP_BLHeli/AP_BLHeli.h \
+ ../../libraries/AP_BLHeli/blheli_4way_protocol.h \
+ ../../libraries/GCS_MAVLink/GCS.h \
+ ../../libraries/AP_Mission/AP_Mission.h \
+ ../../libraries/GCS_MAVLink/MAVLink_routing.h \
+ ../../libraries/AP_Frsky_Telem/AP_Frsky_Telem.h \
+ ../../libraries/AP_Frsky_Telem/AP_Frsky_Backend.h \
+ ../../libraries/AP_AdvancedFailsafe/AP_AdvancedFailsafe.h \
+ ../../libraries/AP_RTC/JitterCorrection.h \
+ ../../libraries/AP_LTM_Telem/AP_LTM_Telem.h \
+ ../../libraries/AP_Devo_Telem/AP_Devo_Telem.h \
+ ../../libraries/RC_Channel/RC_Channel.h \
+ ../../libraries/AP_Filesystem/AP_Filesystem_Available.h \
+ ../../libraries/AP_GPS/AP_GPS.h \
+ ../../libraries/AP_GPS/GPS_detect_state.h \
+ ../../libraries/AP_GPS/MovingBase.h \
+ ../../libraries/AP_VisualOdom/AP_VisualOdom.h \
+ ../../libraries/GCS_MAVLink/MissionItemProtocol_Waypoints.h \
+ ../../libraries/GCS_MAVLink/MissionItemProtocol.h \
+ ../../libraries/GCS_MAVLink/ap_message.h \
+ ../../libraries/GCS_MAVLink/MissionItemProtocol_Rally.h \
+ ../../libraries/GCS_MAVLink/MissionItemProtocol_Fence.h \
+ ../../libraries/AP_Logger/AP_Logger.h ../../libraries/AP_RPM/AP_RPM.h \
+ ../../libraries/AP_Logger/LogStructure.h \
+ ../../libraries/AP_DAL/LogStructure.h \
+ ../../libraries/AP_NavEKF2/LogStructure.h \
+ ../../libraries/AP_NavEKF3/LogStructure.h \
+ ../../libraries/AP_BattMonitor/LogStructure.h \
+ ../../libraries/AP_AHRS/LogStructure.h \
+ ../../libraries/AP_Motors/AP_Motors.h \
+ ../../libraries/AP_Motors/AP_Motors_Class.h \
+ ../../libraries/AP_Notify/AP_Notify.h \
+ ../../libraries/AP_Notify/NotifyDevice.h ../../libraries/Filter/Filter.h \
+ ../../libraries/Filter/AverageFilter.h \
+ ../../libraries/Filter/FilterWithBuffer.h \
+ ../../libraries/Filter/DerivativeFilter.h \
+ ../../libraries/Filter/ModeFilter.h ../../libraries/Filter/Butter.h \
+ ../../libraries/AP_Motors/AP_MotorsMulticopter.h \
+ ../../libraries/AP_Motors/AP_MotorsMatrix.h \
+ ../../libraries/AP_Motors/AP_MotorsTri.h \
+ ../../libraries/AP_Motors/AP_MotorsHeli_Single.h \
+ ../../libraries/AP_Motors/AP_MotorsHeli.h \
+ ../../libraries/AP_Motors/AP_MotorsHeli_RSC.h \
+ ../../libraries/AP_Motors/AP_MotorsHeli_Swash.h \
+ ../../libraries/AP_Motors/AP_MotorsHeli_Dual.h \
+ ../../libraries/AP_Motors/AP_MotorsHeli_Quad.h \
+ ../../libraries/AP_Motors/AP_MotorsSingle.h \
+ ../../libraries/AP_Motors/AP_MotorsCoax.h \
+ ../../libraries/AP_Motors/AP_MotorsTailsitter.h \
+ ../../libraries/AP_Motors/AP_Motors6DOF.h \
+ ../../libraries/AP_Rally/AP_Rally.h \
+ ../../libraries/AP_Proximity/AP_Proximity.h \
+ ../../libraries/AP_InertialSensor/AP_InertialSensor_Backend.h \
+ ../../libraries/AP_Vehicle/ModeReason.h \
+ ../../libraries/AP_Logger/LoggerMessageWriter.h \
+ ../../libraries/AP_Logger/AP_Logger_Backend.h \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/stdio.h \
+ ../../libraries/AP_PiccoloCAN/piccolo_protocol/ESCVelocityProtocol.h \
+ ../../libraries/AP_PiccoloCAN/piccolo_protocol/ESCPackets.h

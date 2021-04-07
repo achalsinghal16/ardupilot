@@ -6,5 +6,5 @@
 #error ap_version.h should never be included directly. You probably want to include AP_Common/AP_FWVersion.h
 #endif
 
-#define GIT_VERSION "10e6a75e"
+#define GIT_VERSION "78c0d559"
 #define CHIBIOS_GIT_VERSION "331fe75d"

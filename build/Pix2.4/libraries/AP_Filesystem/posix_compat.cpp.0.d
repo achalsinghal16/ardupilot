@@ -89,17 +89,21 @@ libraries/AP_Filesystem/posix_compat.cpp.0.o: \
  ../../modules/ChibiOS/os/hal/include/hal_dac.h \
  ../../modules/ChibiOS/os/hal/include/hal_gpt.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2c.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2s.h \
  ../../modules/ChibiOS/os/hal/include/hal_icu.h \
  ../../modules/ChibiOS/os/hal/include/hal_eicu.h \
  ../../modules/ChibiOS/os/hal/include/hal_mac.h \
  ../../modules/ChibiOS/os/hal/include/hal_pwm.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_rtc.h \
  ../../modules/ChibiOS/os/hal/include/hal_serial.h \
  ../../modules/ChibiOS/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sdc.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SDIOv1/hal_sdc_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sio.h \
  ../../modules/ChibiOS/os/hal/include/hal_spi.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SPIv1/hal_spi_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_trng.h \
  ../../modules/ChibiOS/os/hal/include/hal_uart.h \
  ../../modules/ChibiOS/os/hal/include/hal_usb.h \
@@ -122,4 +126,29 @@ libraries/AP_Filesystem/posix_compat.cpp.0.o: \
  ../../libraries/AP_HAL_ChibiOS/AP_HAL_ChibiOS_Namespace.h \
  ../../libraries/AP_HAL/EventHandle.h \
  ../../libraries/AP_Filesystem/AP_Filesystem_Available.h \
- ../../libraries/AP_Filesystem/AP_Filesystem_backend.h
+ ../../libraries/AP_Filesystem/AP_Filesystem_FATFS.h \
+ ../../modules/ChibiOS/ext/fatfs/src/ff.h \
+ ../../modules/ChibiOS/ext/fatfs/src/integer.h \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/ffconf.h \
+ ../../libraries/AP_Filesystem/AP_Filesystem_backend.h \
+ ../../libraries/AP_Filesystem/posix_compat.h \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/stdio.h \
+ ../../libraries/AP_Math/AP_Math.h ../../libraries/AP_Param/AP_Param.h \
+ ../../libraries/AP_HAL/AP_HAL.h ../../libraries/AP_HAL/AP_HAL_Main.h \
+ ../../libraries/AP_HAL/HAL.h ../../libraries/AP_HAL/AnalogIn.h \
+ ../../libraries/AP_HAL/GPIO.h ../../libraries/AP_HAL/RCInput.h \
+ ../../libraries/AP_HAL/RCOutput.h ../../libraries/AP_HAL/SPIDevice.h \
+ ../../libraries/AP_HAL/Device.h ../../libraries/AP_HAL/utility/OwnPtr.h \
+ ../../libraries/AP_Common/missing/cstddef \
+ ../../libraries/AP_HAL/Storage.h ../../libraries/AP_HAL/UARTDriver.h \
+ ../../libraries/AP_HAL/utility/BetterStream.h \
+ ../../libraries/AP_HAL/system.h ../../libraries/AP_HAL/OpticalFlow.h \
+ ../../libraries/AP_HAL/DSP.h ../../libraries/AP_HAL/utility/RingBuffer.h \
+ ../../libraries/AP_HAL/CANIface.h ../../libraries/AP_HAL/Scheduler.h \
+ ../../libraries/AP_HAL/Util.h ../../libraries/AP_HAL/Flash.h \
+ ../../libraries/StorageManager/StorageManager.h \
+ ../../libraries/AP_Math/definitions.h ../../libraries/AP_Math/crc.h \
+ ../../libraries/AP_Math/matrix3.h ../../libraries/AP_Math/vector3.h \
+ ../../libraries/AP_Math/rotations.h ../../libraries/AP_Math/vector2.h \
+ ../../libraries/AP_Math/polygon.h ../../libraries/AP_Math/quaternion.h \
+ ../../libraries/AP_Math/spline5.h ../../libraries/AP_Math/location.h

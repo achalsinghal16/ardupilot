@@ -95,17 +95,21 @@ libraries/AP_Terrain/TerrainGCS.cpp.0.o: \
  ../../modules/ChibiOS/os/hal/include/hal_dac.h \
  ../../modules/ChibiOS/os/hal/include/hal_gpt.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2c.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2s.h \
  ../../modules/ChibiOS/os/hal/include/hal_icu.h \
  ../../modules/ChibiOS/os/hal/include/hal_eicu.h \
  ../../modules/ChibiOS/os/hal/include/hal_mac.h \
  ../../modules/ChibiOS/os/hal/include/hal_pwm.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_rtc.h \
  ../../modules/ChibiOS/os/hal/include/hal_serial.h \
  ../../modules/ChibiOS/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sdc.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SDIOv1/hal_sdc_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sio.h \
  ../../modules/ChibiOS/os/hal/include/hal_spi.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SPIv1/hal_spi_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_trng.h \
  ../../modules/ChibiOS/os/hal/include/hal_uart.h \
  ../../modules/ChibiOS/os/hal/include/hal_usb.h \
@@ -143,9 +147,7 @@ libraries/AP_Terrain/TerrainGCS.cpp.0.o: \
  ../../libraries/AP_Math/polygon.h ../../libraries/AP_Math/quaternion.h \
  ../../libraries/AP_Math/spline5.h ../../libraries/AP_Math/location.h \
  ../../libraries/AP_Filesystem/AP_Filesystem_Available.h \
- ../../libraries/AP_AHRS/AP_AHRS.h \
- ../../libraries/AP_Compass/AP_Compass.h \
- ../../libraries/AP_Declination/AP_Declination.h \
+ ../../libraries/AP_Mission/AP_Mission.h \
  ../../libraries/GCS_MAVLink/GCS_MAVLink.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/version.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/mavlink_types.h \
@@ -391,6 +393,9 @@ libraries/AP_Terrain/TerrainGCS.cpp.0.o: \
  libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../icarous/./mavlink_msg_icarous_heartbeat.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../icarous/./mavlink_msg_icarous_kinematic_bands.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../mavlink_get_info.h \
+ ../../libraries/AP_AHRS/AP_AHRS.h \
+ ../../libraries/AP_Compass/AP_Compass.h \
+ ../../libraries/AP_Declination/AP_Declination.h \
  ../../libraries/AP_MSP/msp.h \
  ../../libraries/AP_SerialManager/AP_SerialManager.h \
  ../../libraries/AP_MSP/msp_osd.h ../../libraries/AP_MSP/msp_protocol.h \
@@ -420,7 +425,6 @@ libraries/AP_Terrain/TerrainGCS.cpp.0.o: \
  ../../libraries/AP_NavEKF3/AP_NavEKF3.h \
  ../../libraries/AP_NavEKF/AP_NavEKF_Source.h \
  ../../libraries/GCS_MAVLink/GCS.h \
- ../../libraries/AP_Mission/AP_Mission.h \
  ../../libraries/GCS_MAVLink/MAVLink_routing.h \
  ../../libraries/AP_Frsky_Telem/AP_Frsky_Telem.h \
  ../../libraries/AP_Frsky_Telem/AP_Frsky_Backend.h \
@@ -438,4 +442,5 @@ libraries/AP_Terrain/TerrainGCS.cpp.0.o: \
  ../../libraries/GCS_MAVLink/MissionItemProtocol.h \
  ../../libraries/GCS_MAVLink/ap_message.h \
  ../../libraries/GCS_MAVLink/MissionItemProtocol_Rally.h \
- ../../libraries/GCS_MAVLink/MissionItemProtocol_Fence.h
+ ../../libraries/GCS_MAVLink/MissionItemProtocol_Fence.h \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/stdio.h

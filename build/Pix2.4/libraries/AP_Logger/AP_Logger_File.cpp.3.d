@@ -93,17 +93,21 @@ libraries/AP_Logger/AP_Logger_File.cpp.3.o: \
  ../../modules/ChibiOS/os/hal/include/hal_dac.h \
  ../../modules/ChibiOS/os/hal/include/hal_gpt.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2c.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2s.h \
  ../../modules/ChibiOS/os/hal/include/hal_icu.h \
  ../../modules/ChibiOS/os/hal/include/hal_eicu.h \
  ../../modules/ChibiOS/os/hal/include/hal_mac.h \
  ../../modules/ChibiOS/os/hal/include/hal_pwm.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_rtc.h \
  ../../modules/ChibiOS/os/hal/include/hal_serial.h \
  ../../modules/ChibiOS/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sdc.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SDIOv1/hal_sdc_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sio.h \
  ../../modules/ChibiOS/os/hal/include/hal_spi.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SPIv1/hal_spi_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_trng.h \
  ../../modules/ChibiOS/os/hal/include/hal_uart.h \
  ../../modules/ChibiOS/os/hal/include/hal_usb.h \
@@ -135,6 +139,10 @@ libraries/AP_Logger/AP_Logger_File.cpp.3.o: \
  ../../libraries/AP_HAL/Util.h ../../libraries/AP_HAL/Flash.h \
  ../../libraries/AP_Filesystem/AP_Filesystem.h \
  ../../libraries/AP_Filesystem/AP_Filesystem_Available.h \
+ ../../libraries/AP_Filesystem/AP_Filesystem_FATFS.h \
+ ../../modules/ChibiOS/ext/fatfs/src/ff.h \
+ ../../modules/ChibiOS/ext/fatfs/src/integer.h \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/ffconf.h \
  ../../libraries/AP_Filesystem/AP_Filesystem_backend.h \
  ../../libraries/AP_Logger/AP_Logger_File.h \
  ../../libraries/AP_Logger/AP_Logger_Backend.h \
@@ -463,4 +471,22 @@ libraries/AP_Logger/AP_Logger_File.cpp.3.o: \
  ../../libraries/AP_Proximity/AP_Proximity.h \
  ../../libraries/AP_InertialSensor/AP_InertialSensor_Backend.h \
  ../../libraries/AP_Vehicle/ModeReason.h \
- ../../libraries/AP_Logger/LoggerMessageWriter.h
+ ../../libraries/AP_Logger/LoggerMessageWriter.h \
+ ../../libraries/AP_RTC/AP_RTC.h ../../libraries/GCS_MAVLink/GCS.h \
+ ../../libraries/GCS_MAVLink/MAVLink_routing.h \
+ ../../libraries/AP_Frsky_Telem/AP_Frsky_Telem.h \
+ ../../libraries/AP_Frsky_Telem/AP_Frsky_Backend.h \
+ ../../libraries/AP_AdvancedFailsafe/AP_AdvancedFailsafe.h \
+ ../../libraries/AP_RTC/JitterCorrection.h \
+ ../../libraries/AP_LTM_Telem/AP_LTM_Telem.h \
+ ../../libraries/AP_Devo_Telem/AP_Devo_Telem.h \
+ ../../libraries/AP_GPS/AP_GPS.h \
+ ../../libraries/AP_GPS/GPS_detect_state.h \
+ ../../libraries/AP_GPS/MovingBase.h \
+ ../../libraries/AP_VisualOdom/AP_VisualOdom.h \
+ ../../libraries/GCS_MAVLink/MissionItemProtocol_Waypoints.h \
+ ../../libraries/GCS_MAVLink/MissionItemProtocol.h \
+ ../../libraries/GCS_MAVLink/ap_message.h \
+ ../../libraries/GCS_MAVLink/MissionItemProtocol_Rally.h \
+ ../../libraries/GCS_MAVLink/MissionItemProtocol_Fence.h \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/stdio.h

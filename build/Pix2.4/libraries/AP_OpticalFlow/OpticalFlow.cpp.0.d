@@ -94,17 +94,21 @@ libraries/AP_OpticalFlow/OpticalFlow.cpp.0.o: \
  ../../modules/ChibiOS/os/hal/include/hal_dac.h \
  ../../modules/ChibiOS/os/hal/include/hal_gpt.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2c.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2s.h \
  ../../modules/ChibiOS/os/hal/include/hal_icu.h \
  ../../modules/ChibiOS/os/hal/include/hal_eicu.h \
  ../../modules/ChibiOS/os/hal/include/hal_mac.h \
  ../../modules/ChibiOS/os/hal/include/hal_pwm.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_rtc.h \
  ../../modules/ChibiOS/os/hal/include/hal_serial.h \
  ../../modules/ChibiOS/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sdc.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SDIOv1/hal_sdc_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sio.h \
  ../../modules/ChibiOS/os/hal/include/hal_spi.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SPIv1/hal_spi_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_trng.h \
  ../../modules/ChibiOS/os/hal/include/hal_uart.h \
  ../../modules/ChibiOS/os/hal/include/hal_usb.h \
@@ -428,6 +432,85 @@ libraries/AP_OpticalFlow/OpticalFlow.cpp.0.o: \
  ../../libraries/AP_OpticalFlow/AP_OpticalFlow_CXOF.h \
  ../../libraries/AP_OpticalFlow/AP_OpticalFlow_MAV.h \
  ../../libraries/AP_OpticalFlow/AP_OpticalFlow_HereFlow.h \
+ ../../libraries/AP_UAVCAN/AP_UAVCAN.h \
+ ../../modules/uavcan/libuavcan/include/uavcan/uavcan.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/build_config.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/time.hpp \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/cstdio \
+ ../../modules/uavcan/libuavcan/include/uavcan/std.hpp \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/stdio.h \
+ ../../modules/uavcan/libuavcan/include/uavcan/util/templates.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/Timestamp.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/node/global_data_type_registry.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/error.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/data_type.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/transfer.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/util/linked_list.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/marshal/types.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/marshal/integer_spec.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/marshal/scalar_codec.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/marshal/bit_stream.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/abstract_transfer_buffer.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/marshal/type_util.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/util/comparison.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/marshal/float_spec.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/marshal/array.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/util/bitset.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/node/node.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/node/abstract_node.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/dynamic_memory.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/util/placement_new.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/node/scheduler.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/dispatcher.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/perf_counter.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/transfer_listener.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/transfer_receiver.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/frame.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/can_io.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/util/lazy_constructor.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/driver/can.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/driver/system_clock.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/transfer_buffer.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/debug.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/util/map.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/crc.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/outgoing_transfer_registry.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/protocol/node_status_provider.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/node/publisher.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/node/generic_publisher.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/transport/transfer_sender.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/node/subscriber.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/node/generic_subscriber.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/node/service_server.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/node/timer.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/util/method_binder.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/protocol/NodeStatus.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/protocol/GetNodeInfo.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/protocol/HardwareVersion.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/protocol/SoftwareVersion.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/protocol/data_type_info_provider.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/protocol/GetDataTypeInfo.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/protocol/DataTypeKind.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/protocol/logger.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/protocol/debug/LogMessage.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/protocol/debug/LogLevel.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/marshal/char_array_formatter.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/protocol/restart_request_server.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/protocol/RestartNode.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/protocol/transport_stats_provider.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/protocol/GetTransportStats.hpp \
+ modules/uavcan/libuavcan/include/dsdlc_generated/uavcan/protocol/CANIfaceStats.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/node/service_client.hpp \
+ ../../modules/uavcan/libuavcan/include/uavcan/util/multiset.hpp \
+ ../../libraries/AP_UAVCAN/AP_UAVCAN_DNA_Server.h \
+ ../../libraries/AP_Common/Bitmask.h \
+ ../../libraries/AP_InternalError/AP_InternalError.h \
+ ../../libraries/AP_CANManager/AP_CANManager.h \
+ ../../libraries/AP_CANManager/AP_SLCANIface.h \
+ ../../libraries/AP_CANManager/AP_CANDriver.h \
+ ../../libraries/AP_UAVCAN/AP_UAVCAN_IfaceMgr.h \
+ ../../libraries/AP_UAVCAN/AP_UAVCAN_Clock.h \
+ ../../modules/uavcan/libuavcan/include/uavcan/helpers/heap_based_pool_allocator.hpp \
  ../../libraries/AP_OpticalFlow/AP_OpticalFlow_MSP.h \
  ../../libraries/AP_Logger/AP_Logger.h \
  ../../libraries/AP_Filesystem/AP_Filesystem_Available.h \
@@ -443,8 +526,6 @@ libraries/AP_OpticalFlow/OpticalFlow.cpp.0.o: \
  ../../libraries/AP_Notify/AP_Notify.h \
  ../../libraries/AP_Notify/NotifyDevice.h \
  ../../libraries/SRV_Channel/SRV_Channel.h \
- ../../libraries/AP_Common/Bitmask.h \
- ../../libraries/AP_InternalError/AP_InternalError.h \
  ../../libraries/AP_Volz_Protocol/AP_Volz_Protocol.h \
  ../../libraries/AP_RobotisServo/AP_RobotisServo.h \
  ../../libraries/AP_SBusOut/AP_SBusOut.h \

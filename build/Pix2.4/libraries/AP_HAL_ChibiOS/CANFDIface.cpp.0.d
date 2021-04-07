@@ -94,17 +94,21 @@ libraries/AP_HAL_ChibiOS/CANFDIface.cpp.0.o: \
  ../../modules/ChibiOS/os/hal/include/hal_dac.h \
  ../../modules/ChibiOS/os/hal/include/hal_gpt.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2c.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2s.h \
  ../../modules/ChibiOS/os/hal/include/hal_icu.h \
  ../../modules/ChibiOS/os/hal/include/hal_eicu.h \
  ../../modules/ChibiOS/os/hal/include/hal_mac.h \
  ../../modules/ChibiOS/os/hal/include/hal_pwm.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_rtc.h \
  ../../modules/ChibiOS/os/hal/include/hal_serial.h \
  ../../modules/ChibiOS/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sdc.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SDIOv1/hal_sdc_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sio.h \
  ../../modules/ChibiOS/os/hal/include/hal_spi.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SPIv1/hal_spi_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_trng.h \
  ../../modules/ChibiOS/os/hal/include/hal_uart.h \
  ../../modules/ChibiOS/os/hal/include/hal_usb.h \
@@ -136,5 +140,20 @@ libraries/AP_HAL_ChibiOS/CANFDIface.cpp.0.o: \
  ../../libraries/AP_HAL/Util.h ../../libraries/AP_HAL/Flash.h \
  ../../libraries/AP_HAL_ChibiOS/HAL_ChibiOS_Class.h \
  ../../libraries/AP_HAL_Empty/AP_HAL_Empty_Namespace.h \
+ ../../modules/ChibiOS/ext/fatfs/src/ff.h \
+ ../../modules/ChibiOS/ext/fatfs/src/integer.h \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/ffconf.h \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/stdio.h \
- ../../libraries/AP_HAL_ChibiOS/hwdef/common/hrt.h
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/hrt.h \
+ ../../libraries/AP_Math/AP_Math.h ../../libraries/AP_Param/AP_Param.h \
+ ../../libraries/StorageManager/StorageManager.h \
+ ../../libraries/AP_Math/definitions.h ../../libraries/AP_Math/crc.h \
+ ../../libraries/AP_Math/matrix3.h ../../libraries/AP_Math/vector3.h \
+ ../../libraries/AP_Math/rotations.h ../../libraries/AP_Math/vector2.h \
+ ../../libraries/AP_Math/polygon.h ../../libraries/AP_Math/quaternion.h \
+ ../../libraries/AP_Math/spline5.h ../../libraries/AP_Math/location.h \
+ ../../libraries/AP_CANManager/AP_CANManager.h \
+ ../../libraries/AP_CANManager/AP_SLCANIface.h \
+ ../../libraries/AP_CANManager/AP_CANDriver.h \
+ ../../libraries/AP_Vehicle/AP_Vehicle_Type.h \
+ ../../libraries/AP_Common/ExpandingString.h

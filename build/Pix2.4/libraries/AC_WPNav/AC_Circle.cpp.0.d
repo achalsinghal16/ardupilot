@@ -93,17 +93,21 @@ libraries/AC_WPNav/AC_Circle.cpp.0.o: \
  ../../modules/ChibiOS/os/hal/include/hal_dac.h \
  ../../modules/ChibiOS/os/hal/include/hal_gpt.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2c.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2s.h \
  ../../modules/ChibiOS/os/hal/include/hal_icu.h \
  ../../modules/ChibiOS/os/hal/include/hal_eicu.h \
  ../../modules/ChibiOS/os/hal/include/hal_mac.h \
  ../../modules/ChibiOS/os/hal/include/hal_pwm.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_rtc.h \
  ../../modules/ChibiOS/os/hal/include/hal_serial.h \
  ../../modules/ChibiOS/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sdc.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SDIOv1/hal_sdc_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sio.h \
  ../../modules/ChibiOS/os/hal/include/hal_spi.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SPIv1/hal_spi_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_trng.h \
  ../../modules/ChibiOS/os/hal/include/hal_uart.h \
  ../../modules/ChibiOS/os/hal/include/hal_usb.h \
@@ -143,11 +147,7 @@ libraries/AC_WPNav/AC_Circle.cpp.0.o: \
  ../../libraries/AP_Terrain/AP_Terrain.h \
  ../../libraries/AP_Common/Location.h \
  ../../libraries/AP_Filesystem/AP_Filesystem_Available.h \
- ../../libraries/AC_WPNav/AC_Circle.h \
- ../../libraries/AP_InertialNav/AP_InertialNav.h \
- ../../libraries/AP_AHRS/AP_AHRS.h \
- ../../libraries/AP_Compass/AP_Compass.h \
- ../../libraries/AP_Declination/AP_Declination.h \
+ ../../libraries/AP_Mission/AP_Mission.h \
  ../../libraries/GCS_MAVLink/GCS_MAVLink.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/version.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/mavlink_types.h \
@@ -393,6 +393,11 @@ libraries/AC_WPNav/AC_Circle.cpp.0.o: \
  libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../icarous/./mavlink_msg_icarous_heartbeat.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../icarous/./mavlink_msg_icarous_kinematic_bands.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../mavlink_get_info.h \
+ ../../libraries/AC_WPNav/AC_Circle.h \
+ ../../libraries/AP_InertialNav/AP_InertialNav.h \
+ ../../libraries/AP_AHRS/AP_AHRS.h \
+ ../../libraries/AP_Compass/AP_Compass.h \
+ ../../libraries/AP_Declination/AP_Declination.h \
  ../../libraries/AP_MSP/msp.h \
  ../../libraries/AP_SerialManager/AP_SerialManager.h \
  ../../libraries/AP_MSP/msp_osd.h ../../libraries/AP_MSP/msp_protocol.h \
@@ -424,8 +429,7 @@ libraries/AC_WPNav/AC_Circle.cpp.0.o: \
  ../../libraries/AP_InertialNav/AP_InertialNav_NavEKF.h \
  ../../libraries/AC_AttitudeControl/AC_PosControl.h \
  ../../libraries/AC_PID/AC_P.h ../../libraries/AC_PID/AC_PID.h \
- ../../libraries/AP_Logger/AP_Logger.h \
- ../../libraries/AP_Mission/AP_Mission.h ../../libraries/AP_RPM/AP_RPM.h \
+ ../../libraries/AP_Logger/AP_Logger.h ../../libraries/AP_RPM/AP_RPM.h \
  ../../libraries/AP_Logger/LogStructure.h \
  ../../libraries/AP_DAL/LogStructure.h \
  ../../libraries/AP_NavEKF2/LogStructure.h \
@@ -476,6 +480,8 @@ libraries/AC_WPNav/AC_Circle.cpp.0.o: \
  ../../libraries/AP_BoardConfig/AP_BoardConfig.h \
  ../../libraries/AP_RTC/AP_RTC.h ../../libraries/AC_PID/AC_PI.h \
  ../../libraries/AP_CANManager/AP_CANManager.h \
+ ../../libraries/AP_CANManager/AP_SLCANIface.h \
+ ../../libraries/AP_CANManager/AP_CANDriver.h \
  ../../libraries/AP_Button/AP_Button.h ../../libraries/AP_GPS/AP_GPS.h \
  ../../libraries/AP_GPS/GPS_detect_state.h \
  ../../libraries/AP_GPS/MovingBase.h \

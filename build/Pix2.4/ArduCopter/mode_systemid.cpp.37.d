@@ -95,17 +95,21 @@ ArduCopter/mode_systemid.cpp.37.o: ../../ArduCopter/mode_systemid.cpp \
  ../../modules/ChibiOS/os/hal/include/hal_dac.h \
  ../../modules/ChibiOS/os/hal/include/hal_gpt.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2c.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/I2Cv1/hal_i2c_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_i2s.h \
  ../../modules/ChibiOS/os/hal/include/hal_icu.h \
  ../../modules/ChibiOS/os/hal/include/hal_eicu.h \
  ../../modules/ChibiOS/os/hal/include/hal_mac.h \
  ../../modules/ChibiOS/os/hal/include/hal_pwm.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_rtc.h \
  ../../modules/ChibiOS/os/hal/include/hal_serial.h \
  ../../modules/ChibiOS/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sdc.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SDIOv1/hal_sdc_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_sio.h \
  ../../modules/ChibiOS/os/hal/include/hal_spi.h \
+ ../../modules/ChibiOS/os/hal/ports/STM32/LLD/SPIv1/hal_spi_lld.h \
  ../../modules/ChibiOS/os/hal/include/hal_trng.h \
  ../../modules/ChibiOS/os/hal/include/hal_uart.h \
  ../../modules/ChibiOS/os/hal/include/hal_usb.h \
@@ -486,6 +490,8 @@ ArduCopter/mode_systemid.cpp.37.o: ../../ArduCopter/mode_systemid.cpp \
  ../../libraries/AP_BoardConfig/AP_BoardConfig.h \
  ../../libraries/AP_RTC/AP_RTC.h ../../libraries/AC_PID/AC_PI.h \
  ../../libraries/AP_CANManager/AP_CANManager.h \
+ ../../libraries/AP_CANManager/AP_SLCANIface.h \
+ ../../libraries/AP_CANManager/AP_CANDriver.h \
  ../../libraries/AP_Button/AP_Button.h \
  ../../libraries/AP_Generator/AP_Generator.h \
  ../../libraries/AP_BattMonitor/AP_BattMonitor.h \
@@ -554,6 +560,13 @@ ArduCopter/mode_systemid.cpp.37.o: ../../ArduCopter/mode_systemid.cpp \
  ../../libraries/AP_OpticalFlow/OpticalFlow_backend.h \
  ../../libraries/AP_Mount/AP_Mount.h \
  ../../libraries/AP_Camera/AP_Camera.h \
- ../../libraries/AP_Winch/AP_Winch.h ../../ArduCopter/Parameters.h \
- ../../ArduCopter/avoidance_adsb.h \
+ ../../libraries/AP_Winch/AP_Winch.h \
+ ../../libraries/AP_Scripting/AP_Scripting.h \
+ ../../libraries/AP_Filesystem/AP_Filesystem.h \
+ ../../libraries/AP_Filesystem/AP_Filesystem_FATFS.h \
+ ../../modules/ChibiOS/ext/fatfs/src/ff.h \
+ ../../modules/ChibiOS/ext/fatfs/src/integer.h \
+ ../../libraries/AP_HAL_ChibiOS/hwdef/common/ffconf.h \
+ ../../libraries/AP_Filesystem/AP_Filesystem_backend.h \
+ ../../ArduCopter/Parameters.h ../../ArduCopter/avoidance_adsb.h \
  ../../libraries/AP_Avoidance/AP_Avoidance.h
