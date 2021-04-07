@@ -1,9 +1,9 @@
-APJ_BOARD_ID = '10'
+APJ_BOARD_ID = '20'
 APJ_BOARD_TYPE = 'STM32F407xx'
 APJ_TOOL = '/home/alex/ArduPilot/ardupilot/Tools/scripts/apj_tool.py'
 AP_HAL_REL = '../../libraries/AP_HAL_ChibiOS'
 AP_HAL_ROOT = '/home/alex/ArduPilot/ardupilot/libraries/AP_HAL_ChibiOS'
-AP_LIBRARIES = ['AP_HAL_ChibiOS', 'AP_UAVCAN', 'modules/uavcan/libuavcan/src/**/*.cpp']
+AP_LIBRARIES = ['AP_HAL_ChibiOS']
 AP_LIBRARIES_OBJECTS_KW = {'features': ['ch_ap_library']}
 AP_LIB_EXTRA_SOURCES = {}
 AP_PROGRAM_FEATURES = ['ch_ap_program']
@@ -13,24 +13,24 @@ BINDIR = '/usr/bin'
 BOARD = 'STM32Disco'
 BOARD_FLASH_SIZE = 1024
 BOARD_MK = '/home/alex/ArduPilot/ardupilot/libraries/AP_HAL_ChibiOS/hwdef/common/chibios_board.mk'
-BOOTLOADER = False
-BOOTLOADER_OPTION = ''
+BOOTLOADER = True
+BOOTLOADER_OPTION = '--bootloader'
 BUILDDIR = '/home/alex/ArduPilot/ardupilot/build/STM32Disco/modules/ChibiOS'
 BUILDDIR_REL = 'modules/ChibiOS'
 BUILDROOT = '/home/alex/ArduPilot/ardupilot/build/STM32Disco'
 BUILD_SUMMARY_HEADER = ['target', 'size_text', 'size_data', 'size_bss', 'size_total']
-CC = ['/usr/lib/ccache/arm-none-eabi-gcc']
+CC = ['/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc']
 CCLNK_SRC_F = []
 CCLNK_TGT_F = ['-o']
 CC_NAME = 'gcc'
 CC_SRC_F = []
 CC_TGT_F = ['-c', '-o']
 CC_VERSION = ('6', '3', '1')
-CFLAGS = ['-ffunction-sections', '-fdata-sections', '-fsigned-char', '-Wall', '-Wextra', '-Werror=format', '-Wpointer-arith', '-Wcast-align', '-Wno-missing-field-initializers', '-Wno-unused-parameter', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Wno-trigraphs', '-Werror=shadow', '-Werror=return-type', '-Werror=unused-result', '-Werror=unused-variable', '-Werror=narrowing', '-Werror=attributes', '-Werror=overflow', '-Werror=parentheses', '-Werror=format-extra-args', '-Werror=ignored-qualifiers', '-Werror=undef', '-DARDUPILOT_BUILD', '-Wno-format-contains-nul', '-mcpu=cortex-m4', '-mfpu=fpv4-sp-d16', '-mfloat-abi=hard', '-DARM_MATH_CM4', '-u_printf_float', '-Wno-cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-fno-exceptions', '-Wall', '-Wextra', '-Wno-sign-compare', '-Wfloat-equal', '-Wpointer-arith', '-Wmissing-declarations', '-Wno-unused-parameter', '-Werror=array-bounds', '-Wfatal-errors', '-Werror=uninitialized', '-Werror=init-self', '-Werror=unused-but-set-variable', '-Wno-missing-field-initializers', '-Wno-trigraphs', '-fno-strict-aliasing', '-fomit-frame-pointer', '-falign-functions=16', '-ffunction-sections', '-fdata-sections', '-fno-strength-reduce', '-fno-builtin-printf', '-fno-builtin-fprintf', '-fno-builtin-vprintf', '-fno-builtin-vfprintf', '-fno-builtin-puts', '-mno-thumb-interwork', '-mthumb', '--specs=nano.specs', '-specs=nosys.specs', '-DCHIBIOS_BOARD_NAME="STM32Disco"', '-D__USE_CMSIS', '-Werror=deprecated-declarations', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-std=c11', '-MMD', '-DHAL_CAN_IFACES=2', '-Os']
+CFLAGS = ['-ffunction-sections', '-fdata-sections', '-fsigned-char', '-Wall', '-Wextra', '-Werror=format', '-Wpointer-arith', '-Wcast-align', '-Wno-missing-field-initializers', '-Wno-unused-parameter', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Wno-trigraphs', '-Werror=shadow', '-Werror=return-type', '-Werror=unused-result', '-Werror=unused-variable', '-Werror=narrowing', '-Werror=attributes', '-Werror=overflow', '-Werror=parentheses', '-Werror=format-extra-args', '-Werror=ignored-qualifiers', '-Werror=undef', '-DARDUPILOT_BUILD', '-Wno-format-contains-nul', '-mcpu=cortex-m4', '-mfpu=fpv4-sp-d16', '-mfloat-abi=hard', '-Wno-cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-fno-exceptions', '-Wall', '-Wextra', '-Wno-sign-compare', '-Wfloat-equal', '-Wpointer-arith', '-Wmissing-declarations', '-Wno-unused-parameter', '-Werror=array-bounds', '-Wfatal-errors', '-Werror=uninitialized', '-Werror=init-self', '-Werror=unused-but-set-variable', '-Wno-missing-field-initializers', '-Wno-trigraphs', '-fno-strict-aliasing', '-fomit-frame-pointer', '-falign-functions=16', '-ffunction-sections', '-fdata-sections', '-fno-strength-reduce', '-fno-builtin-printf', '-fno-builtin-fprintf', '-fno-builtin-vprintf', '-fno-builtin-vfprintf', '-fno-builtin-puts', '-mno-thumb-interwork', '-mthumb', '--specs=nano.specs', '-specs=nosys.specs', '-DCHIBIOS_BOARD_NAME="STM32Disco"', '-D__USE_CMSIS', '-Werror=deprecated-declarations', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-std=c11', '-MMD', '-Os']
 CFLAGS_MACBUNDLE = ['-fPIC']
 CFLAGS_cshlib = ['-fPIC']
 CHIBIOS_BOARD_NAME = 'HAL_BOARD_NAME="STM32Disco"'
-CHIBIOS_BUILD_FLAGS = 'USE_FATFS=yes MCU=cortex-m4 ENV_UDEFS=-DCHPRINTF_USE_FLOAT=1 CHIBIOS_PLATFORM_MK=os/hal/ports/STM32/STM32F4xx/platform.mk CHIBIOS_STARTUP_MK=os/common/startup/ARMCMx/compilers/GCC/mk/startup_stm32f4xx.mk USE_COPT=-Os'
+CHIBIOS_BUILD_FLAGS = 'USE_FATFS=no MCU=cortex-m4 CHIBIOS_PLATFORM_MK=os/hal/ports/STM32/STM32F4xx/platform.mk CHIBIOS_STARTUP_MK=os/common/startup/ARMCMx/compilers/GCC/mk/startup_stm32f4xx.mk USE_COPT=-Os'
 CHIBIOS_SCRIPTS = '/home/alex/ArduPilot/ardupilot/libraries/AP_HAL_ChibiOS/hwdef/scripts'
 CH_ROOT = '/home/alex/ArduPilot/ardupilot/modules/ChibiOS'
 CH_ROOT_REL = '../../modules/ChibiOS'
@@ -40,9 +40,9 @@ CONFIGURE_FILES = ['/home/alex/ArduPilot/ardupilot/libraries/AP_GPS/wscript', '/
 CONFIGURE_HASH = "+\x92\xaa\x86\x82\x87\xa0\xd2\xac\xe0\x9e\xb0\x06D'\xa1"
 CORTEX = 'cortex-m4'
 CPPPATH_ST = '-I%s'
-CPU_FLAGS = ['-mcpu=cortex-m4', '-mfpu=fpv4-sp-d16', '-mfloat-abi=hard', '-DARM_MATH_CM4', '-u_printf_float']
-CXX = ['/usr/lib/ccache/arm-none-eabi-g++']
-CXXFLAGS = ['-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wpointer-arith', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Wno-expansion-to-defined', '-Werror=cast-align', '-Werror=attributes', '-Werror=format-security', '-Werror=format-extra-args', '-Werror=enum-compare', '-Werror=format', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=narrowing', '-Werror=return-type', '-Werror=switch', '-Werror=sign-compare', '-Werror=type-limits', '-Werror=undef', '-Werror=unused-result', '-Werror=shadow', '-Werror=unused-value', '-Werror=unused-variable', '-Werror=delete-non-virtual-dtor', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=parentheses', '-DARDUPILOT_BUILD', '-Wno-format-contains-nul', '-Werror=unused-but-set-variable', '-Werror=suggest-override', '-ffunction-sections', '-fdata-sections', '-fsigned-char', '-Wall', '-Wextra', '-Werror=format', '-Wpointer-arith', '-Wcast-align', '-Wno-missing-field-initializers', '-Wno-unused-parameter', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Wno-trigraphs', '-Werror=shadow', '-Werror=return-type', '-Werror=unused-result', '-Werror=unused-variable', '-Werror=narrowing', '-Werror=attributes', '-Werror=overflow', '-Werror=parentheses', '-Werror=format-extra-args', '-Werror=ignored-qualifiers', '-Werror=undef', '-DARDUPILOT_BUILD', '-Wno-format-contains-nul', '-mcpu=cortex-m4', '-mfpu=fpv4-sp-d16', '-mfloat-abi=hard', '-DARM_MATH_CM4', '-u_printf_float', '-Wno-cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-fno-exceptions', '-Wall', '-Wextra', '-Wno-sign-compare', '-Wfloat-equal', '-Wpointer-arith', '-Wmissing-declarations', '-Wno-unused-parameter', '-Werror=array-bounds', '-Wfatal-errors', '-Werror=uninitialized', '-Werror=init-self', '-Werror=unused-but-set-variable', '-Wno-missing-field-initializers', '-Wno-trigraphs', '-fno-strict-aliasing', '-fomit-frame-pointer', '-falign-functions=16', '-ffunction-sections', '-fdata-sections', '-fno-strength-reduce', '-fno-builtin-printf', '-fno-builtin-fprintf', '-fno-builtin-vprintf', '-fno-builtin-vfprintf', '-fno-builtin-puts', '-mno-thumb-interwork', '-mthumb', '--specs=nano.specs', '-specs=nosys.specs', '-DCHIBIOS_BOARD_NAME="STM32Disco"', '-D__USE_CMSIS', '-Werror=deprecated-declarations', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-fno-rtti', '-fno-threadsafe-statics', '-Werror', '-MMD', '-Wno-error=cast-align', '-Os', '-include', 'ap_config.h']
+CPU_FLAGS = ['-mcpu=cortex-m4', '-mfpu=fpv4-sp-d16', '-mfloat-abi=hard']
+CXX = ['/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-g++']
+CXXFLAGS = ['-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wpointer-arith', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Wno-expansion-to-defined', '-Werror=cast-align', '-Werror=attributes', '-Werror=format-security', '-Werror=format-extra-args', '-Werror=enum-compare', '-Werror=format', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=narrowing', '-Werror=return-type', '-Werror=switch', '-Werror=sign-compare', '-Werror=type-limits', '-Werror=undef', '-Werror=unused-result', '-Werror=shadow', '-Werror=unused-value', '-Werror=unused-variable', '-Werror=delete-non-virtual-dtor', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=parentheses', '-DARDUPILOT_BUILD', '-Wno-format-contains-nul', '-Werror=unused-but-set-variable', '-Werror=suggest-override', '-ffunction-sections', '-fdata-sections', '-fsigned-char', '-Wall', '-Wextra', '-Werror=format', '-Wpointer-arith', '-Wcast-align', '-Wno-missing-field-initializers', '-Wno-unused-parameter', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Wno-trigraphs', '-Werror=shadow', '-Werror=return-type', '-Werror=unused-result', '-Werror=unused-variable', '-Werror=narrowing', '-Werror=attributes', '-Werror=overflow', '-Werror=parentheses', '-Werror=format-extra-args', '-Werror=ignored-qualifiers', '-Werror=undef', '-DARDUPILOT_BUILD', '-Wno-format-contains-nul', '-mcpu=cortex-m4', '-mfpu=fpv4-sp-d16', '-mfloat-abi=hard', '-Wno-cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-fno-exceptions', '-Wall', '-Wextra', '-Wno-sign-compare', '-Wfloat-equal', '-Wpointer-arith', '-Wmissing-declarations', '-Wno-unused-parameter', '-Werror=array-bounds', '-Wfatal-errors', '-Werror=uninitialized', '-Werror=init-self', '-Werror=unused-but-set-variable', '-Wno-missing-field-initializers', '-Wno-trigraphs', '-fno-strict-aliasing', '-fomit-frame-pointer', '-falign-functions=16', '-ffunction-sections', '-fdata-sections', '-fno-strength-reduce', '-fno-builtin-printf', '-fno-builtin-fprintf', '-fno-builtin-vprintf', '-fno-builtin-vfprintf', '-fno-builtin-puts', '-mno-thumb-interwork', '-mthumb', '--specs=nano.specs', '-specs=nosys.specs', '-DCHIBIOS_BOARD_NAME="STM32Disco"', '-D__USE_CMSIS', '-Werror=deprecated-declarations', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-fno-rtti', '-fno-threadsafe-statics', '-Werror', '-MMD', '-Os', '-include', 'ap_config.h']
 CXXFLAGS_MACBUNDLE = ['-fPIC']
 CXXFLAGS_cxxshlib = ['-fPIC']
 CXXLNK_SRC_F = []
@@ -51,12 +51,13 @@ CXX_NAME = 'gcc'
 CXX_SRC_F = []
 CXX_TGT_F = ['-c', '-o']
 DEBUG = False
-DEFINES = ['SKETCHBOOK="/home/alex/ArduPilot/ardupilot"', 'AP_SCRIPTING_CHECKS=1', 'CONFIG_HAL_BOARD=HAL_BOARD_CHIBIOS', 'ENABLE_HEAP=1', 'HAVE_STD_NULLPTR_T=0', 'USE_LIBC_REALLOC=0', 'UAVCAN_CPP_VERSION=UAVCAN_CPP03', 'UAVCAN_NO_ASSERTIONS=1', 'UAVCAN_NULLPTR=nullptr']
+DEFINES = ['SKETCHBOOK="/home/alex/ArduPilot/ardupilot"', 'AP_SCRIPTING_CHECKS=1', 'CONFIG_HAL_BOARD=HAL_BOARD_CHIBIOS', 'HAVE_STD_NULLPTR_T=0', 'USE_LIBC_REALLOC=0']
 DEFINES_ST = '-D%s'
 DEFINE_COMMENTS = {'HAVE_MEMRCHR': '', 'HAVE_CMATH_ISINF': '', 'NEED_CMATH_ISFINITE_STD_NAMESPACE': '', 'NEED_CMATH_ISNAN_STD_NAMESPACE': '', 'WAF_BUILD': '', 'NEED_CMATH_ISINF_STD_NAMESPACE': '', '__STDC_FORMAT_MACROS': '', 'HAVE_ENDIAN_H': '', 'HAVE_BYTESWAP_H': '', 'PYTHONDIR': '', 'HAVE_CMATH_ISFINITE': '', 'HAVE_CMATH_ISNAN': '', '_GNU_SOURCE': '', 'PYTHONARCHDIR': ''}
 DEST_BINFMT = 'elf'
 DEST_CPU = 'arm'
 DEST_OS = 'linux'
+DISABLE_SCRIPTING = True
 DOUBLE_PRECISION_SOURCES = {'AP_GPS': ['AP_GPS_SBF.cpp']}
 DSDL_COMPILER = '/home/alex/ArduPilot/ardupilot/modules/uavcan/libuavcan/dsdl_compiler/libuavcan_dsdlc'
 DSDL_COMPILER_DIR = '/home/alex/ArduPilot/ardupilot/modules/uavcan/libuavcan/dsdl_compiler'
@@ -64,31 +65,30 @@ ENABLE_ASSERTS = False
 ENABLE_GCCDEPS = ['c', 'cxx']
 ENABLE_HEADER_CHECKS = False
 ENABLE_MALLOC_GUARD = False
-FLASH_RESERVE_START_KB = '16'
-FLASH_TOTAL = 1032192
+FLASH_RESERVE_START_KB = '0'
+FLASH_TOTAL = 16384
 GIT = ['/usr/bin/git']
 GIT_SUBMODULES = ['ChibiOS', 'mavlink']
-HAL_NUM_CAN_IFACES = '1'
 HAS_GTEST = False
 HAVE_CMATH_ISFINITE = 1
 HAVE_CMATH_ISINF = 1
 HAVE_CMATH_ISNAN = 1
 HAVE_INTEL_HEX = True
-HWDEF = '/home/alex/ArduPilot/ardupilot/libraries/AP_HAL_ChibiOS/hwdef/STM32Disco/hwdef.dat'
-INCLUDES = ['/home/alex/ArduPilot/ardupilot/libraries/', '/home/alex/ArduPilot/ardupilot/libraries/AP_Common/missing', '/home/alex/ArduPilot/ardupilot/libraries/AP_GyroFFT/CMSIS_5/include', '/home/alex/ArduPilot/ardupilot/modules/uavcan/libuavcan/include']
+HWDEF = '/home/alex/ArduPilot/ardupilot/libraries/AP_HAL_ChibiOS/hwdef/STM32Disco/hwdef-bl.dat'
+INCLUDES = ['/home/alex/ArduPilot/ardupilot/libraries/', '/home/alex/ArduPilot/ardupilot/libraries/AP_Common/missing', '/home/alex/ArduPilot/ardupilot/libraries/AP_GyroFFT/CMSIS_5/include']
 IOMCU_FW = 0
 LIB = ['gcc', 'm']
 LIBDIR = '/usr/lib'
 LIBPATH_ST = '-L%s'
 LIB_ST = '-l%s'
-LINKFLAGS = ['-mcpu=cortex-m4', '-mfpu=fpv4-sp-d16', '-mfloat-abi=hard', '-DARM_MATH_CM4', '-u_printf_float', '-fomit-frame-pointer', '-falign-functions=16', '-ffunction-sections', '-fdata-sections', '-u_port_lock', '-u_port_unlock', '-u_exit', '-u_kill', '-u_getpid', '-u_errno', '-uchThdExit', '-fno-common', '-nostartfiles', '-mno-thumb-interwork', '-mthumb', '-specs=nano.specs', '-specs=nosys.specs', '-L/home/alex/ArduPilot/ardupilot/build/STM32Disco', '-L/home/alex/ArduPilot/ardupilot/modules/ChibiOS/os/common/startup/ARMCMx/compilers/GCC/ld', '-L/home/alex/ArduPilot/ardupilot/libraries/AP_HAL_ChibiOS/hwdef/common', '-Wl,--gc-sections,--no-warn-mismatch,--library-path=/ld,--script=ldscript.ld,--defsym=__process_stack_size__=0x1C00,--defsym=__main_stack_size__=0x600']
+LINKFLAGS = ['-mcpu=cortex-m4', '-mfpu=fpv4-sp-d16', '-mfloat-abi=hard', '-fomit-frame-pointer', '-falign-functions=16', '-ffunction-sections', '-fdata-sections', '-u_port_lock', '-u_port_unlock', '-u_exit', '-u_kill', '-u_getpid', '-u_errno', '-uchThdExit', '-fno-common', '-nostartfiles', '-mno-thumb-interwork', '-mthumb', '-specs=nano.specs', '-specs=nosys.specs', '-L/home/alex/ArduPilot/ardupilot/build/STM32Disco', '-L/home/alex/ArduPilot/ardupilot/modules/ChibiOS/os/common/startup/ARMCMx/compilers/GCC/ld', '-L/home/alex/ArduPilot/ardupilot/libraries/AP_HAL_ChibiOS/hwdef/common', '-Wl,--gc-sections,--no-warn-mismatch,--library-path=/ld,--script=ldscript.ld,--defsym=__process_stack_size__=0x1C00,--defsym=__main_stack_size__=0x600']
 LINKFLAGS_MACBUNDLE = ['-bundle', '-undefined', 'dynamic_lookup']
 LINKFLAGS_cshlib = ['-shared']
 LINKFLAGS_cstlib = ['-Wl,-Bstatic']
 LINKFLAGS_cxxshlib = ['-shared']
 LINKFLAGS_cxxstlib = ['-Wl,-Bstatic']
-LINK_CC = ['/usr/lib/ccache/arm-none-eabi-gcc']
-LINK_CXX = ['/usr/lib/ccache/arm-none-eabi-g++']
+LINK_CC = ['/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc']
+LINK_CXX = ['/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-g++']
 MAIN_STACK = '0x600'
 MAKE = ['/usr/bin/make']
 MAVLINK_DIR = '/home/alex/ArduPilot/ardupilot/modules/mavlink'
@@ -97,7 +97,7 @@ NEED_CMATH_ISFINITE_STD_NAMESPACE = 1
 NEED_CMATH_ISINF_STD_NAMESPACE = 1
 NEED_CMATH_ISNAN_STD_NAMESPACE = 1
 OBJCOPY = ['/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-objcopy']
-OPTIONS = {'apstatedir': '', 'sitl_osd': False, 'force': False, 'verbose': 0, 'enable_sfml_audio': False, 'enable_sfml': False, 'colors': 'auto', 'no_lock_in_out': '', 'whelp': 0, 'pyc': 1, 'destdir': '', 'scripting_checks': True, 'zones': '', 'sitl_flash_storage': False, 'prefix': '/usr', 'static': False, 'summary_all': None, 'testcmd': False, 'osd': False, 'out': '', 'nopycache': None, 'disable_gccdeps': False, 'progress_bar': 0, 'rsync_dest': '', 'top': '', 'libdir': None, 'enable_lttng': False, 'targets': '', 'python': None, 'board': 'STM32Disco', 'build_dates': False, 'all_tests': False, 'disable_scripting': False, 'check_cxx_compiler': None, 'clear_failed_tests': False, 'bindir': None, 'enable_math_check_indexes': False, 'files': '', 'no_lock_in_run': '', 'check_verbose': None, 'jobs': 4, 'submodule_update': True, 'disable_libiio': False, 'sitl_rgbled': False, 'distcheck_args': None, 'Werror': False, 'enable_asserts': False, 'pdb': 0, 'profile': 0, 'autoconfig': True, 'clean_all_sigs': None, 'pyo': 1, 'asan': None, 'bootloader': False, 'program_group': [], 'disable_ekf3': False, 'no_tests': False, 'default_parameters': None, 'enable_malloc_guard': False, 'toolchain': None, 'disable_ekf2': False, 'osd_fonts': False, 'no_gcs': False, 'upload': None, 'keep': 0, 'dump_test_scripts': False, 'pythondir': None, 'disable_tests': False, 'enable_benchmarks': False, 'pythonarchdir': None, 'debug': False, 'enable_header_checks': False, 'no_lock_in_top': '', 'upload_port': None, 'enable_sfml_joystick': False, 'check_c_compiler': None}
+OPTIONS = {'apstatedir': '', 'sitl_osd': False, 'force': False, 'verbose': 0, 'enable_sfml_audio': False, 'enable_sfml': False, 'colors': 'auto', 'no_lock_in_out': '', 'whelp': 0, 'pyc': 1, 'destdir': '', 'scripting_checks': True, 'zones': '', 'sitl_flash_storage': False, 'prefix': '/usr', 'static': False, 'summary_all': None, 'testcmd': False, 'osd': False, 'out': '', 'nopycache': None, 'disable_gccdeps': False, 'progress_bar': 0, 'rsync_dest': '', 'top': '', 'libdir': None, 'enable_lttng': False, 'targets': '', 'python': None, 'board': 'STM32Disco', 'build_dates': False, 'all_tests': False, 'disable_scripting': False, 'check_cxx_compiler': None, 'clear_failed_tests': False, 'bindir': None, 'enable_math_check_indexes': False, 'files': '', 'no_lock_in_run': '', 'check_verbose': None, 'jobs': 4, 'submodule_update': True, 'disable_libiio': False, 'sitl_rgbled': False, 'distcheck_args': None, 'Werror': False, 'enable_asserts': False, 'pdb': 0, 'profile': 0, 'autoconfig': True, 'clean_all_sigs': None, 'pyo': 1, 'asan': None, 'bootloader': True, 'program_group': [], 'disable_ekf3': False, 'no_tests': False, 'default_parameters': None, 'enable_malloc_guard': False, 'toolchain': None, 'disable_ekf2': False, 'osd_fonts': False, 'no_gcs': False, 'upload': None, 'keep': 0, 'dump_test_scripts': False, 'pythondir': None, 'disable_tests': False, 'enable_benchmarks': False, 'pythonarchdir': None, 'debug': False, 'enable_header_checks': False, 'no_lock_in_top': '', 'upload_port': None, 'enable_sfml_joystick': False, 'check_c_compiler': None}
 PERIPH_FW = 0
 PREFIX = '/usr'
 PROCESS_STACK = '0x1C00'
@@ -110,7 +110,7 @@ PYTHON = ['/usr/bin/python']
 PYTHONARCHDIR = '/usr/lib/python2.7/dist-packages'
 PYTHONDIR = '/usr/lib/python2.7/dist-packages'
 PYTHON_VERSION = '2.7'
-ROMFS_FILES = [('hwdef.dat', '/home/alex/ArduPilot/ardupilot/build/STM32Disco/hw.dat'), ('io_firmware.bin', 'Tools/IO_Firmware/iofirmware_lowpolh.bin'), ('bootloader.bin', '/home/alex/ArduPilot/ardupilot/Tools/bootloaders/STM32Disco_bl.bin')]
+ROMFS_FILES = [('hwdef.dat', '/home/alex/ArduPilot/ardupilot/build/STM32Disco/hw.dat')]
 RPATH_ST = '-Wl,-rpath,%s'
 RSYNC = ['/usr/bin/rsync']
 SERIAL_PORT = '/home/alex/ArduPilot/ardupilot/dev/serial/by-id/*_STLink*'
@@ -125,8 +125,7 @@ SUBMODULE_UPDATE = True
 TOOLCHAIN = 'arm-none-eabi'
 TOOLS_SCRIPTS = '/home/alex/ArduPilot/ardupilot/Tools/scripts'
 UPLOAD_TOOLS = '/home/alex/ArduPilot/ardupilot/Tools/scripts'
-USBID = '0x1209/0x5741'
-WITH_FATFS = '1'
+USBID = '0x27ac/0x0201'
 cfg_files = ['/home/alex/ArduPilot/ardupilot/build/STM32Disco/ap_config.h']
 cprogram_PATTERN = '%s'
 cshlib_PATTERN = 'lib%s.so'
