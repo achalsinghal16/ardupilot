@@ -63,8 +63,8 @@ PD12 USART3_RTS USART3
 #PE8 UART7_TX UART7
 
 # define a LED
-#PE12 LED_BOOTLOADER OUTPUT
-#define HAL_LED_ON 1
+PE12 LED_BOOTLOADER OUTPUT
+define HAL_LED_ON 1
 
 # this adds a C define which sets up the ArduPilot architecture
 # define. Any line starting with 'define' is copied literally as
