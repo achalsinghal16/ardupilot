@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccfHodVq.s 			page 1
+ARM GAS  /tmp/ccCRmBt7.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
   55              		.cfi_endproc
   56              	.LFE323:
   57              		.size	gpio_init, .-gpio_init
-ARM GAS  /tmp/ccfHodVq.s 			page 2
+ARM GAS  /tmp/ccCRmBt7.s 			page 2
 
 
   58              		.section	.text.__early_init,"ax",%progbits
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  112              		.loc 1 192 0
  113 003e 1748     		ldr	r0, .L3+16
  114 0040 02F13801 		add	r1, r2, #56
-ARM GAS  /tmp/ccfHodVq.s 			page 3
+ARM GAS  /tmp/ccCRmBt7.s 			page 3
 
 
  115 0044 FFF7FEFF 		bl	gpio_init
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  169 00b0 001C0240 		.word	1073880064
  170 00b4 00200240 		.word	1073881088
  171              		.cfi_endproc
-ARM GAS  /tmp/ccfHodVq.s 			page 4
+ARM GAS  /tmp/ccCRmBt7.s 			page 4
 
 
  172              	.LFE325:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  226              	sdc_lld_is_card_inserted:
  227              	.LFB327:
  228              		.loc 1 256 0
-ARM GAS  /tmp/ccfHodVq.s 			page 5
+ARM GAS  /tmp/ccCRmBt7.s 			page 5
 
 
  229              		.cfi_startproc
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  283              		.section	.rodata.gpio_default_config,"a",%progbits
  284              		.align	2
  285              		.set	.LANCHOR0,. + 0
-ARM GAS  /tmp/ccfHodVq.s 			page 6
+ARM GAS  /tmp/ccCRmBt7.s 			page 6
 
 
  286              		.type	gpio_default_config, %object
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  340 00cc 0A000000 		.word	10
  341 00d0 00000000 		.word	0
  342 00d4 03000000 		.word	3
-ARM GAS  /tmp/ccfHodVq.s 			page 7
+ARM GAS  /tmp/ccCRmBt7.s 			page 7
 
 
  343 00d8 00000000 		.word	0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  397              		.file 45 "../../modules/ChibiOS/os/hal/ports/STM32/LLD/OTGv1/hal_usb_lld.h"
  398              		.file 46 "../../modules/ChibiOS/os/hal/ports/STM32/LLD/OTGv1/stm32_otg.h"
  399              		.file 47 "../../modules/ChibiOS/os/hal/include/hal_serial_usb.h"
-ARM GAS  /tmp/ccfHodVq.s 			page 8
+ARM GAS  /tmp/ccCRmBt7.s 			page 8
 
 
  400              		.file 48 "../../libraries/AP_HAL_ChibiOS/hwdef/common/usbcfg.h"
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  454 0066 D1070000 		.4byte	.LASF6
  455 006a 05       		.uleb128 0x5
  456 006b 02       		.byte	0x2
-ARM GAS  /tmp/ccfHodVq.s 			page 9
+ARM GAS  /tmp/ccCRmBt7.s 			page 9
 
 
  457 006c 05       		.byte	0x5
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  511 00db 83000000 		.4byte	0x83
  512 00df 04       		.uleb128 0x4
  513 00e0 D4000000 		.4byte	0xd4
-ARM GAS  /tmp/ccfHodVq.s 			page 10
+ARM GAS  /tmp/ccCRmBt7.s 			page 10
 
 
  514 00e4 03       		.uleb128 0x3
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  568 015c 03       		.uleb128 0x3
  569 015d 1B190000 		.4byte	.LASF29
  570 0161 06       		.byte	0x6
-ARM GAS  /tmp/ccfHodVq.s 			page 11
+ARM GAS  /tmp/ccCRmBt7.s 			page 11
 
 
  571 0162 32       		.byte	0x32
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  625 01d1 B10E0000 		.4byte	.LASF37
  626 01d5 08       		.byte	0x8
  627 01d6 9B       		.byte	0x9b
-ARM GAS  /tmp/ccfHodVq.s 			page 12
+ARM GAS  /tmp/ccCRmBt7.s 			page 12
 
 
  628 01d7 9A0E0000 		.4byte	0xe9a
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  682 0246 940E0000 		.4byte	0xe94
  683 024a 38       		.byte	0x38
  684 024b 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccfHodVq.s 			page 13
+ARM GAS  /tmp/ccCRmBt7.s 			page 13
 
 
  685 024c 481B0000 		.4byte	.LASF46
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  739 02bd 00       		.byte	0
  740 02be 08       		.uleb128 0x8
  741 02bf 151B0000 		.4byte	.LASF55
-ARM GAS  /tmp/ccfHodVq.s 			page 14
+ARM GAS  /tmp/ccCRmBt7.s 			page 14
 
 
  742 02c3 08       		.byte	0x8
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  796 0333 F1140000 		.4byte	.LASF59
  797 0337 07       		.byte	0x7
  798 0338 51       		.byte	0x51
-ARM GAS  /tmp/ccfHodVq.s 			page 15
+ARM GAS  /tmp/ccCRmBt7.s 			page 15
 
 
  799 0339 3D030000 		.4byte	0x33d
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  853 03ab 6D180000 		.4byte	.LASF64
  854 03af 07       		.byte	0x7
  855 03b0 5B       		.byte	0x5b
-ARM GAS  /tmp/ccfHodVq.s 			page 16
+ARM GAS  /tmp/ccCRmBt7.s 			page 16
 
 
  856 03b1 B5030000 		.4byte	0x3b5
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  910 0424 28040000 		.4byte	0x428
  911 0428 0D       		.uleb128 0xd
  912 0429 C4100000 		.4byte	.LASF71
-ARM GAS  /tmp/ccfHodVq.s 			page 17
+ARM GAS  /tmp/ccCRmBt7.s 			page 17
 
 
  913 042d 78       		.byte	0x78
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  967 04a1 01       		.byte	0x1
  968 04a2 00       		.byte	0
  969 04a3 13       		.uleb128 0x13
-ARM GAS  /tmp/ccfHodVq.s 			page 18
+ARM GAS  /tmp/ccCRmBt7.s 			page 18
 
 
  970 04a4 EF160000 		.4byte	.LASF78
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1024 0519 09       		.uleb128 0x9
  1025 051a 43523200 		.ascii	"CR2\000"
  1026 051e 0C       		.byte	0xc
-ARM GAS  /tmp/ccfHodVq.s 			page 19
+ARM GAS  /tmp/ccCRmBt7.s 			page 19
 
 
  1027 051f CE       		.byte	0xce
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1081 058b D7       		.byte	0xd7
  1082 058c EF000000 		.4byte	0xef
  1083 0590 2C       		.byte	0x2c
-ARM GAS  /tmp/ccfHodVq.s 			page 20
+ARM GAS  /tmp/ccCRmBt7.s 			page 20
 
 
  1084 0591 08       		.uleb128 0x8
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1138 05fc 16       		.uleb128 0x16
  1139 05fd 18       		.byte	0x18
  1140 05fe 0C       		.byte	0xc
-ARM GAS  /tmp/ccfHodVq.s 			page 21
+ARM GAS  /tmp/ccCRmBt7.s 			page 21
 
 
  1141 05ff 7101     		.2byte	0x171
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1195 0675 EF000000 		.4byte	0xef
  1196 0679 84060000 		.4byte	0x684
  1197 067d 12       		.uleb128 0x12
-ARM GAS  /tmp/ccfHodVq.s 			page 22
+ARM GAS  /tmp/ccCRmBt7.s 			page 22
 
 
  1198 067e 8C040000 		.4byte	0x48c
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1252 06f1 0C       		.byte	0xc
  1253 06f2 7602     		.2byte	0x276
  1254 06f4 EF000000 		.4byte	0xef
-ARM GAS  /tmp/ccfHodVq.s 			page 23
+ARM GAS  /tmp/ccCRmBt7.s 			page 23
 
 
  1255 06f8 1C       		.byte	0x1c
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1309 0769 0B       		.uleb128 0xb
  1310 076a 89090000 		.4byte	.LASF109
  1311 076e 0C       		.byte	0xc
-ARM GAS  /tmp/ccfHodVq.s 			page 24
+ARM GAS  /tmp/ccCRmBt7.s 			page 24
 
 
  1312 076f 9D02     		.2byte	0x29d
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1366 07e4 A602     		.2byte	0x2a6
  1367 07e6 E4000000 		.4byte	0xe4
  1368 07ea 3C       		.byte	0x3c
-ARM GAS  /tmp/ccfHodVq.s 			page 25
+ARM GAS  /tmp/ccCRmBt7.s 			page 25
 
 
  1369 07eb 0B       		.uleb128 0xb
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1423 0860 0B       		.uleb128 0xb
  1424 0861 75160000 		.4byte	.LASF128
  1425 0865 0C       		.byte	0xc
-ARM GAS  /tmp/ccfHodVq.s 			page 26
+ARM GAS  /tmp/ccCRmBt7.s 			page 26
 
 
  1426 0866 B002     		.2byte	0x2b0
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1480 08d8 0303     		.2byte	0x303
  1481 08da E3090000 		.4byte	0x9e3
  1482 08de 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccfHodVq.s 			page 27
+ARM GAS  /tmp/ccCRmBt7.s 			page 27
 
 
  1483 08df CE100000 		.4byte	.LASF136
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1537 0954 CD0E0000 		.4byte	.LASF143
  1538 0958 0C       		.byte	0xc
  1539 0959 0E03     		.2byte	0x30e
-ARM GAS  /tmp/ccfHodVq.s 			page 28
+ARM GAS  /tmp/ccCRmBt7.s 			page 28
 
 
  1540 095b EF000000 		.4byte	0xef
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1594 09d0 E3090000 		.4byte	0x9e3
  1595 09d4 4C       		.byte	0x4c
  1596 09d5 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccfHodVq.s 			page 29
+ARM GAS  /tmp/ccCRmBt7.s 			page 29
 
 
  1597 09d6 DF070000 		.4byte	.LASF149
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1651 0a48 6B090000 		.4byte	.LASF152
  1652 0a4c 0C       		.byte	0xc
  1653 0a4d 2603     		.2byte	0x326
-ARM GAS  /tmp/ccfHodVq.s 			page 30
+ARM GAS  /tmp/ccCRmBt7.s 			page 30
 
 
  1654 0a4f EF000000 		.4byte	0xef
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1708 0ac2 0C       		.byte	0xc
  1709 0ac3 0A       		.uleb128 0xa
  1710 0ac4 43523200 		.ascii	"CR2\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 31
+ARM GAS  /tmp/ccCRmBt7.s 			page 31
 
 
  1711 0ac8 0C       		.byte	0xc
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1765 0b3a 0D       		.uleb128 0xd
  1766 0b3b 13000000 		.4byte	.LASF162
  1767 0b3f 64       		.byte	0x64
-ARM GAS  /tmp/ccfHodVq.s 			page 32
+ARM GAS  /tmp/ccCRmBt7.s 			page 32
 
 
  1768 0b40 0E       		.byte	0xe
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1822 0bb5 6301     		.2byte	0x163
  1823 0bb7 0C0B0000 		.4byte	0xb0c
  1824 0bbb 20       		.byte	0x20
-ARM GAS  /tmp/ccfHodVq.s 			page 33
+ARM GAS  /tmp/ccCRmBt7.s 			page 33
 
 
  1825 0bbc 0A       		.uleb128 0xa
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1879 0c2f 0A       		.uleb128 0xa
  1880 0c30 723600   		.ascii	"r6\000"
  1881 0c33 0E       		.byte	0xe
-ARM GAS  /tmp/ccfHodVq.s 			page 34
+ARM GAS  /tmp/ccCRmBt7.s 			page 34
 
 
  1882 0c34 6E01     		.2byte	0x16e
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1936 0ca2 0A       		.uleb128 0xa
  1937 0ca3 43523200 		.ascii	"CR2\000"
  1938 0ca7 0F       		.byte	0xf
-ARM GAS  /tmp/ccfHodVq.s 			page 35
+ARM GAS  /tmp/ccCRmBt7.s 			page 35
 
 
  1939 0ca8 F701     		.2byte	0x1f7
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  1993 0d1c 0002     		.2byte	0x200
  1994 0d1e EF000000 		.4byte	0xef
  1995 0d22 28       		.byte	0x28
-ARM GAS  /tmp/ccfHodVq.s 			page 36
+ARM GAS  /tmp/ccCRmBt7.s 			page 36
 
 
  1996 0d23 0A       		.uleb128 0xa
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2050 0d97 00       		.byte	0
  2051 0d98 17       		.uleb128 0x17
  2052 0d99 D6160000 		.4byte	.LASF172
-ARM GAS  /tmp/ccfHodVq.s 			page 37
+ARM GAS  /tmp/ccCRmBt7.s 			page 37
 
 
  2053 0d9d 0F       		.byte	0xf
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2107 0e0a 510E0000 		.4byte	0xe51
  2108 0e0e 19       		.uleb128 0x19
  2109 0e0f 36150000 		.4byte	.LASF181
-ARM GAS  /tmp/ccfHodVq.s 			page 38
+ARM GAS  /tmp/ccCRmBt7.s 			page 38
 
 
  2110 0e13 08       		.byte	0x8
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2164 0e80 12       		.byte	0x12
  2165 0e81 3E       		.byte	0x3e
  2166 0e82 F60F0000 		.4byte	0xff6
-ARM GAS  /tmp/ccfHodVq.s 			page 39
+ARM GAS  /tmp/ccCRmBt7.s 			page 39
 
 
  2167 0e86 0C       		.byte	0xc
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2221 0ef3 08       		.uleb128 0x8
  2222 0ef4 61060000 		.4byte	.LASF189
  2223 0ef8 14       		.byte	0x14
-ARM GAS  /tmp/ccfHodVq.s 			page 40
+ARM GAS  /tmp/ccCRmBt7.s 			page 40
 
 
  2224 0ef9 36       		.byte	0x36
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2278 0f65 3F       		.byte	0x3f
  2279 0f66 B9000000 		.4byte	0xb9
  2280 0f6a 0E       		.byte	0xe
-ARM GAS  /tmp/ccfHodVq.s 			page 41
+ARM GAS  /tmp/ccCRmBt7.s 			page 41
 
 
  2281 0f6b 08       		.uleb128 0x8
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2335 0fd7 DF0E0000 		.4byte	0xedf
  2336 0fdb 06       		.uleb128 0x6
  2337 0fdc D00F0000 		.4byte	0xfd0
-ARM GAS  /tmp/ccfHodVq.s 			page 42
+ARM GAS  /tmp/ccCRmBt7.s 			page 42
 
 
  2338 0fe0 14       		.uleb128 0x14
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2392 104f 00       		.byte	0
  2393 1050 0C       		.uleb128 0xc
  2394 1051 04       		.byte	0x4
-ARM GAS  /tmp/ccfHodVq.s 			page 43
+ARM GAS  /tmp/ccCRmBt7.s 			page 43
 
 
  2395 1052 FC0F0000 		.4byte	0xffc
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2449 10c1 C7100000 		.4byte	0x10c7
  2450 10c5 04       		.byte	0x4
  2451 10c6 00       		.byte	0
-ARM GAS  /tmp/ccfHodVq.s 			page 44
+ARM GAS  /tmp/ccCRmBt7.s 			page 44
 
 
  2452 10c7 0C       		.uleb128 0xc
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2506 1133 17       		.byte	0x17
  2507 1134 45       		.byte	0x45
  2508 1135 81100000 		.4byte	0x1081
-ARM GAS  /tmp/ccfHodVq.s 			page 45
+ARM GAS  /tmp/ccCRmBt7.s 			page 45
 
 
  2509 1139 0C       		.byte	0xc
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2563 11a5 AF020000 		.4byte	.LASF52
  2564 11a9 18       		.byte	0x18
  2565 11aa BD       		.byte	0xbd
-ARM GAS  /tmp/ccfHodVq.s 			page 46
+ARM GAS  /tmp/ccCRmBt7.s 			page 46
 
 
  2566 11ab B1110000 		.4byte	0x11b1
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2620 121e C3160000 		.4byte	.LASF237
  2621 1222 18       		.byte	0x18
  2622 1223 6301     		.2byte	0x163
-ARM GAS  /tmp/ccfHodVq.s 			page 47
+ARM GAS  /tmp/ccCRmBt7.s 			page 47
 
 
  2623 1225 B7110000 		.4byte	0x11b7
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2677 129a 0B       		.uleb128 0xb
  2678 129b E7030000 		.4byte	.LASF246
  2679 129f 19       		.byte	0x19
-ARM GAS  /tmp/ccfHodVq.s 			page 48
+ARM GAS  /tmp/ccCRmBt7.s 			page 48
 
 
  2680 12a0 AD01     		.2byte	0x1ad
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2734 131e 0F       		.uleb128 0xf
  2735 131f 2C000000 		.4byte	0x2c
  2736 1323 00       		.byte	0
-ARM GAS  /tmp/ccfHodVq.s 			page 49
+ARM GAS  /tmp/ccCRmBt7.s 			page 49
 
 
  2737 1324 0C       		.uleb128 0xc
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2791 13a5 0F       		.uleb128 0xf
  2792 13a6 2C000000 		.4byte	0x2c
  2793 13aa 0F       		.uleb128 0xf
-ARM GAS  /tmp/ccfHodVq.s 			page 50
+ARM GAS  /tmp/ccCRmBt7.s 			page 50
 
 
  2794 13ab 81040000 		.4byte	0x481
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2848 1423 1F       		.uleb128 0x1f
  2849 1424 C9060000 		.4byte	.LASF254
  2850 1428 05       		.byte	0x5
-ARM GAS  /tmp/ccfHodVq.s 			page 51
+ARM GAS  /tmp/ccCRmBt7.s 			page 51
 
 
  2851 1429 1F       		.uleb128 0x1f
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2905 149b 0F       		.uleb128 0xf
  2906 149c C7100000 		.4byte	0x10c7
  2907 14a0 0F       		.uleb128 0xf
-ARM GAS  /tmp/ccfHodVq.s 			page 52
+ARM GAS  /tmp/ccCRmBt7.s 			page 52
 
 
  2908 14a1 E4000000 		.4byte	0xe4
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  2962 151c 1B       		.byte	0x1b
  2963 151d 4F       		.byte	0x4f
  2964 151e 9B020000 		.4byte	0x29b
-ARM GAS  /tmp/ccfHodVq.s 			page 53
+ARM GAS  /tmp/ccCRmBt7.s 			page 53
 
 
  2965 1522 00       		.byte	0
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3019 158d 28       		.byte	0x28
  3020 158e 09       		.uleb128 0x9
  3021 158f 746F7000 		.ascii	"top\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 54
+ARM GAS  /tmp/ccCRmBt7.s 			page 54
 
 
  3022 1593 1B       		.byte	0x1b
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3076 1602 08       		.uleb128 0x8
  3077 1603 03050000 		.4byte	.LASF278
  3078 1607 1C       		.byte	0x1c
-ARM GAS  /tmp/ccfHodVq.s 			page 55
+ARM GAS  /tmp/ccCRmBt7.s 			page 55
 
 
  3079 1608 4C       		.byte	0x4c
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3133 1674 0E       		.uleb128 0xe
  3134 1675 7F160000 		.4byte	0x167f
  3135 1679 0F       		.uleb128 0xf
-ARM GAS  /tmp/ccfHodVq.s 			page 56
+ARM GAS  /tmp/ccCRmBt7.s 			page 56
 
 
  3136 167a 7F160000 		.4byte	0x167f
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3190 16e5 08       		.uleb128 0x8
  3191 16e6 37160000 		.4byte	.LASF291
  3192 16ea 1E       		.byte	0x1e
-ARM GAS  /tmp/ccfHodVq.s 			page 57
+ARM GAS  /tmp/ccCRmBt7.s 			page 57
 
 
  3193 16eb 5D       		.byte	0x5d
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3247 1750 57       		.byte	0x57
  3248 1751 EF000000 		.4byte	0xef
  3249 1755 10       		.byte	0x10
-ARM GAS  /tmp/ccfHodVq.s 			page 58
+ARM GAS  /tmp/ccCRmBt7.s 			page 58
 
 
  3250 1756 09       		.uleb128 0x9
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3304 17c5 EB01     		.2byte	0x1eb
  3305 17c7 AF170000 		.4byte	0x17af
  3306 17cb 1E       		.uleb128 0x1e
-ARM GAS  /tmp/ccfHodVq.s 			page 59
+ARM GAS  /tmp/ccCRmBt7.s 			page 59
 
 
  3307 17cc 01       		.byte	0x1
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3361 183b 20       		.byte	0x20
  3362 183c AB       		.byte	0xab
  3363 183d 061A0000 		.4byte	0x1a06
-ARM GAS  /tmp/ccfHodVq.s 			page 60
+ARM GAS  /tmp/ccCRmBt7.s 			page 60
 
 
  3364 1841 08       		.byte	0x8
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3418 18ad 99       		.byte	0x99
  3419 18ae E4000000 		.4byte	0xe4
  3420 18b2 00       		.byte	0
-ARM GAS  /tmp/ccfHodVq.s 			page 61
+ARM GAS  /tmp/ccCRmBt7.s 			page 61
 
 
  3421 18b3 00       		.byte	0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3475 191f E4000000 		.4byte	0xe4
  3476 1923 14       		.byte	0x14
  3477 1924 08       		.uleb128 0x8
-ARM GAS  /tmp/ccfHodVq.s 			page 62
+ARM GAS  /tmp/ccCRmBt7.s 			page 62
 
 
  3478 1925 30110000 		.4byte	.LASF328
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3532 1997 00       		.byte	0
  3533 1998 1F       		.uleb128 0x1f
  3534 1999 F0020000 		.4byte	.LASF335
-ARM GAS  /tmp/ccfHodVq.s 			page 63
+ARM GAS  /tmp/ccCRmBt7.s 			page 63
 
 
  3535 199d 01       		.byte	0x1
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3589 1a0e BF180000 		.4byte	0x18bf
  3590 1a12 0C       		.uleb128 0xc
  3591 1a13 04       		.byte	0x4
-ARM GAS  /tmp/ccfHodVq.s 			page 64
+ARM GAS  /tmp/ccCRmBt7.s 			page 64
 
 
  3592 1a14 F1050000 		.4byte	0x5f1
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3646 1a86 38000000 		.4byte	.LASF351
  3647 1a8a 02       		.byte	0x2
  3648 1a8b 1F       		.uleb128 0x1f
-ARM GAS  /tmp/ccfHodVq.s 			page 65
+ARM GAS  /tmp/ccCRmBt7.s 			page 65
 
 
  3649 1a8c FB070000 		.4byte	.LASF352
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3703 1afc 50010000 		.4byte	.LASF361
  3704 1b00 23       		.byte	0x23
  3705 1b01 9201     		.2byte	0x192
-ARM GAS  /tmp/ccfHodVq.s 			page 66
+ARM GAS  /tmp/ccCRmBt7.s 			page 66
 
 
  3706 1b03 CA1A0000 		.4byte	0x1aca
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3760 1b7b E4000000 		.4byte	0xe4
  3761 1b7f 28       		.byte	0x28
  3762 1b80 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccfHodVq.s 			page 67
+ARM GAS  /tmp/ccCRmBt7.s 			page 67
 
 
  3763 1b81 5C0E0000 		.4byte	.LASF367
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3817 1bf5 380A0000 		.4byte	.LASF374
  3818 1bf9 23       		.byte	0x23
  3819 1bfa F901     		.2byte	0x1f9
-ARM GAS  /tmp/ccfHodVq.s 			page 68
+ARM GAS  /tmp/ccCRmBt7.s 			page 68
 
 
  3820 1bfc 0C1B0000 		.4byte	0x1b0c
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3874 1c6f BF02     		.2byte	0x2bf
  3875 1c71 D81C0000 		.4byte	0x1cd8
  3876 1c75 0C       		.byte	0xc
-ARM GAS  /tmp/ccfHodVq.s 			page 69
+ARM GAS  /tmp/ccCRmBt7.s 			page 69
 
 
  3877 1c76 0B       		.uleb128 0xb
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3931 1cec E4000000 		.4byte	0xe4
  3932 1cf0 16       		.uleb128 0x16
  3933 1cf1 08       		.byte	0x8
-ARM GAS  /tmp/ccfHodVq.s 			page 70
+ARM GAS  /tmp/ccCRmBt7.s 			page 70
 
 
  3934 1cf2 25       		.byte	0x25
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  3988 1d65 E4000000 		.4byte	0xe4
  3989 1d69 2C       		.byte	0x2c
  3990 1d6a 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccfHodVq.s 			page 71
+ARM GAS  /tmp/ccCRmBt7.s 			page 71
 
 
  3991 1d6b F7090000 		.4byte	.LASF393
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4045 1de2 A71B0000 		.4byte	.LASF400
  4046 1de6 02       		.byte	0x2
  4047 1de7 00       		.byte	0
-ARM GAS  /tmp/ccfHodVq.s 			page 72
+ARM GAS  /tmp/ccCRmBt7.s 			page 72
 
 
  4048 1de8 03       		.uleb128 0x3
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4102 1e56 26       		.byte	0x26
  4103 1e57 7E       		.byte	0x7e
  4104 1e58 D31F0000 		.4byte	0x1fd3
-ARM GAS  /tmp/ccfHodVq.s 			page 73
+ARM GAS  /tmp/ccCRmBt7.s 			page 73
 
 
  4105 1e5c 5402     		.2byte	0x254
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4159 1ecf 0B       		.uleb128 0xb
  4160 1ed0 B3040000 		.4byte	.LASF410
  4161 1ed4 27       		.byte	0x27
-ARM GAS  /tmp/ccfHodVq.s 			page 74
+ARM GAS  /tmp/ccCRmBt7.s 			page 74
 
 
  4162 1ed5 2501     		.2byte	0x125
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4216 1f50 02010000 		.4byte	.LASF413
  4217 1f54 26       		.byte	0x26
  4218 1f55 71       		.byte	0x71
-ARM GAS  /tmp/ccfHodVq.s 			page 75
+ARM GAS  /tmp/ccCRmBt7.s 			page 75
 
 
  4219 1f56 2C000000 		.4byte	0x2c
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4273 1fc2 F3130000 		.4byte	0x13f3
  4274 1fc6 24       		.byte	0x24
  4275 1fc7 00       		.byte	0
-ARM GAS  /tmp/ccfHodVq.s 			page 76
+ARM GAS  /tmp/ccCRmBt7.s 			page 76
 
 
  4276 1fc8 06       		.uleb128 0x6
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4330 203b 0D       		.uleb128 0xd
  4331 203c 4B0D0000 		.4byte	.LASF426
  4332 2040 50       		.byte	0x50
-ARM GAS  /tmp/ccfHodVq.s 			page 77
+ARM GAS  /tmp/ccCRmBt7.s 			page 77
 
 
  4333 2041 29       		.byte	0x29
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4387 20b6 2A01     		.2byte	0x12a
  4388 20b8 E4000000 		.4byte	0xe4
  4389 20bc 38       		.byte	0x38
-ARM GAS  /tmp/ccfHodVq.s 			page 78
+ARM GAS  /tmp/ccCRmBt7.s 			page 78
 
 
  4390 20bd 0B       		.uleb128 0xb
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4444 212c 00       		.byte	0
  4445 212d 17       		.uleb128 0x17
  4446 212e 670D0000 		.4byte	.LASF434
-ARM GAS  /tmp/ccfHodVq.s 			page 79
+ARM GAS  /tmp/ccCRmBt7.s 			page 79
 
 
  4447 2132 29       		.byte	0x29
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4501 21a7 79130000 		.4byte	.LASF440
  4502 21ab 29       		.byte	0x29
  4503 21ac 0F01     		.2byte	0x10f
-ARM GAS  /tmp/ccfHodVq.s 			page 80
+ARM GAS  /tmp/ccCRmBt7.s 			page 80
 
 
  4504 21ae 82140000 		.4byte	0x1482
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4558 221f 2A       		.byte	0x2a
  4559 2220 7A       		.byte	0x7a
  4560 2221 EF210000 		.4byte	0x21ef
-ARM GAS  /tmp/ccfHodVq.s 			page 81
+ARM GAS  /tmp/ccCRmBt7.s 			page 81
 
 
  4561 2225 03       		.uleb128 0x3
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4615 2291 5B070000 		.4byte	.LASF366
  4616 2295 2A       		.byte	0x2a
  4617 2296 D9       		.byte	0xd9
-ARM GAS  /tmp/ccfHodVq.s 			page 82
+ARM GAS  /tmp/ccCRmBt7.s 			page 82
 
 
  4618 2297 E4000000 		.4byte	0xe4
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4672 2306 2A       		.byte	0x2a
  4673 2307 BA       		.byte	0xba
  4674 2308 C9000000 		.4byte	0xc9
-ARM GAS  /tmp/ccfHodVq.s 			page 83
+ARM GAS  /tmp/ccCRmBt7.s 			page 83
 
 
  4675 230c 12       		.byte	0x12
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4729 2381 AF240000 		.4byte	0x24af
  4730 2385 00       		.byte	0
  4731 2386 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccfHodVq.s 			page 84
+ARM GAS  /tmp/ccCRmBt7.s 			page 84
 
 
  4732 2387 C0140000 		.4byte	.LASF312
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4786 23fc 1C160000 		.4byte	.LASF467
  4787 2400 2D       		.byte	0x2d
  4788 2401 D601     		.2byte	0x1d6
-ARM GAS  /tmp/ccfHodVq.s 			page 85
+ARM GAS  /tmp/ccCRmBt7.s 			page 85
 
 
  4789 2403 78250000 		.4byte	0x2578
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4843 2477 0801     		.2byte	0x108
  4844 2479 B9000000 		.4byte	0xb9
  4845 247d 21       		.uleb128 0x21
-ARM GAS  /tmp/ccfHodVq.s 			page 86
+ARM GAS  /tmp/ccCRmBt7.s 			page 86
 
 
  4846 247e 01       		.byte	0x1
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4900 24ed CF0B0000 		.4byte	.LASF489
  4901 24f1 06       		.byte	0x6
  4902 24f2 00       		.byte	0
-ARM GAS  /tmp/ccfHodVq.s 			page 87
+ARM GAS  /tmp/ccCRmBt7.s 			page 87
 
 
  4903 24f3 17       		.uleb128 0x17
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  4957 2565 04       		.byte	0x4
  4958 2566 00       		.byte	0
  4959 2567 17       		.uleb128 0x17
-ARM GAS  /tmp/ccfHodVq.s 			page 88
+ARM GAS  /tmp/ccCRmBt7.s 			page 88
 
 
  4960 2568 4D130000 		.4byte	.LASF501
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5014 25e4 2C       		.byte	0x2c
  5015 25e5 6B01     		.2byte	0x16b
  5016 25e7 EB250000 		.4byte	0x25eb
-ARM GAS  /tmp/ccfHodVq.s 			page 89
+ARM GAS  /tmp/ccCRmBt7.s 			page 89
 
 
  5017 25eb 0C       		.uleb128 0xc
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5071 2661 08       		.byte	0x8
  5072 2662 08       		.uleb128 0x8
  5073 2663 B7140000 		.4byte	.LASF510
-ARM GAS  /tmp/ccfHodVq.s 			page 90
+ARM GAS  /tmp/ccCRmBt7.s 			page 90
 
 
  5074 2667 2E       		.byte	0x2e
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5128 26d0 3E       		.byte	0x3e
  5129 26d1 EF000000 		.4byte	0xef
  5130 26d5 08       		.byte	0x8
-ARM GAS  /tmp/ccfHodVq.s 			page 91
+ARM GAS  /tmp/ccCRmBt7.s 			page 91
 
 
  5131 26d6 08       		.uleb128 0x8
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5185 273f 56120000 		.4byte	.LASF525
  5186 2743 2E       		.byte	0x2e
  5187 2744 50       		.byte	0x50
-ARM GAS  /tmp/ccfHodVq.s 			page 92
+ARM GAS  /tmp/ccCRmBt7.s 			page 92
 
 
  5188 2745 EF000000 		.4byte	0xef
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5242 27b4 04       		.byte	0x4
  5243 27b5 08       		.uleb128 0x8
  5244 27b6 9A060000 		.4byte	.LASF530
-ARM GAS  /tmp/ccfHodVq.s 			page 93
+ARM GAS  /tmp/ccCRmBt7.s 			page 93
 
 
  5245 27ba 2E       		.byte	0x2e
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5299 2826 2E       		.byte	0x2e
  5300 2827 6C       		.byte	0x6c
  5301 2828 EF000000 		.4byte	0xef
-ARM GAS  /tmp/ccfHodVq.s 			page 94
+ARM GAS  /tmp/ccCRmBt7.s 			page 94
 
 
  5302 282c 2C       		.byte	0x2c
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5356 289b 0004     		.2byte	0x400
  5357 289d 24       		.uleb128 0x24
  5358 289e 9B1A0000 		.4byte	.LASF548
-ARM GAS  /tmp/ccfHodVq.s 			page 95
+ARM GAS  /tmp/ccCRmBt7.s 			page 95
 
 
  5359 28a2 2E       		.byte	0x2e
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5413 2916 2E       		.byte	0x2e
  5414 2917 87       		.byte	0x87
  5415 2918 C32A0000 		.4byte	0x2ac3
-ARM GAS  /tmp/ccfHodVq.s 			page 96
+ARM GAS  /tmp/ccCRmBt7.s 			page 96
 
 
  5416 291c 0005     		.2byte	0x500
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5470 2991 1C08     		.2byte	0x81c
  5471 2993 24       		.uleb128 0x24
  5472 2994 71050000 		.4byte	.LASF566
-ARM GAS  /tmp/ccfHodVq.s 			page 97
+ARM GAS  /tmp/ccCRmBt7.s 			page 97
 
 
  5473 2998 2E       		.byte	0x2e
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5527 2a0d 2E       		.byte	0x2e
  5528 2a0e A1       		.byte	0xa1
  5529 2a0f F82A0000 		.4byte	0x2af8
-ARM GAS  /tmp/ccfHodVq.s 			page 98
+ARM GAS  /tmp/ccCRmBt7.s 			page 98
 
 
  5530 2a13 8008     		.2byte	0x880
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5584 2a85 EF000000 		.4byte	0xef
  5585 2a89 942A0000 		.4byte	0x2a94
  5586 2a8d 12       		.uleb128 0x12
-ARM GAS  /tmp/ccfHodVq.s 			page 99
+ARM GAS  /tmp/ccCRmBt7.s 			page 99
 
 
  5587 2a8e 8C040000 		.4byte	0x48c
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5641 2b0c 00       		.byte	0
  5642 2b0d 11       		.uleb128 0x11
  5643 2b0e 87270000 		.4byte	0x2787
-ARM GAS  /tmp/ccfHodVq.s 			page 100
+ARM GAS  /tmp/ccCRmBt7.s 			page 100
 
 
  5644 2b12 1D2B0000 		.4byte	0x2b1d
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5698 2b89 00       		.byte	0
  5699 2b8a 17       		.uleb128 0x17
  5700 2b8b 4F090000 		.4byte	.LASF584
-ARM GAS  /tmp/ccfHodVq.s 			page 101
+ARM GAS  /tmp/ccCRmBt7.s 			page 101
 
 
  5701 2b8f 2D       		.byte	0x2d
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5755 2c01 3101     		.2byte	0x131
  5756 2c03 2C000000 		.4byte	0x2c
  5757 2c07 04       		.byte	0x4
-ARM GAS  /tmp/ccfHodVq.s 			page 102
+ARM GAS  /tmp/ccCRmBt7.s 			page 102
 
 
  5758 2c08 0B       		.uleb128 0xb
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5812 2c7a 5D0C0000 		.4byte	.LASF599
  5813 2c7e 2D       		.byte	0x2d
  5814 2c7f 6A01     		.2byte	0x16a
-ARM GAS  /tmp/ccfHodVq.s 			page 103
+ARM GAS  /tmp/ccCRmBt7.s 			page 103
 
 
  5815 2c81 C9000000 		.4byte	0xc9
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5869 2cf4 9301     		.2byte	0x193
  5870 2cf6 00260000 		.4byte	0x2600
  5871 2cfa 04       		.byte	0x4
-ARM GAS  /tmp/ccfHodVq.s 			page 104
+ARM GAS  /tmp/ccCRmBt7.s 			page 104
 
 
  5872 2cfb 0B       		.uleb128 0xb
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5926 2d70 6C000000 		.4byte	.LASF610
  5927 2d74 2D       		.byte	0x2d
  5928 2d75 3902     		.2byte	0x239
-ARM GAS  /tmp/ccfHodVq.s 			page 105
+ARM GAS  /tmp/ccCRmBt7.s 			page 105
 
 
  5929 2d77 60230000 		.4byte	0x2360
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  5983 2de7 A2       		.byte	0xa2
  5984 2de8 D5150000 		.4byte	0x15d5
  5985 2dec 0C       		.byte	0xc
-ARM GAS  /tmp/ccfHodVq.s 			page 106
+ARM GAS  /tmp/ccCRmBt7.s 			page 106
 
 
  5986 2ded 08       		.uleb128 0x8
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6040 2e56 00       		.byte	0
  6041 2e57 03       		.uleb128 0x3
  6042 2e58 B1180000 		.4byte	.LASF622
-ARM GAS  /tmp/ccfHodVq.s 			page 107
+ARM GAS  /tmp/ccCRmBt7.s 			page 107
 
 
  6043 2e5c 2F       		.byte	0x2f
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6097 2ec8 D7180000 		.4byte	.LASF418
  6098 2ecc 2F       		.byte	0x2f
  6099 2ecd 95       		.byte	0x95
-ARM GAS  /tmp/ccfHodVq.s 			page 108
+ARM GAS  /tmp/ccCRmBt7.s 			page 108
 
 
  6100 2ece B0130000 		.4byte	0x13b0
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6154 2f41 E4000000 		.4byte	0xe4
  6155 2f45 14       		.uleb128 0x14
  6156 2f46 9B100000 		.4byte	.LASF629
-ARM GAS  /tmp/ccfHodVq.s 			page 109
+ARM GAS  /tmp/ccCRmBt7.s 			page 109
 
 
  6157 2f4a 31       		.byte	0x31
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6211 2fb6 18       		.byte	0x18
  6212 2fb7 00       		.byte	0
  6213 2fb8 03       		.uleb128 0x3
-ARM GAS  /tmp/ccfHodVq.s 			page 110
+ARM GAS  /tmp/ccCRmBt7.s 			page 110
 
 
  6214 2fb9 06090000 		.4byte	.LASF637
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6268 3025 A01A0000 		.4byte	.LASF645
  6269 3029 01       		.byte	0x1
  6270 302a 5B       		.byte	0x5b
-ARM GAS  /tmp/ccfHodVq.s 			page 111
+ARM GAS  /tmp/ccCRmBt7.s 			page 111
 
 
  6271 302b B82F0000 		.4byte	0x2fb8
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6325 30a6 01       		.byte	0x1
  6326 30a7 0001     		.2byte	0x100
  6327 30a9 7A100000 		.4byte	0x107a
-ARM GAS  /tmp/ccfHodVq.s 			page 112
+ARM GAS  /tmp/ccCRmBt7.s 			page 112
 
 
  6328 30ad 00000000 		.4byte	.LFB327
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6382 313b E5       		.byte	0xe5
  6383 313c 27320000 		.4byte	0x3227
  6384 3140 30       		.uleb128 0x30
-ARM GAS  /tmp/ccfHodVq.s 			page 113
+ARM GAS  /tmp/ccCRmBt7.s 			page 113
 
 
  6385 3141 34000000 		.4byte	.LVL1
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6439 319b 31       		.uleb128 0x31
  6440 319c 01       		.uleb128 0x1
  6441 319d 50       		.byte	0x50
-ARM GAS  /tmp/ccfHodVq.s 			page 114
+ARM GAS  /tmp/ccCRmBt7.s 			page 114
 
 
  6442 319e 02       		.uleb128 0x2
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6496 31ef 31       		.uleb128 0x31
  6497 31f0 01       		.uleb128 0x1
  6498 31f1 51       		.byte	0x51
-ARM GAS  /tmp/ccfHodVq.s 			page 115
+ARM GAS  /tmp/ccCRmBt7.s 			page 115
 
 
  6499 31f2 02       		.uleb128 0x2
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6553 3249 9C       		.byte	0x9c
  6554 324a 69320000 		.4byte	0x3269
  6555 324e 35       		.uleb128 0x35
-ARM GAS  /tmp/ccfHodVq.s 			page 116
+ARM GAS  /tmp/ccCRmBt7.s 			page 116
 
 
  6556 324f 98040000 		.4byte	.LASF653
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6610              	.Ldebug_abbrev0:
  6611 0000 01       		.uleb128 0x1
  6612 0001 11       		.uleb128 0x11
-ARM GAS  /tmp/ccfHodVq.s 			page 117
+ARM GAS  /tmp/ccCRmBt7.s 			page 117
 
 
  6613 0002 01       		.byte	0x1
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6667 0038 0B       		.uleb128 0xb
  6668 0039 03       		.uleb128 0x3
  6669 003a 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccfHodVq.s 			page 118
+ARM GAS  /tmp/ccCRmBt7.s 			page 118
 
 
  6670 003b 00       		.byte	0
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6724 0071 0A       		.uleb128 0xa
  6725 0072 0D       		.uleb128 0xd
  6726 0073 00       		.byte	0
-ARM GAS  /tmp/ccfHodVq.s 			page 119
+ARM GAS  /tmp/ccCRmBt7.s 			page 119
 
 
  6727 0074 03       		.uleb128 0x3
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6781 00aa 27       		.uleb128 0x27
  6782 00ab 19       		.uleb128 0x19
  6783 00ac 01       		.uleb128 0x1
-ARM GAS  /tmp/ccfHodVq.s 			page 120
+ARM GAS  /tmp/ccCRmBt7.s 			page 120
 
 
  6784 00ad 13       		.uleb128 0x13
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6838 00e3 00       		.byte	0
  6839 00e4 03       		.uleb128 0x3
  6840 00e5 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccfHodVq.s 			page 121
+ARM GAS  /tmp/ccCRmBt7.s 			page 121
 
 
  6841 00e6 3A       		.uleb128 0x3a
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6895 011c 0B       		.uleb128 0xb
  6896 011d 0B       		.uleb128 0xb
  6897 011e 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccfHodVq.s 			page 122
+ARM GAS  /tmp/ccCRmBt7.s 			page 122
 
 
  6898 011f 0B       		.uleb128 0xb
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  6952 0155 00       		.byte	0
  6953 0156 1D       		.uleb128 0x1d
  6954 0157 15       		.uleb128 0x15
-ARM GAS  /tmp/ccfHodVq.s 			page 123
+ARM GAS  /tmp/ccCRmBt7.s 			page 123
 
 
  6955 0158 01       		.byte	0x1
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7009 018e 0B       		.uleb128 0xb
  7010 018f 3B       		.uleb128 0x3b
  7011 0190 05       		.uleb128 0x5
-ARM GAS  /tmp/ccfHodVq.s 			page 124
+ARM GAS  /tmp/ccCRmBt7.s 			page 124
 
 
  7012 0191 01       		.uleb128 0x1
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7066 01c7 2F       		.uleb128 0x2f
  7067 01c8 05       		.uleb128 0x5
  7068 01c9 00       		.byte	0
-ARM GAS  /tmp/ccfHodVq.s 			page 125
+ARM GAS  /tmp/ccCRmBt7.s 			page 125
 
 
  7069 01ca 00       		.byte	0
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7123 0200 06       		.uleb128 0x6
  7124 0201 40       		.uleb128 0x40
  7125 0202 18       		.uleb128 0x18
-ARM GAS  /tmp/ccfHodVq.s 			page 126
+ARM GAS  /tmp/ccCRmBt7.s 			page 126
 
 
  7126 0203 9742     		.uleb128 0x2117
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7180 023b 0B       		.uleb128 0xb
  7181 023c 3B       		.uleb128 0x3b
  7182 023d 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccfHodVq.s 			page 127
+ARM GAS  /tmp/ccCRmBt7.s 			page 127
 
 
  7183 023e 27       		.uleb128 0x27
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7237 027c 11       		.uleb128 0x11
  7238 027d 01       		.uleb128 0x1
  7239 027e 31       		.uleb128 0x31
-ARM GAS  /tmp/ccfHodVq.s 			page 128
+ARM GAS  /tmp/ccCRmBt7.s 			page 128
 
 
  7240 027f 13       		.uleb128 0x13
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7294 02ba 18       		.uleb128 0x18
  7295 02bb 9742     		.uleb128 0x2117
  7296 02bd 19       		.uleb128 0x19
-ARM GAS  /tmp/ccfHodVq.s 			page 129
+ARM GAS  /tmp/ccCRmBt7.s 			page 129
 
 
  7297 02be 01       		.uleb128 0x1
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7351              		.section	.debug_loc,"",%progbits
  7352              	.Ldebug_loc0:
  7353              	.LLST1:
-ARM GAS  /tmp/ccfHodVq.s 			page 130
+ARM GAS  /tmp/ccCRmBt7.s 			page 130
 
 
  7354 0000 00000000 		.4byte	.LVL19
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7408 000c B8000000 		.4byte	.LFE325
  7409 0010 00000000 		.4byte	.LFB326
  7410 0014 1E000000 		.4byte	.LFE326
-ARM GAS  /tmp/ccfHodVq.s 			page 131
+ARM GAS  /tmp/ccCRmBt7.s 			page 131
 
 
  7411 0018 00000000 		.4byte	.LFB327
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7442              	.LASF610:
  7443 006c 55534244 		.ascii	"USBD1\000"
  7443      3100
-ARM GAS  /tmp/ccfHodVq.s 			page 132
+ARM GAS  /tmp/ccCRmBt7.s 			page 132
 
 
  7444              	.LASF402:
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7471      53444953 
  7471      00
  7472              	.LASF363:
-ARM GAS  /tmp/ccfHodVq.s 			page 133
+ARM GAS  /tmp/ccCRmBt7.s 			page 133
 
 
  7473 00fb 6572726F 		.ascii	"errors\000"
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7500      6E203234 
  7500      39343337 
  7501 01cf 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
-ARM GAS  /tmp/ccfHodVq.s 			page 134
+ARM GAS  /tmp/ccCRmBt7.s 			page 134
 
 
  7501      2D6D6670 
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7522      4550305F 
  7522      494E5F57 
  7522      41495449 
-ARM GAS  /tmp/ccfHodVq.s 			page 135
+ARM GAS  /tmp/ccCRmBt7.s 			page 135
 
 
  7522      4E475F54 
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7548 0378 48505458 		.ascii	"HPTXSTS\000"
  7548      53545300 
  7549              	.LASF632:
-ARM GAS  /tmp/ccfHodVq.s 			page 136
+ARM GAS  /tmp/ccCRmBt7.s 			page 136
 
 
  7550 0380 6F747970 		.ascii	"otyper\000"
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7578 0411 72657376 		.ascii	"resvd1c\000"
  7578      64316300 
  7579              	.LASF349:
-ARM GAS  /tmp/ccfHodVq.s 			page 137
+ARM GAS  /tmp/ccCRmBt7.s 			page 137
 
 
  7580 0419 69326366 		.ascii	"i2cflags_t\000"
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7608 049e 72656673 		.ascii	"refs\000"
  7608      00
  7609              	.LASF415:
-ARM GAS  /tmp/ccfHodVq.s 			page 138
+ARM GAS  /tmp/ccCRmBt7.s 			page 138
 
 
  7610 04a3 72656164 		.ascii	"read\000"
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7638      7400
  7639              	.LASF321:
  7640 0530 41444343 		.ascii	"ADCConversionGroup\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 139
+ARM GAS  /tmp/ccCRmBt7.s 			page 139
 
 
  7640      6F6E7665 
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7666 05c5 4144435F 		.ascii	"ADC_COMPLETE\000"
  7666      434F4D50 
  7666      4C455445 
-ARM GAS  /tmp/ccfHodVq.s 			page 140
+ARM GAS  /tmp/ccCRmBt7.s 			page 140
 
 
  7666      00
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7694      495400
  7695              	.LASF189:
  7696 0661 7A65726F 		.ascii	"zero\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 141
+ARM GAS  /tmp/ccCRmBt7.s 			page 141
 
 
  7696      00
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7726      325F6F74 
  7726      675F6F75 
  7726      745F6570 
-ARM GAS  /tmp/ccfHodVq.s 			page 142
+ARM GAS  /tmp/ccCRmBt7.s 			page 142
 
 
  7726      5F7400
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7754      5F7400
  7755              	.LASF274:
  7756 077b 696E7075 		.ascii	"input_buffers_queue_t\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 143
+ARM GAS  /tmp/ccCRmBt7.s 			page 143
 
 
  7756      745F6275 
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7780      4C50454E 
  7780      5200
  7781              	.LASF222:
-ARM GAS  /tmp/ccfHodVq.s 			page 144
+ARM GAS  /tmp/ccCRmBt7.s 			page 144
 
 
  7782 0817 706F6F6C 		.ascii	"pool_header\000"
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7811      747000
  7812              	.LASF356:
  7813 08be 46415354 		.ascii	"FAST_DUTY_CYCLE_16_9\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 145
+ARM GAS  /tmp/ccCRmBt7.s 			page 145
 
 
  7813      5F445554 
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7835      5F7400
  7836              	.LASF577:
  7837 0962 72657376 		.ascii	"resvdD00\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 146
+ARM GAS  /tmp/ccCRmBt7.s 			page 146
 
 
  7837      64443030 
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7867      00
  7868              	.LASF91:
  7869 09e9 4A535152 		.ascii	"JSQR\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 147
+ARM GAS  /tmp/ccCRmBt7.s 			page 147
 
 
  7869      00
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7899 0a69 696F5F62 		.ascii	"io_buffers_queue\000"
  7899      75666665 
  7899      72735F71 
-ARM GAS  /tmp/ccfHodVq.s 			page 148
+ARM GAS  /tmp/ccCRmBt7.s 			page 148
 
 
  7899      75657565 
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7929      63745F73 
  7929      697A6500 
  7930              	.LASF571:
-ARM GAS  /tmp/ccfHodVq.s 			page 149
+ARM GAS  /tmp/ccCRmBt7.s 			page 149
 
 
  7931 0b0a 44494550 		.ascii	"DIEPEMPMSK\000"
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7958              	.LASF294:
  7959 0b96 4F535045 		.ascii	"OSPEEDR\000"
  7959      45445200 
-ARM GAS  /tmp/ccfHodVq.s 			page 150
+ARM GAS  /tmp/ccCRmBt7.s 			page 150
 
 
  7960              	.LASF540:
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  7987 0c31 6770696F 		.ascii	"gpio_default_config\000"
  7987      5F646566 
  7987      61756C74 
-ARM GAS  /tmp/ccfHodVq.s 			page 151
+ARM GAS  /tmp/ccCRmBt7.s 			page 151
 
 
  7987      5F636F6E 
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8015      75657565 
  8015      00
  8016              	.LASF638:
-ARM GAS  /tmp/ccfHodVq.s 			page 152
+ARM GAS  /tmp/ccCRmBt7.s 			page 152
 
 
  8017 0ccf 50414461 		.ascii	"PAData\000"
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8045      00
  8046              	.LASF113:
  8047 0d5e 41504232 		.ascii	"APB2RSTR\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 153
+ARM GAS  /tmp/ccCRmBt7.s 			page 153
 
 
  8047      52535452 
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8076              	.LASF308:
  8077 0de6 4144435F 		.ascii	"ADC_ERROR\000"
  8077      4552524F 
-ARM GAS  /tmp/ccfHodVq.s 			page 154
+ARM GAS  /tmp/ccCRmBt7.s 			page 154
 
 
  8077      5200
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8107 0e6d 68616C5F 		.ascii	"hal_adc_configuration_group\000"
  8107      6164635F 
  8107      636F6E66 
-ARM GAS  /tmp/ccfHodVq.s 			page 155
+ARM GAS  /tmp/ccCRmBt7.s 			page 155
 
 
  8107      69677572 
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8137      4556454E 
  8137      545F434F 
  8137      4E464947 
-ARM GAS  /tmp/ccfHodVq.s 			page 156
+ARM GAS  /tmp/ccCRmBt7.s 			page 156
 
 
  8137      55524544 
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8163      65642063 
  8163      68617200 
  8164              	.LASF428:
-ARM GAS  /tmp/ccfHodVq.s 			page 157
+ARM GAS  /tmp/ccCRmBt7.s 			page 157
 
 
  8165 0fc5 63617264 		.ascii	"cardmode\000"
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8195 1046 73657475 		.ascii	"setup_usb_strings\000"
  8195      705F7573 
  8195      625F7374 
-ARM GAS  /tmp/ccfHodVq.s 			page 158
+ARM GAS  /tmp/ccCRmBt7.s 			page 158
 
 
  8195      72696E67 
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8222              	.LASF63:
  8223 10e6 66756E63 		.ascii	"func\000"
  8223      00
-ARM GAS  /tmp/ccfHodVq.s 			page 159
+ARM GAS  /tmp/ccCRmBt7.s 			page 159
 
 
  8224              	.LASF183:
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8251 1174 7364635F 		.ascii	"sdc_lld_is_card_inserted\000"
  8251      6C6C645F 
  8251      69735F63 
-ARM GAS  /tmp/ccfHodVq.s 			page 160
+ARM GAS  /tmp/ccCRmBt7.s 			page 160
 
 
  8251      6172645F 
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8279      00
  8280              	.LASF311:
  8281 120c 68616C5F 		.ascii	"hal_adc_driver\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 161
+ARM GAS  /tmp/ccCRmBt7.s 			page 161
 
 
  8281      6164635F 
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8312              	.LASF204:
  8313 1295 6F66665F 		.ascii	"off_preempt\000"
  8313      70726565 
-ARM GAS  /tmp/ccfHodVq.s 			page 162
+ARM GAS  /tmp/ccCRmBt7.s 			page 162
 
 
  8313      6D707400 
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8339      5F7400
  8340              	.LASF186:
  8341 1330 63686172 		.ascii	"char\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 163
+ARM GAS  /tmp/ccCRmBt7.s 			page 163
 
 
  8341      00
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8370              	.LASF119:
  8371 13b9 41504231 		.ascii	"APB1ENR\000"
  8371      454E5200 
-ARM GAS  /tmp/ccfHodVq.s 			page 164
+ARM GAS  /tmp/ccCRmBt7.s 			page 164
 
 
  8372              	.LASF471:
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8395      736B00
  8396              	.LASF515:
  8397 146b 73746D33 		.ascii	"stm32_otg_host_chn_t\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 165
+ARM GAS  /tmp/ccCRmBt7.s 			page 165
 
 
  8397      325F6F74 
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8424              	.LASF104:
  8425 1501 464C5452 		.ascii	"FLTR\000"
  8425      00
-ARM GAS  /tmp/ccfHodVq.s 			page 166
+ARM GAS  /tmp/ccCRmBt7.s 			page 166
 
 
  8426              	.LASF427:
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8452              	.LASF491:
  8453 1598 5553425F 		.ascii	"USB_EVENT_RESET\000"
  8453      4556454E 
-ARM GAS  /tmp/ccfHodVq.s 			page 167
+ARM GAS  /tmp/ccCRmBt7.s 			page 167
 
 
  8453      545F5245 
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8481      696E6465 
  8481      7800
  8482              	.LASF208:
-ARM GAS  /tmp/ccfHodVq.s 			page 168
+ARM GAS  /tmp/ccCRmBt7.s 			page 168
 
 
  8483 162f 6D757465 		.ascii	"mutex_t\000"
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8509      00
  8510              	.LASF237:
  8511 16c3 6D62785F 		.ascii	"mbx_list\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 169
+ARM GAS  /tmp/ccCRmBt7.s 			page 169
 
 
  8511      6C697374 
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8537 1764 53504944 		.ascii	"SPID2\000"
  8537      3200
  8538              	.LASF97:
-ARM GAS  /tmp/ccfHodVq.s 			page 170
+ARM GAS  /tmp/ccCRmBt7.s 			page 170
 
 
  8539 176a 4E445452 		.ascii	"NDTR\000"
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8568              	.LASF273:
  8569 17f2 62716E6F 		.ascii	"bqnotify_t\000"
  8569      74696679 
-ARM GAS  /tmp/ccfHodVq.s 			page 171
+ARM GAS  /tmp/ccCRmBt7.s 			page 171
 
 
  8569      5F7400
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8599      75616C5F 
  8599      74696D65 
  8599      72735F6C 
-ARM GAS  /tmp/ccfHodVq.s 			page 172
+ARM GAS  /tmp/ccCRmBt7.s 			page 172
 
 
  8599      6973745F 
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8627      5F7400
  8628              	.LASF606:
  8629 1909 6765745F 		.ascii	"get_descriptor_cb\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 173
+ARM GAS  /tmp/ccCRmBt7.s 			page 173
 
 
  8629      64657363 
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8653      494E4700 
  8654              	.LASF646:
  8655 199f 50494461 		.ascii	"PIData\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 174
+ARM GAS  /tmp/ccCRmBt7.s 			page 174
 
 
  8655      746100
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8681      73626366 
  8681      673100
  8682              	.LASF306:
-ARM GAS  /tmp/ccfHodVq.s 			page 175
+ARM GAS  /tmp/ccCRmBt7.s 			page 175
 
 
  8683 1a34 4144435F 		.ascii	"ADC_ACTIVE\000"
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8713      616D00
  8714              	.LASF243:
  8715 1ab9 64756D6D 		.ascii	"dummy\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 176
+ARM GAS  /tmp/ccCRmBt7.s 			page 176
 
 
  8715      7900
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8741      00
  8742              	.LASF116:
  8743 1b51 41484232 		.ascii	"AHB2ENR\000"
-ARM GAS  /tmp/ccfHodVq.s 			page 177
+ARM GAS  /tmp/ccCRmBt7.s 			page 177
 
 
  8743      454E5200 
@@ -10603,26 +10603,26 @@ ARM GAS  /tmp/ccfHodVq.s 			page 1
  8765      74617465 
  8765      5F7400
  8766              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /tmp/ccfHodVq.s 			page 178
+ARM GAS  /tmp/ccCRmBt7.s 			page 178
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 board.c
-     /tmp/ccfHodVq.s:18     .text.gpio_init:0000000000000000 $t
-     /tmp/ccfHodVq.s:24     .text.gpio_init:0000000000000000 gpio_init
-     /tmp/ccfHodVq.s:59     .text.__early_init:0000000000000000 $t
-     /tmp/ccfHodVq.s:66     .text.__early_init:0000000000000000 __early_init
-     /tmp/ccfHodVq.s:160    .text.__early_init:000000000000008c $d
-     /tmp/ccfHodVq.s:175    .text.__late_init:0000000000000000 $t
-     /tmp/ccfHodVq.s:182    .text.__late_init:0000000000000000 __late_init
-     /tmp/ccfHodVq.s:219    .text.sdc_lld_is_card_inserted:0000000000000000 $t
-     /tmp/ccfHodVq.s:226    .text.sdc_lld_is_card_inserted:0000000000000000 sdc_lld_is_card_inserted
-     /tmp/ccfHodVq.s:242    .text.sdc_lld_is_write_protected:0000000000000000 $t
-     /tmp/ccfHodVq.s:249    .text.sdc_lld_is_write_protected:0000000000000000 sdc_lld_is_write_protected
-     /tmp/ccfHodVq.s:265    .text.boardInit:0000000000000000 $t
-     /tmp/ccfHodVq.s:272    .text.boardInit:0000000000000000 boardInit
-     /tmp/ccfHodVq.s:284    .rodata.gpio_default_config:0000000000000000 $d
-     /tmp/ccfHodVq.s:288    .rodata.gpio_default_config:0000000000000000 gpio_default_config
+     /tmp/ccCRmBt7.s:18     .text.gpio_init:0000000000000000 $t
+     /tmp/ccCRmBt7.s:24     .text.gpio_init:0000000000000000 gpio_init
+     /tmp/ccCRmBt7.s:59     .text.__early_init:0000000000000000 $t
+     /tmp/ccCRmBt7.s:66     .text.__early_init:0000000000000000 __early_init
+     /tmp/ccCRmBt7.s:160    .text.__early_init:000000000000008c $d
+     /tmp/ccCRmBt7.s:175    .text.__late_init:0000000000000000 $t
+     /tmp/ccCRmBt7.s:182    .text.__late_init:0000000000000000 __late_init
+     /tmp/ccCRmBt7.s:219    .text.sdc_lld_is_card_inserted:0000000000000000 $t
+     /tmp/ccCRmBt7.s:226    .text.sdc_lld_is_card_inserted:0000000000000000 sdc_lld_is_card_inserted
+     /tmp/ccCRmBt7.s:242    .text.sdc_lld_is_write_protected:0000000000000000 $t
+     /tmp/ccCRmBt7.s:249    .text.sdc_lld_is_write_protected:0000000000000000 sdc_lld_is_write_protected
+     /tmp/ccCRmBt7.s:265    .text.boardInit:0000000000000000 $t
+     /tmp/ccCRmBt7.s:272    .text.boardInit:0000000000000000 boardInit
+     /tmp/ccCRmBt7.s:284    .rodata.gpio_default_config:0000000000000000 $d
+     /tmp/ccCRmBt7.s:288    .rodata.gpio_default_config:0000000000000000 gpio_default_config
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccagl22d.s 			page 1
+ARM GAS  /tmp/ccxJ4h6H.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
   55 0016 BDE80840 		pop	{r3, lr}
   56              		.cfi_restore 14
   57              		.cfi_restore 3
-ARM GAS  /tmp/ccagl22d.s 			page 2
+ARM GAS  /tmp/ccxJ4h6H.s 			page 2
 
 
   58              		.cfi_def_cfa_offset 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  112 001e FFF7FEBF 		b	_port_irq_epilogue
  113              	.LVL5:
  114              	.L14:
-ARM GAS  /tmp/ccagl22d.s 			page 3
+ARM GAS  /tmp/ccxJ4h6H.s 			page 3
 
 
  115 0022 00BF     		.align	2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  169 0024 00600240 		.word	1073897472
  170 0028 00000000 		.word	.LANCHOR0
  171              		.cfi_endproc
-ARM GAS  /tmp/ccagl22d.s 			page 4
+ARM GAS  /tmp/ccxJ4h6H.s 			page 4
 
 
  172              	.LFE325:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  226              		.section	.text.Vector7C,"ax",%progbits
  227              		.align	1
  228              		.global	Vector7C
-ARM GAS  /tmp/ccagl22d.s 			page 5
+ARM GAS  /tmp/ccxJ4h6H.s 			page 5
 
 
  229              		.syntax unified
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  283              		.thumb_func
  284              		.fpu fpv4-sp-d16
  285              		.type	Vector80, %function
-ARM GAS  /tmp/ccagl22d.s 			page 6
+ARM GAS  /tmp/ccxJ4h6H.s 			page 6
 
 
  286              	Vector80:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  340              		.loc 1 271 0
  341              		.cfi_startproc
  342              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccagl22d.s 			page 7
+ARM GAS  /tmp/ccxJ4h6H.s 			page 7
 
 
  343              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  397              		.cfi_def_cfa_offset 8
  398              		.cfi_offset 3, -8
  399              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccagl22d.s 			page 8
+ARM GAS  /tmp/ccxJ4h6H.s 			page 8
 
 
  400              		.loc 1 294 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  454              		.loc 1 314 0
  455 0004 074A     		ldr	r2, .L62+4
  456              		.loc 1 312 0
-ARM GAS  /tmp/ccagl22d.s 			page 9
+ARM GAS  /tmp/ccxJ4h6H.s 			page 9
 
 
  457 0006 1968     		ldr	r1, [r3]
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  511 000c 8A01     		lsls	r2, r1, #6
  512 000e 9A60     		str	r2, [r3, #8]
  513              		.loc 1 332 0
-ARM GAS  /tmp/ccagl22d.s 			page 10
+ARM GAS  /tmp/ccxJ4h6H.s 			page 10
 
 
  514 0010 054A     		ldr	r2, .L69+4
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  568 0014 0BB1     		cbz	r3, .L72
  569              		.loc 1 351 0
  570 0016 906D     		ldr	r0, [r2, #88]
-ARM GAS  /tmp/ccagl22d.s 			page 11
+ARM GAS  /tmp/ccxJ4h6H.s 			page 11
 
 
  571 0018 9847     		blx	r3
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  625              	.L79:
  626              		.loc 1 372 0
  627 001a BDE80840 		pop	{r3, lr}
-ARM GAS  /tmp/ccagl22d.s 			page 12
+ARM GAS  /tmp/ccxJ4h6H.s 			page 12
 
 
  628              		.cfi_restore 14
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  682              		.cfi_def_cfa_offset 0
  683              		.loc 1 389 0
  684 001a FFF7FEBF 		b	_port_irq_epilogue
-ARM GAS  /tmp/ccagl22d.s 			page 13
+ARM GAS  /tmp/ccxJ4h6H.s 			page 13
 
 
  685              	.LVL38:
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  739 0022 00BF     		.align	2
  740              	.L97:
  741 0024 00640240 		.word	1073898496
-ARM GAS  /tmp/ccagl22d.s 			page 14
+ARM GAS  /tmp/ccxJ4h6H.s 			page 14
 
 
  742 0028 00000000 		.word	.LANCHOR0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  796              	.LFE337:
  797              		.size	Vector154, .-Vector154
  798              		.section	.text.Vector158,"ax",%progbits
-ARM GAS  /tmp/ccagl22d.s 			page 15
+ARM GAS  /tmp/ccxJ4h6H.s 			page 15
 
 
  799              		.align	1
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  853              		.syntax unified
  854              		.thumb
  855              		.thumb_func
-ARM GAS  /tmp/ccagl22d.s 			page 16
+ARM GAS  /tmp/ccxJ4h6H.s 			page 16
 
 
  856              		.fpu fpv4-sp-d16
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  910 0034 30BD     		pop	{r4, r5, pc}
  911              	.L117:
  912 0036 00BF     		.align	2
-ARM GAS  /tmp/ccagl22d.s 			page 17
+ARM GAS  /tmp/ccxJ4h6H.s 			page 17
 
 
  913              	.L116:
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  967              		.loc 1 527 0
  968 001a CCF80420 		str	r2, [ip, #4]
  969              		.loc 1 524 0
-ARM GAS  /tmp/ccagl22d.s 			page 18
+ARM GAS  /tmp/ccxJ4h6H.s 			page 18
 
 
  970 001e 0C25     		movs	r5, #12
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1024 007a 07FB0060 		mla	r0, r7, r0, r6
  1025              	.LVL58:
  1026 007e 3D26     		movs	r6, #61
-ARM GAS  /tmp/ccagl22d.s 			page 19
+ARM GAS  /tmp/ccxJ4h6H.s 			page 19
 
 
  1027 0080 90F809E0 		ldrb	lr, [r0, #9]	@ zero_extendqisi2
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1081              	.LBB52:
  1082              	.LBB53:
  1083              	.LBB54:
-ARM GAS  /tmp/ccagl22d.s 			page 20
+ARM GAS  /tmp/ccxJ4h6H.s 			page 20
 
 
  1084              	.LBB55:
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1138              	dmaStreamFreeI:
  1139              	.LFB342:
  1140              		.loc 1 608 0
-ARM GAS  /tmp/ccagl22d.s 			page 21
+ARM GAS  /tmp/ccxJ4h6H.s 			page 21
 
 
  1141              		.cfi_startproc
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1195              	.L138:
  1196 0050 10BD     		pop	{r4, pc}
  1197              	.LVL70:
-ARM GAS  /tmp/ccagl22d.s 			page 22
+ARM GAS  /tmp/ccxJ4h6H.s 			page 22
 
 
  1198              	.L142:
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1252              	.LBB75:
  1253              	.LBB76:
  1254              	.LBB77:
-ARM GAS  /tmp/ccagl22d.s 			page 23
+ARM GAS  /tmp/ccxJ4h6H.s 			page 23
 
 
  1255              		.loc 2 493 0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1305 0023 0D       		.byte	13
  1306 0024 58600240 		.word	1073897560
  1307 0028 08600240 		.word	1073897480
-ARM GAS  /tmp/ccagl22d.s 			page 24
+ARM GAS  /tmp/ccxJ4h6H.s 			page 24
 
 
  1308 002c 00       		.byte	0
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1362 0098 00       		.byte	0
  1363 0099 00       		.byte	0
  1364 009a 0C       		.byte	12
-ARM GAS  /tmp/ccagl22d.s 			page 25
+ARM GAS  /tmp/ccxJ4h6H.s 			page 25
 
 
  1365 009b 3C       		.byte	60
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1419              		.file 36 "../../modules/ChibiOS/os/hal/include/hal_pwm.h"
  1420              		.file 37 "../../modules/ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.h"
  1421              		.file 38 "../../modules/ChibiOS/os/hal/include/hal_serial.h"
-ARM GAS  /tmp/ccagl22d.s 			page 26
+ARM GAS  /tmp/ccxJ4h6H.s 			page 26
 
 
  1422              		.file 39 "../../modules/ChibiOS/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h"
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1476 005e 2B       		.byte	0x2b
  1477 005f 63000000 		.4byte	0x63
  1478 0063 05       		.uleb128 0x5
-ARM GAS  /tmp/ccagl22d.s 			page 27
+ARM GAS  /tmp/ccxJ4h6H.s 			page 27
 
 
  1479 0064 01       		.byte	0x1
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1533 00d0 71000000 		.4byte	0x71
  1534 00d4 03       		.uleb128 0x3
  1535 00d5 C0030000 		.4byte	.LASF18
-ARM GAS  /tmp/ccagl22d.s 			page 28
+ARM GAS  /tmp/ccxJ4h6H.s 			page 28
 
 
  1536 00d9 05       		.byte	0x5
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1590 0151 03       		.uleb128 0x3
  1591 0152 2A120000 		.4byte	.LASF28
  1592 0156 07       		.byte	0x7
-ARM GAS  /tmp/ccagl22d.s 			page 29
+ARM GAS  /tmp/ccxJ4h6H.s 			page 29
 
 
  1593 0157 31       		.byte	0x31
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1647 01c9 09       		.byte	0x9
  1648 01ca 94       		.byte	0x94
  1649 01cb 71020000 		.4byte	0x271
-ARM GAS  /tmp/ccagl22d.s 			page 30
+ARM GAS  /tmp/ccxJ4h6H.s 			page 30
 
 
  1650 01cf 14       		.byte	0x14
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1704 023d 34       		.byte	0x34
  1705 023e 0B       		.uleb128 0xb
  1706 023f DB040000 		.4byte	.LASF45
-ARM GAS  /tmp/ccagl22d.s 			page 31
+ARM GAS  /tmp/ccxJ4h6H.s 			page 31
 
 
  1707 0243 09       		.byte	0x9
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1761 02b2 08       		.uleb128 0x8
  1762 02b3 A7020000 		.4byte	.LASF52
  1763 02b7 09       		.byte	0x9
-ARM GAS  /tmp/ccagl22d.s 			page 32
+ARM GAS  /tmp/ccxJ4h6H.s 			page 32
 
 
  1764 02b8 84       		.byte	0x84
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1818 032a 6901     		.2byte	0x169
  1819 032c 71020000 		.4byte	0x271
  1820 0330 18       		.byte	0x18
-ARM GAS  /tmp/ccagl22d.s 			page 33
+ARM GAS  /tmp/ccxJ4h6H.s 			page 33
 
 
  1821 0331 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1875 03a2 3F01     		.2byte	0x13f
  1876 03a4 4E030000 		.4byte	0x34e
  1877 03a8 10       		.byte	0x10
-ARM GAS  /tmp/ccagl22d.s 			page 34
+ARM GAS  /tmp/ccxJ4h6H.s 			page 34
 
 
  1878 03a9 00       		.byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1932 041c 00       		.byte	0
  1933 041d 03       		.uleb128 0x3
  1934 041e 90000000 		.4byte	.LASF70
-ARM GAS  /tmp/ccagl22d.s 			page 35
+ARM GAS  /tmp/ccxJ4h6H.s 			page 35
 
 
  1935 0422 08       		.byte	0x8
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  1989 0493 11       		.uleb128 0x11
  1990 0494 E4000000 		.4byte	0xe4
  1991 0498 A3040000 		.4byte	0x4a3
-ARM GAS  /tmp/ccagl22d.s 			page 36
+ARM GAS  /tmp/ccxJ4h6H.s 			page 36
 
 
  1992 049c 12       		.uleb128 0x12
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2046 050e 43523100 		.ascii	"CR1\000"
  2047 0512 0D       		.byte	0xd
  2048 0513 CD       		.byte	0xcd
-ARM GAS  /tmp/ccagl22d.s 			page 37
+ARM GAS  /tmp/ccxJ4h6H.s 			page 37
 
 
  2049 0514 EF000000 		.4byte	0xef
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2103 0580 EF000000 		.4byte	0xef
  2104 0584 28       		.byte	0x28
  2105 0585 08       		.uleb128 0x8
-ARM GAS  /tmp/ccagl22d.s 			page 38
+ARM GAS  /tmp/ccxJ4h6H.s 			page 38
 
 
  2106 0586 BC0D0000 		.4byte	.LASF88
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2160 05f1 03       		.uleb128 0x3
  2161 05f2 420F0000 		.4byte	.LASF96
  2162 05f6 0D       		.byte	0xd
-ARM GAS  /tmp/ccagl22d.s 			page 39
+ARM GAS  /tmp/ccxJ4h6H.s 			page 39
 
 
  2163 05f7 E0       		.byte	0xe0
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2217 0668 0B       		.uleb128 0xb
  2218 0669 080A0000 		.4byte	.LASF101
  2219 066d 0D       		.byte	0xd
-ARM GAS  /tmp/ccagl22d.s 			page 40
+ARM GAS  /tmp/ccxJ4h6H.s 			page 40
 
 
  2220 066e 7D01     		.2byte	0x17d
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2274 06e4 EF000000 		.4byte	0xef
  2275 06e8 00       		.byte	0
  2276 06e9 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccagl22d.s 			page 41
+ARM GAS  /tmp/ccxJ4h6H.s 			page 41
 
 
  2277 06ea 43523200 		.ascii	"CR2\000"
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2331 075e 17       		.uleb128 0x17
  2332 075f 3B100000 		.4byte	.LASF110
  2333 0763 0D       		.byte	0xd
-ARM GAS  /tmp/ccagl22d.s 			page 42
+ARM GAS  /tmp/ccxJ4h6H.s 			page 42
 
 
  2334 0764 7902     		.2byte	0x279
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2388 07d9 1C       		.byte	0x1c
  2389 07da 0B       		.uleb128 0xb
  2390 07db 3D040000 		.4byte	.LASF117
-ARM GAS  /tmp/ccagl22d.s 			page 43
+ARM GAS  /tmp/ccxJ4h6H.s 			page 43
 
 
  2391 07df 0D       		.byte	0xd
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2445 0854 0D       		.byte	0xd
  2446 0855 A902     		.2byte	0x2a9
  2447 0857 93040000 		.4byte	0x493
-ARM GAS  /tmp/ccagl22d.s 			page 44
+ARM GAS  /tmp/ccxJ4h6H.s 			page 44
 
 
  2448 085b 48       		.byte	0x48
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2502 08d0 74       		.byte	0x74
  2503 08d1 0B       		.uleb128 0xb
  2504 08d2 C7150000 		.4byte	.LASF135
-ARM GAS  /tmp/ccagl22d.s 			page 45
+ARM GAS  /tmp/ccxJ4h6H.s 			page 45
 
 
  2505 08d6 0D       		.byte	0xd
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2559 0948 0703     		.2byte	0x307
  2560 094a EF000000 		.4byte	0xef
  2561 094e 08       		.byte	0x8
-ARM GAS  /tmp/ccagl22d.s 			page 46
+ARM GAS  /tmp/ccxJ4h6H.s 			page 46
 
 
  2562 094f 0A       		.uleb128 0xa
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2616 09c4 0B       		.uleb128 0xb
  2617 09c5 631A0000 		.4byte	.LASF151
  2618 09c9 0D       		.byte	0xd
-ARM GAS  /tmp/ccagl22d.s 			page 47
+ARM GAS  /tmp/ccxJ4h6H.s 			page 47
 
 
  2619 09ca 1103     		.2byte	0x311
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2673 0a3e 51160000 		.4byte	.LASF155
  2674 0a42 0D       		.byte	0xd
  2675 0a43 1903     		.2byte	0x319
-ARM GAS  /tmp/ccagl22d.s 			page 48
+ARM GAS  /tmp/ccxJ4h6H.s 			page 48
 
 
  2676 0a45 1F090000 		.4byte	0x91f
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2730 0ab8 0B       		.uleb128 0xb
  2731 0ab9 8E060000 		.4byte	.LASF160
  2732 0abd 0D       		.byte	0xd
-ARM GAS  /tmp/ccagl22d.s 			page 49
+ARM GAS  /tmp/ccxJ4h6H.s 			page 49
 
 
  2733 0abe 2903     		.2byte	0x329
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2787 0b2f EF000000 		.4byte	0xef
  2788 0b33 18       		.byte	0x18
  2789 0b34 00       		.byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 50
+ARM GAS  /tmp/ccxJ4h6H.s 			page 50
 
 
  2790 0b35 17       		.uleb128 0x17
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2844 0baa 04       		.byte	0x4
  2845 0bab 0A       		.uleb128 0xa
  2846 0bac 73313800 		.ascii	"s18\000"
-ARM GAS  /tmp/ccagl22d.s 			page 51
+ARM GAS  /tmp/ccxJ4h6H.s 			page 51
 
 
  2847 0bb0 0F       		.byte	0xf
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2901 0c25 0F       		.byte	0xf
  2902 0c26 6601     		.2byte	0x166
  2903 0c28 560B0000 		.4byte	0xb56
-ARM GAS  /tmp/ccagl22d.s 			page 52
+ARM GAS  /tmp/ccxJ4h6H.s 			page 52
 
 
  2904 0c2c 2C       		.byte	0x2c
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  2958 0c9c 50       		.byte	0x50
  2959 0c9d 0A       		.uleb128 0xa
  2960 0c9e 723900   		.ascii	"r9\000"
-ARM GAS  /tmp/ccagl22d.s 			page 53
+ARM GAS  /tmp/ccxJ4h6H.s 			page 53
 
 
  2961 0ca1 0F       		.byte	0xf
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3015 0d12 0C       		.byte	0xc
  3016 0d13 0A       		.uleb128 0xa
  3017 0d14 535200   		.ascii	"SR\000"
-ARM GAS  /tmp/ccagl22d.s 			page 54
+ARM GAS  /tmp/ccxJ4h6H.s 			page 54
 
 
  3018 0d17 10       		.byte	0x10
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3072 0d8c 10       		.byte	0x10
  3073 0d8d 0302     		.2byte	0x203
  3074 0d8f CE060000 		.4byte	0x6ce
-ARM GAS  /tmp/ccagl22d.s 			page 55
+ARM GAS  /tmp/ccxJ4h6H.s 			page 55
 
 
  3075 0d93 34       		.byte	0x34
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3129 0e02 00       		.byte	0
  3130 0e03 03       		.uleb128 0x3
  3131 0e04 F8180000 		.4byte	.LASF179
-ARM GAS  /tmp/ccagl22d.s 			page 56
+ARM GAS  /tmp/ccxJ4h6H.s 			page 56
 
 
  3132 0e08 11       		.byte	0x11
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3186 0e7b 0C       		.byte	0xc
  3187 0e7c 12       		.byte	0x12
  3188 0e7d 34       		.byte	0x34
-ARM GAS  /tmp/ccagl22d.s 			page 57
+ARM GAS  /tmp/ccxJ4h6H.s 			page 57
 
 
  3189 0e7e 9B0E0000 		.4byte	0xe9b
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3243 0eea 04       		.uleb128 0x4
  3244 0eeb E40E0000 		.4byte	0xee4
  3245 0eef 05       		.uleb128 0x5
-ARM GAS  /tmp/ccagl22d.s 			page 58
+ARM GAS  /tmp/ccxJ4h6H.s 			page 58
 
 
  3246 0ef0 01       		.byte	0x1
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3300 0f60 06       		.byte	0x6
  3301 0f61 08       		.uleb128 0x8
  3302 0f62 6B0B0000 		.4byte	.LASF197
-ARM GAS  /tmp/ccagl22d.s 			page 59
+ARM GAS  /tmp/ccxJ4h6H.s 			page 59
 
 
  3303 0f66 15       		.byte	0x15
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3357 0fd2 15       		.byte	0x15
  3358 0fd3 42       		.byte	0x42
  3359 0fd4 B9000000 		.4byte	0xb9
-ARM GAS  /tmp/ccagl22d.s 			page 60
+ARM GAS  /tmp/ccxJ4h6H.s 			page 60
 
 
  3360 0fd8 11       		.byte	0x11
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3414 1047 DC080000 		.4byte	.LASF214
  3415 104b 16       		.byte	0x16
  3416 104c 34       		.byte	0x34
-ARM GAS  /tmp/ccagl22d.s 			page 61
+ARM GAS  /tmp/ccxJ4h6H.s 			page 61
 
 
  3417 104d 51100000 		.4byte	0x1051
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3471 10b9 03       		.uleb128 0x3
  3472 10ba E30E0000 		.4byte	.LASF220
  3473 10be 16       		.byte	0x16
-ARM GAS  /tmp/ccagl22d.s 			page 62
+ARM GAS  /tmp/ccxJ4h6H.s 			page 62
 
 
  3474 10bf 4E       		.byte	0x4e
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3528 112e 20080000 		.4byte	.LASF227
  3529 1132 04       		.byte	0x4
  3530 1133 18       		.byte	0x18
-ARM GAS  /tmp/ccagl22d.s 			page 63
+ARM GAS  /tmp/ccxJ4h6H.s 			page 63
 
 
  3531 1134 38       		.byte	0x38
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3585 119d A7020000 		.4byte	.LASF52
  3586 11a1 19       		.byte	0x19
  3587 11a2 AD       		.byte	0xad
-ARM GAS  /tmp/ccagl22d.s 			page 64
+ARM GAS  /tmp/ccxJ4h6H.s 			page 64
 
 
  3588 11a3 C1110000 		.4byte	0x11c1
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3642 1212 19       		.byte	0x19
  3643 1213 3E01     		.2byte	0x13e
  3644 1215 82120000 		.4byte	0x1282
-ARM GAS  /tmp/ccagl22d.s 			page 65
+ARM GAS  /tmp/ccxJ4h6H.s 			page 65
 
 
  3645 1219 0A       		.uleb128 0xa
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3699 128e 13       		.uleb128 0x13
  3700 128f 6F140000 		.4byte	.LASF245
  3701 1293 19       		.byte	0x19
-ARM GAS  /tmp/ccagl22d.s 			page 66
+ARM GAS  /tmp/ccxJ4h6H.s 			page 66
 
 
  3702 1294 7C01     		.2byte	0x17c
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3756 130b 1A       		.byte	0x1a
  3757 130c AD01     		.2byte	0x1ad
  3758 130e B9000000 		.4byte	0xb9
-ARM GAS  /tmp/ccagl22d.s 			page 67
+ARM GAS  /tmp/ccxJ4h6H.s 			page 67
 
 
  3759 1312 0B       		.byte	0xb
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3813 138f 00       		.byte	0
  3814 1390 0C       		.uleb128 0xc
  3815 1391 04       		.byte	0x4
-ARM GAS  /tmp/ccagl22d.s 			page 68
+ARM GAS  /tmp/ccxJ4h6H.s 			page 68
 
 
  3816 1392 77130000 		.4byte	0x1377
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3870 1416 0F       		.uleb128 0xf
  3871 1417 81040000 		.4byte	0x481
  3872 141b 00       		.byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 69
+ARM GAS  /tmp/ccxJ4h6H.s 			page 69
 
 
  3873 141c 0C       		.uleb128 0xc
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3927 1494 05       		.byte	0x5
  3928 1495 1F       		.uleb128 0x1f
  3929 1496 58150000 		.4byte	.LASF261
-ARM GAS  /tmp/ccagl22d.s 			page 70
+ARM GAS  /tmp/ccxJ4h6H.s 			page 70
 
 
  3930 149a 06       		.byte	0x6
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  3984 150c 0F       		.uleb128 0xf
  3985 150d E4000000 		.4byte	0xe4
  3986 1511 00       		.byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 71
+ARM GAS  /tmp/ccxJ4h6H.s 			page 71
 
 
  3987 1512 0C       		.uleb128 0xc
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4041 158a 9B020000 		.4byte	0x29b
  4042 158e 00       		.byte	0
  4043 158f 08       		.uleb128 0x8
-ARM GAS  /tmp/ccagl22d.s 			page 72
+ARM GAS  /tmp/ccxJ4h6H.s 			page 72
 
 
  4044 1590 4E150000 		.4byte	.LASF271
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4098 15ff 00       		.byte	0
  4099 1600 0C       		.uleb128 0xc
  4100 1601 04       		.byte	0x4
-ARM GAS  /tmp/ccagl22d.s 			page 73
+ARM GAS  /tmp/ccxJ4h6H.s 			page 73
 
 
  4101 1602 6C150000 		.4byte	0x156c
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4155 166d C9000000 		.4byte	0xc9
  4156 1671 02       		.byte	0x2
  4157 1672 00       		.byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 74
+ARM GAS  /tmp/ccxJ4h6H.s 			page 74
 
 
  4158 1673 18       		.uleb128 0x18
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4212 16d8 4F445200 		.ascii	"ODR\000"
  4213 16dc 1E       		.byte	0x1e
  4214 16dd 58       		.byte	0x58
-ARM GAS  /tmp/ccagl22d.s 			page 75
+ARM GAS  /tmp/ccxJ4h6H.s 			page 75
 
 
  4215 16de EF000000 		.4byte	0xef
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4269 174e 63000000 		.4byte	0x63
  4270 1752 20       		.byte	0x20
  4271 1753 46       		.byte	0x46
-ARM GAS  /tmp/ccagl22d.s 			page 76
+ARM GAS  /tmp/ccxJ4h6H.s 			page 76
 
 
  4272 1754 7D170000 		.4byte	0x177d
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4326 17c3 08       		.uleb128 0x8
  4327 17c4 36120000 		.4byte	.LASF306
  4328 17c8 20       		.byte	0x20
-ARM GAS  /tmp/ccagl22d.s 			page 77
+ARM GAS  /tmp/ccxJ4h6H.s 			page 77
 
 
  4329 17c9 AF       		.byte	0xaf
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4383 1835 03       		.uleb128 0x3
  4384 1836 3F050000 		.4byte	.LASF313
  4385 183a 20       		.byte	0x20
-ARM GAS  /tmp/ccagl22d.s 			page 78
+ARM GAS  /tmp/ccxJ4h6H.s 			page 78
 
 
  4386 183b 61       		.byte	0x61
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4440 18aa 20       		.byte	0x20
  4441 18ab 91       		.byte	0x91
  4442 18ac E4000000 		.4byte	0xe4
-ARM GAS  /tmp/ccagl22d.s 			page 79
+ARM GAS  /tmp/ccxJ4h6H.s 			page 79
 
 
  4443 18b0 18       		.byte	0x18
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4497 191f 1F       		.uleb128 0x1f
  4498 1920 B1070000 		.4byte	.LASF328
  4499 1924 02       		.byte	0x2
-ARM GAS  /tmp/ccagl22d.s 			page 80
+ARM GAS  /tmp/ccxJ4h6H.s 			page 80
 
 
  4500 1925 00       		.byte	0
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4554 1999 0C       		.uleb128 0xc
  4555 199a 04       		.byte	0x4
  4556 199b 2C130000 		.4byte	0x132c
-ARM GAS  /tmp/ccagl22d.s 			page 81
+ARM GAS  /tmp/ccxJ4h6H.s 			page 81
 
 
  4557 199f 1E       		.uleb128 0x1e
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4611 1a11 03       		.byte	0x3
  4612 1a12 00       		.byte	0
  4613 1a13 17       		.uleb128 0x17
-ARM GAS  /tmp/ccagl22d.s 			page 82
+ARM GAS  /tmp/ccxJ4h6H.s 			page 82
 
 
  4614 1a14 93190000 		.4byte	.LASF345
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4668 1a88 06       		.uleb128 0x6
  4669 1a89 7C1A0000 		.4byte	0x1a7c
  4670 1a8d 17       		.uleb128 0x17
-ARM GAS  /tmp/ccagl22d.s 			page 83
+ARM GAS  /tmp/ccxJ4h6H.s 			page 83
 
 
  4671 1a8e 60040000 		.4byte	.LASF354
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4725 1b06 23       		.byte	0x23
  4726 1b07 C201     		.2byte	0x1c2
  4727 1b09 E4000000 		.4byte	0xe4
-ARM GAS  /tmp/ccagl22d.s 			page 84
+ARM GAS  /tmp/ccxJ4h6H.s 			page 84
 
 
  4728 1b0d 2C       		.byte	0x2c
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4782 1b81 1E       		.uleb128 0x1e
  4783 1b82 01       		.byte	0x1
  4784 1b83 63000000 		.4byte	0x63
-ARM GAS  /tmp/ccagl22d.s 			page 85
+ARM GAS  /tmp/ccxJ4h6H.s 			page 85
 
 
  4785 1b87 24       		.byte	0x24
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4839 1bf8 0F170000 		.4byte	.LASF374
  4840 1bfc 25       		.byte	0x25
  4841 1bfd C302     		.2byte	0x2c3
-ARM GAS  /tmp/ccagl22d.s 			page 86
+ARM GAS  /tmp/ccxJ4h6H.s 			page 86
 
 
  4842 1bff 4D1C0000 		.4byte	0x1c4d
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4896 1c74 6F02     		.2byte	0x26f
  4897 1c76 951C0000 		.4byte	0x1c95
  4898 1c7a 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccagl22d.s 			page 87
+ARM GAS  /tmp/ccxJ4h6H.s 			page 87
 
 
  4899 1c7b 71070000 		.4byte	.LASF381
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  4953 1cf0 25       		.byte	0x25
  4954 1cf1 A902     		.2byte	0x2a9
  4955 1cf3 E4000000 		.4byte	0xe4
-ARM GAS  /tmp/ccagl22d.s 			page 88
+ARM GAS  /tmp/ccxJ4h6H.s 			page 88
 
 
  4956 1cf7 30       		.byte	0x30
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5010 1d6a 4A080000 		.4byte	.LASF393
  5011 1d6e 26       		.byte	0x26
  5012 1d6f 5C       		.byte	0x5c
-ARM GAS  /tmp/ccagl22d.s 			page 89
+ARM GAS  /tmp/ccxJ4h6H.s 			page 89
 
 
  5013 1d70 4A1D0000 		.4byte	0x1d4a
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5067 1ddf 24       		.uleb128 0x24
  5068 1de0 DD120000 		.4byte	.LASF398
  5069 1de4 26       		.byte	0x26
-ARM GAS  /tmp/ccagl22d.s 			page 90
+ARM GAS  /tmp/ccxJ4h6H.s 			page 90
 
 
  5070 1de5 7E       		.byte	0x7e
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5124 1e58 071E0000 		.4byte	0x1e07
  5125 1e5c 0C       		.byte	0xc
  5126 1e5d 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccagl22d.s 			page 91
+ARM GAS  /tmp/ccxJ4h6H.s 			page 91
 
 
  5127 1e5e 63747800 		.ascii	"ctx\000"
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5181 1edb 00       		.byte	0
  5182 1edc 08       		.uleb128 0x8
  5183 1edd B9110000 		.4byte	.LASF406
-ARM GAS  /tmp/ccagl22d.s 			page 92
+ARM GAS  /tmp/ccxJ4h6H.s 			page 92
 
 
  5184 1ee1 26       		.byte	0x26
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5238 1f4a C41E0000 		.4byte	0x1ec4
  5239 1f4e 0C       		.uleb128 0xc
  5240 1f4f 04       		.byte	0x4
-ARM GAS  /tmp/ccagl22d.s 			page 93
+ARM GAS  /tmp/ccxJ4h6H.s 			page 93
 
 
  5241 1f50 491F0000 		.4byte	0x1f49
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5295 1fc3 1501     		.2byte	0x115
  5296 1fc5 80200000 		.4byte	0x2080
  5297 1fc9 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccagl22d.s 			page 94
+ARM GAS  /tmp/ccxJ4h6H.s 			page 94
 
 
  5298 1fca 766D7400 		.ascii	"vmt\000"
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5352 203f 4F060000 		.4byte	.LASF308
  5353 2043 29       		.byte	0x29
  5354 2044 2F01     		.2byte	0x12f
-ARM GAS  /tmp/ccagl22d.s 			page 95
+ARM GAS  /tmp/ccxJ4h6H.s 			page 95
 
 
  5355 2046 66020000 		.4byte	0x266
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5409 20b4 0101     		.2byte	0x101
  5410 20b6 80200000 		.4byte	0x2080
  5411 20ba 06       		.uleb128 0x6
-ARM GAS  /tmp/ccagl22d.s 			page 96
+ARM GAS  /tmp/ccxJ4h6H.s 			page 96
 
 
  5412 20bb AE200000 		.4byte	0x20ae
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5466 2133 1C       		.byte	0x1c
  5467 2134 0B       		.uleb128 0xb
  5468 2135 DF170000 		.4byte	.LASF433
-ARM GAS  /tmp/ccagl22d.s 			page 97
+ARM GAS  /tmp/ccxJ4h6H.s 			page 97
 
 
  5469 2139 29       		.byte	0x29
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5523 21a7 E8160000 		.4byte	.LASF441
  5524 21ab 2A       		.byte	0x2a
  5525 21ac 7F       		.byte	0x7f
-ARM GAS  /tmp/ccagl22d.s 			page 98
+ARM GAS  /tmp/ccxJ4h6H.s 			page 98
 
 
  5526 21ad B1210000 		.4byte	0x21b1
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5580 221c 2C       		.byte	0x2c
  5581 221d 08       		.uleb128 0x8
  5582 221e 180E0000 		.4byte	.LASF359
-ARM GAS  /tmp/ccagl22d.s 			page 99
+ARM GAS  /tmp/ccxJ4h6H.s 			page 99
 
 
  5583 2222 2A       		.byte	0x2a
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5637 228e 00       		.byte	0
  5638 228f 03       		.uleb128 0x3
  5639 2290 24010000 		.4byte	.LASF447
-ARM GAS  /tmp/ccagl22d.s 			page 100
+ARM GAS  /tmp/ccxJ4h6H.s 			page 100
 
 
  5640 2294 2A       		.byte	0x2a
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5694 230c 2D       		.byte	0x2d
  5695 230d AC01     		.2byte	0x1ac
  5696 230f A82C0000 		.4byte	0x2ca8
-ARM GAS  /tmp/ccagl22d.s 			page 101
+ARM GAS  /tmp/ccxJ4h6H.s 			page 101
 
 
  5697 2313 04       		.byte	0x4
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5751 2388 40       		.byte	0x40
  5752 2389 0B       		.uleb128 0xb
  5753 238a 61060000 		.4byte	.LASF460
-ARM GAS  /tmp/ccagl22d.s 			page 102
+ARM GAS  /tmp/ccxJ4h6H.s 			page 102
 
 
  5754 238e 2D       		.byte	0x2d
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5808 2400 63000000 		.4byte	0x63
  5809 2404 2C       		.byte	0x2c
  5810 2405 0D01     		.2byte	0x10d
-ARM GAS  /tmp/ccagl22d.s 			page 103
+ARM GAS  /tmp/ccxJ4h6H.s 			page 103
 
 
  5811 2407 30240000 		.4byte	0x2430
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5865 2475 D50C0000 		.4byte	.LASF482
  5866 2479 2C       		.byte	0x2c
  5867 247a 2A01     		.2byte	0x12a
-ARM GAS  /tmp/ccagl22d.s 			page 104
+ARM GAS  /tmp/ccxJ4h6H.s 			page 104
 
 
  5868 247c 3C240000 		.4byte	0x243c
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5922 24ed 2C       		.byte	0x2c
  5923 24ee 4501     		.2byte	0x145
  5924 24f0 C4240000 		.4byte	0x24c4
-ARM GAS  /tmp/ccagl22d.s 			page 105
+ARM GAS  /tmp/ccxJ4h6H.s 			page 105
 
 
  5925 24f4 06       		.uleb128 0x6
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  5979 256d 04       		.byte	0x4
  5980 256e 72250000 		.4byte	0x2572
  5981 2572 1D       		.uleb128 0x1d
-ARM GAS  /tmp/ccagl22d.s 			page 106
+ARM GAS  /tmp/ccxJ4h6H.s 			page 106
 
 
  5982 2573 C4100000 		.4byte	0x10c4
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6036 25e9 2E       		.byte	0x2e
  6037 25ea EF000000 		.4byte	0xef
  6038 25ee 0C       		.byte	0xc
-ARM GAS  /tmp/ccagl22d.s 			page 107
+ARM GAS  /tmp/ccxJ4h6H.s 			page 107
 
 
  6039 25ef 08       		.uleb128 0x8
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6093 2658 450D0000 		.4byte	.LASF511
  6094 265c 2E       		.byte	0x2e
  6095 265d 40       		.byte	0x40
-ARM GAS  /tmp/ccagl22d.s 			page 108
+ARM GAS  /tmp/ccxJ4h6H.s 			page 108
 
 
  6096 265e EF000000 		.4byte	0xef
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6150 26ca 08       		.byte	0x8
  6151 26cb 08       		.uleb128 0x8
  6152 26cc 450D0000 		.4byte	.LASF511
-ARM GAS  /tmp/ccagl22d.s 			page 109
+ARM GAS  /tmp/ccxJ4h6H.s 			page 109
 
 
  6153 26d0 2E       		.byte	0x2e
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6207 273c 60       		.byte	0x60
  6208 273d EF000000 		.4byte	0xef
  6209 2741 08       		.byte	0x8
-ARM GAS  /tmp/ccagl22d.s 			page 110
+ARM GAS  /tmp/ccxJ4h6H.s 			page 110
 
 
  6210 2742 08       		.uleb128 0x8
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6264 27ae 08       		.uleb128 0x8
  6265 27af 380B0000 		.4byte	.LASF532
  6266 27b3 2E       		.byte	0x2e
-ARM GAS  /tmp/ccagl22d.s 			page 111
+ARM GAS  /tmp/ccxJ4h6H.s 			page 111
 
 
  6267 27b4 6E       		.byte	0x6e
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6321 2824 79       		.byte	0x79
  6322 2825 EF000000 		.4byte	0xef
  6323 2829 0404     		.2byte	0x404
-ARM GAS  /tmp/ccagl22d.s 			page 112
+ARM GAS  /tmp/ccxJ4h6H.s 			page 112
 
 
  6324 282b 24       		.uleb128 0x24
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6378 289f 24       		.uleb128 0x24
  6379 28a0 B0170000 		.4byte	.LASF549
  6380 28a4 2E       		.byte	0x2e
-ARM GAS  /tmp/ccagl22d.s 			page 113
+ARM GAS  /tmp/ccxJ4h6H.s 			page 113
 
 
  6381 28a5 88       		.byte	0x88
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6435 291a 95       		.byte	0x95
  6436 291b EF000000 		.4byte	0xef
  6437 291f 2008     		.2byte	0x820
-ARM GAS  /tmp/ccagl22d.s 			page 114
+ARM GAS  /tmp/ccxJ4h6H.s 			page 114
 
 
  6438 2921 24       		.uleb128 0x24
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6492 2996 24       		.uleb128 0x24
  6493 2997 320D0000 		.4byte	.LASF568
  6494 299b 2E       		.byte	0x2e
-ARM GAS  /tmp/ccagl22d.s 			page 115
+ARM GAS  /tmp/ccxJ4h6H.s 			page 115
 
 
  6495 299c A2       		.byte	0xa2
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6549 2a13 AF       		.byte	0xaf
  6550 2a14 00       		.byte	0
  6551 2a15 04       		.uleb128 0x4
-ARM GAS  /tmp/ccagl22d.s 			page 116
+ARM GAS  /tmp/ccxJ4h6H.s 			page 116
 
 
  6552 2a16 052A0000 		.4byte	0x2a05
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6606 2a97 12       		.uleb128 0x12
  6607 2a98 8C040000 		.4byte	0x48c
  6608 2a9c 0F       		.byte	0xf
-ARM GAS  /tmp/ccagl22d.s 			page 117
+ARM GAS  /tmp/ccxJ4h6H.s 			page 117
 
 
  6609 2a9d 00       		.byte	0
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6663 2b11 0701     		.2byte	0x107
  6664 2b13 DA2A0000 		.4byte	0x2ada
  6665 2b17 06       		.uleb128 0x6
-ARM GAS  /tmp/ccagl22d.s 			page 118
+ARM GAS  /tmp/ccxJ4h6H.s 			page 118
 
 
  6666 2b18 0B2B0000 		.4byte	0x2b0b
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6720 2b8a 1D090000 		.4byte	.LASF584
  6721 2b8e 2D       		.byte	0x2d
  6722 2b8f 3501     		.2byte	0x135
-ARM GAS  /tmp/ccagl22d.s 			page 119
+ARM GAS  /tmp/ccxJ4h6H.s 			page 119
 
 
  6723 2b91 11110000 		.4byte	0x1111
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6777 2c06 12       		.byte	0x12
  6778 2c07 0B       		.uleb128 0xb
  6779 2c08 09190000 		.4byte	.LASF592
-ARM GAS  /tmp/ccagl22d.s 			page 120
+ARM GAS  /tmp/ccxJ4h6H.s 			page 120
 
 
  6780 2c0c 2D       		.byte	0x2d
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6834 2c7d F90D0000 		.4byte	.LASF599
  6835 2c81 2D       		.byte	0x2d
  6836 2c82 9901     		.2byte	0x199
-ARM GAS  /tmp/ccagl22d.s 			page 121
+ARM GAS  /tmp/ccxJ4h6H.s 			page 121
 
 
  6837 2c84 60250000 		.4byte	0x2560
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6891 2cfc 28       		.uleb128 0x28
  6892 2cfd 46130000 		.4byte	0x1346
  6893 2d01 01       		.byte	0x1
-ARM GAS  /tmp/ccagl22d.s 			page 122
+ARM GAS  /tmp/ccxJ4h6H.s 			page 122
 
 
  6894 2d02 68       		.byte	0x68
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  6948 2d68 00000000 		.4byte	dma
  6949 2d6c 2A       		.uleb128 0x2a
  6950 2d6d A70F0000 		.4byte	.LASF612
-ARM GAS  /tmp/ccagl22d.s 			page 123
+ARM GAS  /tmp/ccxJ4h6H.s 			page 123
 
 
  6951 2d71 01       		.byte	0x1
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7005 2dfc 0C000000 		.4byte	.LBB73
  7006 2e00 08000000 		.4byte	.LBE73-.LBB73
  7007 2e04 2F       		.byte	0x2f
-ARM GAS  /tmp/ccagl22d.s 			page 124
+ARM GAS  /tmp/ccxJ4h6H.s 			page 124
 
 
  7008 2e05 0A02     		.2byte	0x20a
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7062 2e7c 11       		.uleb128 0x11
  7063 2e7d F60E0000 		.4byte	0xef6
  7064 2e81 8C2E0000 		.4byte	0x2e8c
-ARM GAS  /tmp/ccagl22d.s 			page 125
+ARM GAS  /tmp/ccxJ4h6H.s 			page 125
 
 
  7065 2e85 12       		.uleb128 0x12
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7119 2f0c 2D       		.uleb128 0x2d
  7120 2f0d 23340000 		.4byte	0x3423
  7121 2f11 02000000 		.4byte	.LBB53
-ARM GAS  /tmp/ccagl22d.s 			page 126
+ARM GAS  /tmp/ccxJ4h6H.s 			page 126
 
 
  7122 2f15 06000000 		.4byte	.LBE53-.LBB53
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7176 2fa0 E3000000 		.4byte	.LLST31
  7177 2fa4 00       		.byte	0
  7178 2fa5 00       		.byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 127
+ARM GAS  /tmp/ccxJ4h6H.s 			page 127
 
 
  7179 2fa6 00       		.byte	0
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7233 2ffe 01       		.byte	0x1
  7234 2fff EC01     		.2byte	0x1ec
  7235 3001 E4000000 		.4byte	0xe4
-ARM GAS  /tmp/ccagl22d.s 			page 128
+ARM GAS  /tmp/ccxJ4h6H.s 			page 128
 
 
  7236 3005 23010000 		.4byte	.LLST18
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7290 3097 A9340000 		.4byte	0x34a9
  7291 309b 32       		.uleb128 0x32
  7292 309c 01       		.uleb128 0x1
-ARM GAS  /tmp/ccagl22d.s 			page 129
+ARM GAS  /tmp/ccxJ4h6H.s 			page 129
 
 
  7293 309d 50       		.byte	0x50
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7347 3104 411A0000 		.4byte	.LASF40
  7348 3108 01       		.byte	0x1
  7349 3109 B201     		.2byte	0x1b2
-ARM GAS  /tmp/ccagl22d.s 			page 130
+ARM GAS  /tmp/ccxJ4h6H.s 			page 130
 
 
  7350 310b E4000000 		.4byte	0xe4
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7404 3194 411A0000 		.4byte	.LASF40
  7405 3198 01       		.byte	0x1
  7406 3199 7C01     		.2byte	0x17c
-ARM GAS  /tmp/ccagl22d.s 			page 131
+ARM GAS  /tmp/ccxJ4h6H.s 			page 131
 
 
  7407 319b E4000000 		.4byte	0xe4
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7461 3224 411A0000 		.4byte	.LASF40
  7462 3228 01       		.byte	0x1
  7463 3229 4601     		.2byte	0x146
-ARM GAS  /tmp/ccagl22d.s 			page 132
+ARM GAS  /tmp/ccxJ4h6H.s 			page 132
 
 
  7464 322b E4000000 		.4byte	0xe4
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7518 32b4 411A0000 		.4byte	.LASF40
  7519 32b8 01       		.byte	0x1
  7520 32b9 1001     		.2byte	0x110
-ARM GAS  /tmp/ccagl22d.s 			page 133
+ARM GAS  /tmp/ccxJ4h6H.s 			page 133
 
 
  7521 32bb E4000000 		.4byte	0xe4
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7575 333f 411A0000 		.4byte	.LASF40
  7576 3343 01       		.byte	0x1
  7577 3344 DA       		.byte	0xda
-ARM GAS  /tmp/ccagl22d.s 			page 134
+ARM GAS  /tmp/ccxJ4h6H.s 			page 134
 
 
  7578 3345 E4000000 		.4byte	0xe4
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7632 33c9 411A0000 		.4byte	.LASF40
  7633 33cd 01       		.byte	0x1
  7634 33ce A4       		.byte	0xa4
-ARM GAS  /tmp/ccagl22d.s 			page 135
+ARM GAS  /tmp/ccxJ4h6H.s 			page 135
 
 
  7635 33cf E4000000 		.4byte	0xe4
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7689 3444 EB01     		.2byte	0x1eb
  7690 3446 03       		.byte	0x3
  7691 3447 58340000 		.4byte	0x3458
-ARM GAS  /tmp/ccagl22d.s 			page 136
+ARM GAS  /tmp/ccxJ4h6H.s 			page 136
 
 
  7692 344b 34       		.uleb128 0x34
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7746 0000 01       		.uleb128 0x1
  7747 0001 11       		.uleb128 0x11
  7748 0002 01       		.byte	0x1
-ARM GAS  /tmp/ccagl22d.s 			page 137
+ARM GAS  /tmp/ccxJ4h6H.s 			page 137
 
 
  7749 0003 25       		.uleb128 0x25
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7803 0039 03       		.uleb128 0x3
  7804 003a 0E       		.uleb128 0xe
  7805 003b 00       		.byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 138
+ARM GAS  /tmp/ccxJ4h6H.s 			page 138
 
 
  7806 003c 00       		.byte	0
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7860 0072 0D       		.uleb128 0xd
  7861 0073 00       		.byte	0
  7862 0074 03       		.uleb128 0x3
-ARM GAS  /tmp/ccagl22d.s 			page 139
+ARM GAS  /tmp/ccxJ4h6H.s 			page 139
 
 
  7863 0075 08       		.uleb128 0x8
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7917 00ab 19       		.uleb128 0x19
  7918 00ac 01       		.uleb128 0x1
  7919 00ad 13       		.uleb128 0x13
-ARM GAS  /tmp/ccagl22d.s 			page 140
+ARM GAS  /tmp/ccxJ4h6H.s 			page 140
 
 
  7920 00ae 00       		.byte	0
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  7974 00e4 03       		.uleb128 0x3
  7975 00e5 0E       		.uleb128 0xe
  7976 00e6 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccagl22d.s 			page 141
+ARM GAS  /tmp/ccxJ4h6H.s 			page 141
 
 
  7977 00e7 0B       		.uleb128 0xb
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8031 011d 0B       		.uleb128 0xb
  8032 011e 3A       		.uleb128 0x3a
  8033 011f 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccagl22d.s 			page 142
+ARM GAS  /tmp/ccxJ4h6H.s 			page 142
 
 
  8034 0120 3B       		.uleb128 0x3b
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8088 0156 1D       		.uleb128 0x1d
  8089 0157 15       		.uleb128 0x15
  8090 0158 01       		.byte	0x1
-ARM GAS  /tmp/ccagl22d.s 			page 143
+ARM GAS  /tmp/ccxJ4h6H.s 			page 143
 
 
  8091 0159 27       		.uleb128 0x27
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8145 018f 3B       		.uleb128 0x3b
  8146 0190 05       		.uleb128 0x5
  8147 0191 01       		.uleb128 0x1
-ARM GAS  /tmp/ccagl22d.s 			page 144
+ARM GAS  /tmp/ccxJ4h6H.s 			page 144
 
 
  8148 0192 13       		.uleb128 0x13
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8202 01c8 05       		.uleb128 0x5
  8203 01c9 00       		.byte	0
  8204 01ca 00       		.byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 145
+ARM GAS  /tmp/ccxJ4h6H.s 			page 145
 
 
  8205 01cb 26       		.uleb128 0x26
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8259 0201 19       		.uleb128 0x19
  8260 0202 03       		.uleb128 0x3
  8261 0203 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccagl22d.s 			page 146
+ARM GAS  /tmp/ccxJ4h6H.s 			page 146
 
 
  8262 0204 3A       		.uleb128 0x3a
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8316 023b 13       		.uleb128 0x13
  8317 023c 11       		.uleb128 0x11
  8318 023d 01       		.uleb128 0x1
-ARM GAS  /tmp/ccagl22d.s 			page 147
+ARM GAS  /tmp/ccxJ4h6H.s 			page 147
 
 
  8319 023e 12       		.uleb128 0x12
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8373 0279 3F       		.uleb128 0x3f
  8374 027a 19       		.uleb128 0x19
  8375 027b 03       		.uleb128 0x3
-ARM GAS  /tmp/ccagl22d.s 			page 148
+ARM GAS  /tmp/ccxJ4h6H.s 			page 148
 
 
  8376 027c 0E       		.uleb128 0xe
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8430 02b2 11       		.uleb128 0x11
  8431 02b3 01       		.uleb128 0x1
  8432 02b4 12       		.uleb128 0x12
-ARM GAS  /tmp/ccagl22d.s 			page 149
+ARM GAS  /tmp/ccxJ4h6H.s 			page 149
 
 
  8433 02b5 06       		.uleb128 0x6
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8487 02ec 3A       		.uleb128 0x3a
  8488 02ed 34       		.uleb128 0x34
  8489 02ee 00       		.byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 150
+ARM GAS  /tmp/ccxJ4h6H.s 			page 150
 
 
  8490 02ef 03       		.uleb128 0x3
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8544 0329 19       		.uleb128 0x19
  8545 032a 31       		.uleb128 0x31
  8546 032b 13       		.uleb128 0x13
-ARM GAS  /tmp/ccagl22d.s 			page 151
+ARM GAS  /tmp/ccxJ4h6H.s 			page 151
 
 
  8547 032c 00       		.byte	0
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8601 0363 0B       		.uleb128 0xb
  8602 0364 00       		.byte	0
  8603 0365 00       		.byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 152
+ARM GAS  /tmp/ccxJ4h6H.s 			page 152
 
 
  8604 0366 41       		.uleb128 0x41
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8658 039f 45       		.uleb128 0x45
  8659 03a0 2E       		.uleb128 0x2e
  8660 03a1 00       		.byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 153
+ARM GAS  /tmp/ccxJ4h6H.s 			page 153
 
 
  8661 03a2 3F       		.uleb128 0x3f
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8715 002d 9F       		.byte	0x9f
  8716 002e 00000000 		.4byte	0
  8717 0032 00000000 		.4byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 154
+ARM GAS  /tmp/ccxJ4h6H.s 			page 154
 
 
  8718              	.LLST36:
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8772 00b7 53       		.byte	0x53
  8773 00b8 0B000000 		.4byte	.LVL63-1
  8774 00bc 14000000 		.4byte	.LFE341
-ARM GAS  /tmp/ccagl22d.s 			page 155
+ARM GAS  /tmp/ccxJ4h6H.s 			page 155
 
 
  8775 00c0 0400     		.2byte	0x4
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8829 013c 9E000000 		.4byte	.LVL60
  8830 0140 B0000000 		.4byte	.LFE340
  8831 0144 0100     		.2byte	0x1
-ARM GAS  /tmp/ccagl22d.s 			page 156
+ARM GAS  /tmp/ccxJ4h6H.s 			page 156
 
 
  8832 0146 51       		.byte	0x51
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8886 01ca 50       		.byte	0x50
  8887 01cb 9F       		.byte	0x9f
  8888 01cc 00000000 		.4byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 157
+ARM GAS  /tmp/ccxJ4h6H.s 			page 157
 
 
  8889 01d0 00000000 		.4byte	0
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  8943 0251 F3       		.byte	0xf3
  8944 0252 01       		.uleb128 0x1
  8945 0253 50       		.byte	0x50
-ARM GAS  /tmp/ccagl22d.s 			page 158
+ARM GAS  /tmp/ccxJ4h6H.s 			page 158
 
 
  8946 0254 24       		.byte	0x24
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9000 02e4 0100     		.2byte	0x1
  9001 02e6 51       		.byte	0x51
  9002 02e7 00000000 		.4byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 159
+ARM GAS  /tmp/ccxJ4h6H.s 			page 159
 
 
  9003 02eb 00000000 		.4byte	0
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9057 037e 51       		.byte	0x51
  9058 037f 00000000 		.4byte	0
  9059 0383 00000000 		.4byte	0
-ARM GAS  /tmp/ccagl22d.s 			page 160
+ARM GAS  /tmp/ccxJ4h6H.s 			page 160
 
 
  9060              	.LLST2:
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9114 0010 00000000 		.4byte	.LFB323
  9115 0014 28000000 		.4byte	.LFE323-.LFB323
  9116 0018 00000000 		.4byte	.LFB324
-ARM GAS  /tmp/ccagl22d.s 			page 161
+ARM GAS  /tmp/ccxJ4h6H.s 			page 161
 
 
  9117 001c 2C000000 		.4byte	.LFE324-.LFB324
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9171 002c 2C000000 		.4byte	.LFE328
  9172 0030 00000000 		.4byte	.LFB329
  9173 0034 2C000000 		.4byte	.LFE329
-ARM GAS  /tmp/ccagl22d.s 			page 162
+ARM GAS  /tmp/ccxJ4h6H.s 			page 162
 
 
  9174 0038 00000000 		.4byte	.LFB330
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9217              	.LASF632:
  9218 002d 5F5F6675 		.ascii	"__func__\000"
  9218      6E635F5F 
-ARM GAS  /tmp/ccagl22d.s 			page 163
+ARM GAS  /tmp/ccxJ4h6H.s 			page 163
 
 
  9218      00
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9245              	.LASF402:
  9246 00c2 6972715F 		.ascii	"irq_cb\000"
  9246      636200
-ARM GAS  /tmp/ccagl22d.s 			page 164
+ARM GAS  /tmp/ccxJ4h6H.s 			page 164
 
 
  9247              	.LASF230:
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9274 0150 47434346 		.ascii	"GCCFG\000"
  9274      4700
  9275              	.LASF173:
-ARM GAS  /tmp/ccagl22d.s 			page 165
+ARM GAS  /tmp/ccxJ4h6H.s 			page 165
 
 
  9276 0156 42445452 		.ascii	"BDTR\000"
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9294              	.LASF52:
  9295 02a7 6E657874 		.ascii	"next\000"
  9295      00
-ARM GAS  /tmp/ccagl22d.s 			page 166
+ARM GAS  /tmp/ccxJ4h6H.s 			page 166
 
 
  9296              	.LASF36:
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9322              	.LASF436:
  9323 033c 5350495F 		.ascii	"SPI_STOP\000"
  9323      53544F50 
-ARM GAS  /tmp/ccagl22d.s 			page 167
+ARM GAS  /tmp/ccxJ4h6H.s 			page 167
 
 
  9323      00
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9351      696D655F 
  9351      7400
  9352              	.LASF611:
-ARM GAS  /tmp/ccagl22d.s 			page 168
+ARM GAS  /tmp/ccxJ4h6H.s 			page 168
 
 
  9353 03de 6D61736B 		.ascii	"mask\000"
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9382              	.LASF354:
  9383 0460 49324344 		.ascii	"I2CDriver\000"
  9383      72697665 
-ARM GAS  /tmp/ccagl22d.s 			page 169
+ARM GAS  /tmp/ccxJ4h6H.s 			page 169
 
 
  9383      7200
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9412 0512 715F7761 		.ascii	"q_waiting\000"
  9412      6974696E 
  9412      6700
-ARM GAS  /tmp/ccagl22d.s 			page 170
+ARM GAS  /tmp/ccxJ4h6H.s 			page 170
 
 
  9413              	.LASF72:
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9439              	.LASF333:
  9440 05a9 4932435F 		.ascii	"I2C_UNINIT\000"
  9440      554E494E 
-ARM GAS  /tmp/ccagl22d.s 			page 171
+ARM GAS  /tmp/ccxJ4h6H.s 			page 171
 
 
  9440      495400
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9466      6164635F 
  9466      636F6E66 
  9466      696700
-ARM GAS  /tmp/ccagl22d.s 			page 172
+ARM GAS  /tmp/ccxJ4h6H.s 			page 172
 
 
  9467              	.LASF308:
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9498      6E743136 
  9498      5F7400
  9499              	.LASF628:
-ARM GAS  /tmp/ccagl22d.s 			page 173
+ARM GAS  /tmp/ccxJ4h6H.s 			page 173
 
 
  9500 06d1 56656374 		.ascii	"Vector70\000"
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9526 075c 4144435F 		.ascii	"ADC_UNINIT\000"
  9526      554E494E 
  9526      495400
-ARM GAS  /tmp/ccagl22d.s 			page 174
+ARM GAS  /tmp/ccxJ4h6H.s 			page 174
 
 
  9527              	.LASF358:
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9554      795F6C69 
  9554      73745F74 
  9554      00
-ARM GAS  /tmp/ccagl22d.s 			page 175
+ARM GAS  /tmp/ccxJ4h6H.s 			page 175
 
 
  9555              	.LASF50:
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9584      3400
  9585              	.LASF567:
  9586 087a 72657376 		.ascii	"resvd880\000"
-ARM GAS  /tmp/ccagl22d.s 			page 176
+ARM GAS  /tmp/ccxJ4h6H.s 			page 176
 
 
  9586      64383830 
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9611              	.LASF569:
  9612 090d 72657376 		.ascii	"resvdD00\000"
  9612      64443030 
-ARM GAS  /tmp/ccagl22d.s 			page 177
+ARM GAS  /tmp/ccxJ4h6H.s 			page 177
 
 
  9612      00
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9643              	.LASF385:
  9644 0990 64696572 		.ascii	"dier\000"
  9644      00
-ARM GAS  /tmp/ccagl22d.s 			page 178
+ARM GAS  /tmp/ccxJ4h6H.s 			page 178
 
 
  9645              	.LASF429:
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9675              	.LASF607:
  9676 0a15 646D6153 		.ascii	"dmaStreamAlloc\000"
  9676      74726561 
-ARM GAS  /tmp/ccagl22d.s 			page 179
+ARM GAS  /tmp/ccxJ4h6H.s 			page 179
 
 
  9676      6D416C6C 
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9706 0aa9 73637261 		.ascii	"scratchpad\000"
  9706      74636870 
  9706      616400
-ARM GAS  /tmp/ccagl22d.s 			page 180
+ARM GAS  /tmp/ccxJ4h6H.s 			page 180
 
 
  9707              	.LASF593:
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9734      64333000 
  9735              	.LASF533:
  9736 0b40 72657376 		.ascii	"resvd34\000"
-ARM GAS  /tmp/ccagl22d.s 			page 181
+ARM GAS  /tmp/ccxJ4h6H.s 			page 181
 
 
  9736      64333400 
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9762      6F723643 
  9762      00
  9763              	.LASF456:
-ARM GAS  /tmp/ccagl22d.s 			page 182
+ARM GAS  /tmp/ccxJ4h6H.s 			page 182
 
 
  9764 0bde 65703073 		.ascii	"ep0state\000"
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9790      6F723135 
  9790      3000
  9791              	.LASF615:
-ARM GAS  /tmp/ccagl22d.s 			page 183
+ARM GAS  /tmp/ccxJ4h6H.s 			page 183
 
 
  9792 0c71 56656374 		.ascii	"Vector154\000"
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9818      00
  9819              	.LASF118:
  9820 0d02 41504232 		.ascii	"APB2RSTR\000"
-ARM GAS  /tmp/ccagl22d.s 			page 184
+ARM GAS  /tmp/ccxJ4h6H.s 			page 184
 
 
  9820      52535452 
@@ -11038,7 +11038,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9849              	.LASF594:
  9850 0d89 696E5F6D 		.ascii	"in_multiplier\000"
  9850      756C7469 
-ARM GAS  /tmp/ccagl22d.s 			page 185
+ARM GAS  /tmp/ccxJ4h6H.s 			page 185
 
 
  9850      706C6965 
@@ -11098,7 +11098,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9878 0e18 7478646D 		.ascii	"txdmamode\000"
  9878      616D6F64 
  9878      6500
-ARM GAS  /tmp/ccagl22d.s 			page 186
+ARM GAS  /tmp/ccxJ4h6H.s 			page 186
 
 
  9879              	.LASF577:
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9910 0eaa 48435453 		.ascii	"HCTSIZ\000"
  9910      495A00
  9911              	.LASF485:
-ARM GAS  /tmp/ccagl22d.s 			page 187
+ARM GAS  /tmp/ccxJ4h6H.s 			page 187
 
 
  9912 0eb1 5553425F 		.ascii	"USB_EVENT_CONFIGURED\000"
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9936 0f61 6F705F6D 		.ascii	"op_mode\000"
  9936      6F646500 
  9937              	.LASF3:
-ARM GAS  /tmp/ccagl22d.s 			page 188
+ARM GAS  /tmp/ccxJ4h6H.s 			page 188
 
 
  9938 0f69 7369676E 		.ascii	"signed char\000"
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9966      00
  9967              	.LASF462:
  9968 0ff3 61646472 		.ascii	"address\000"
-ARM GAS  /tmp/ccagl22d.s 			page 189
+ARM GAS  /tmp/ccxJ4h6H.s 			page 189
 
 
  9968      65737300 
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  9997              	.LASF188:
  9998 107c 63685F73 		.ascii	"ch_semaphore\000"
  9998      656D6170 
-ARM GAS  /tmp/ccagl22d.s 			page 190
+ARM GAS  /tmp/ccxJ4h6H.s 			page 190
 
 
  9998      686F7265 
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10026 110e 70776D63 		.ascii	"pwmchannel_t\000"
  10026      68616E6E 
  10026      656C5F74 
-ARM GAS  /tmp/ccagl22d.s 			page 191
+ARM GAS  /tmp/ccxJ4h6H.s 			page 191
 
 
  10026      00
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10056 1196 53504944 		.ascii	"SPID4\000"
  10056      3400
  10057              	.LASF224:
-ARM GAS  /tmp/ccagl22d.s 			page 192
+ARM GAS  /tmp/ccxJ4h6H.s 			page 192
 
 
  10058 119c 656E646D 		.ascii	"endmem\000"
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10088      726D5F74 
  10088      00
  10089              	.LASF28:
-ARM GAS  /tmp/ccagl22d.s 			page 193
+ARM GAS  /tmp/ccxJ4h6H.s 			page 193
 
 
  10090 122a 6576656E 		.ascii	"eventmask_t\000"
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10116 12ba 656E6162 		.ascii	"enabled\000"
  10116      6C656400 
  10117              	.LASF81:
-ARM GAS  /tmp/ccagl22d.s 			page 194
+ARM GAS  /tmp/ccxJ4h6H.s 			page 194
 
 
  10118 12c2 41504250 		.ascii	"APBPrescTable\000"
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10145              	.LASF604:
  10146 1355 616C6C6F 		.ascii	"allocated_mask\000"
  10146      63617465 
-ARM GAS  /tmp/ccagl22d.s 			page 195
+ARM GAS  /tmp/ccxJ4h6H.s 			page 195
 
 
  10146      645F6D61 
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10172      00
  10173              	.LASF206:
  10174 13f6 6F66665F 		.ascii	"off_state\000"
-ARM GAS  /tmp/ccagl22d.s 			page 196
+ARM GAS  /tmp/ccxJ4h6H.s 			page 196
 
 
  10174      73746174 
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10202      00
  10203              	.LASF186:
  10204 1483 77746D74 		.ascii	"wtmtxp\000"
-ARM GAS  /tmp/ccagl22d.s 			page 197
+ARM GAS  /tmp/ccxJ4h6H.s 			page 197
 
 
  10204      787000
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10230      7400
  10231              	.LASF12:
  10232 1520 5F5F7569 		.ascii	"__uint32_t\000"
-ARM GAS  /tmp/ccagl22d.s 			page 198
+ARM GAS  /tmp/ccxJ4h6H.s 			page 198
 
 
  10232      6E743332 
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10260      52564544 
  10260      3300
  10261              	.LASF130:
-ARM GAS  /tmp/ccagl22d.s 			page 199
+ARM GAS  /tmp/ccxJ4h6H.s 			page 199
 
 
  10262 15b3 52455345 		.ascii	"RESERVED4\000"
@@ -11938,7 +11938,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10288      206C6F6E 
  10288      6720756E 
  10288      7369676E 
-ARM GAS  /tmp/ccagl22d.s 			page 200
+ARM GAS  /tmp/ccxJ4h6H.s 			page 200
 
 
  10288      65642069 
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10318      745F736F 
  10318      75726365 
  10318      00
-ARM GAS  /tmp/ccagl22d.s 			page 201
+ARM GAS  /tmp/ccxJ4h6H.s 			page 201
 
 
  10319              	.LASF24:
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10348      5900
  10349              	.LASF204:
  10350 1758 6F66665F 		.ascii	"off_name\000"
-ARM GAS  /tmp/ccagl22d.s 			page 202
+ARM GAS  /tmp/ccxJ4h6H.s 			page 202
 
 
  10350      6E616D65 
@@ -12118,7 +12118,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10376 17e8 61646365 		.ascii	"adcerror_t\000"
  10376      72726F72 
  10376      5F7400
-ARM GAS  /tmp/ccagl22d.s 			page 203
+ARM GAS  /tmp/ccxJ4h6H.s 			page 203
 
 
  10377              	.LASF598:
@@ -12178,7 +12178,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10401              	.LASF363:
  10402 1881 6973725F 		.ascii	"isr_limit\000"
  10402      6C696D69 
-ARM GAS  /tmp/ccagl22d.s 			page 204
+ARM GAS  /tmp/ccxJ4h6H.s 			page 204
 
 
  10402      7400
@@ -12238,7 +12238,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10428      00
  10429              	.LASF347:
  10430 1917 46415354 		.ascii	"FAST_DUTY_CYCLE_2\000"
-ARM GAS  /tmp/ccagl22d.s 			page 205
+ARM GAS  /tmp/ccxJ4h6H.s 			page 205
 
 
  10430      5F445554 
@@ -12298,7 +12298,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10460      655F7400 
  10461              	.LASF21:
  10462 199f 75696E74 		.ascii	"uint_fast8_t\000"
-ARM GAS  /tmp/ccagl22d.s 			page 206
+ARM GAS  /tmp/ccxJ4h6H.s 			page 206
 
 
  10462      5F666173 
@@ -12358,7 +12358,7 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10488      00
  10489              	.LASF590:
  10490 1a36 696E5F6D 		.ascii	"in_maxsize\000"
-ARM GAS  /tmp/ccagl22d.s 			page 207
+ARM GAS  /tmp/ccxJ4h6H.s 			page 207
 
 
  10490      61787369 
@@ -12393,79 +12393,79 @@ ARM GAS  /tmp/ccagl22d.s 			page 1
  10506      74617465 
  10506      5F7400
  10507              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /tmp/ccagl22d.s 			page 208
+ARM GAS  /tmp/ccxJ4h6H.s 			page 208
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32_dma.c
-     /tmp/ccagl22d.s:18     .text.Vector6C:0000000000000000 $t
-     /tmp/ccagl22d.s:25     .text.Vector6C:0000000000000000 Vector6C
-     /tmp/ccagl22d.s:65     .text.Vector6C:0000000000000020 $d
-     /tmp/ccagl22d.s:71     .text.Vector70:0000000000000000 $t
-     /tmp/ccagl22d.s:78     .text.Vector70:0000000000000000 Vector70
-     /tmp/ccagl22d.s:117    .text.Vector70:0000000000000024 $d
-     /tmp/ccagl22d.s:123    .text.Vector74:0000000000000000 $t
-     /tmp/ccagl22d.s:130    .text.Vector74:0000000000000000 Vector74
-     /tmp/ccagl22d.s:169    .text.Vector74:0000000000000024 $d
-     /tmp/ccagl22d.s:175    .text.Vector78:0000000000000000 $t
-     /tmp/ccagl22d.s:182    .text.Vector78:0000000000000000 Vector78
-     /tmp/ccagl22d.s:221    .text.Vector78:0000000000000024 $d
-     /tmp/ccagl22d.s:227    .text.Vector7C:0000000000000000 $t
-     /tmp/ccagl22d.s:234    .text.Vector7C:0000000000000000 Vector7C
-     /tmp/ccagl22d.s:273    .text.Vector7C:0000000000000020 $d
-     /tmp/ccagl22d.s:279    .text.Vector80:0000000000000000 $t
-     /tmp/ccagl22d.s:286    .text.Vector80:0000000000000000 Vector80
-     /tmp/ccagl22d.s:325    .text.Vector80:0000000000000024 $d
-     /tmp/ccagl22d.s:331    .text.Vector84:0000000000000000 $t
-     /tmp/ccagl22d.s:338    .text.Vector84:0000000000000000 Vector84
-     /tmp/ccagl22d.s:377    .text.Vector84:0000000000000024 $d
-     /tmp/ccagl22d.s:383    .text.VectorFC:0000000000000000 $t
-     /tmp/ccagl22d.s:390    .text.VectorFC:0000000000000000 VectorFC
-     /tmp/ccagl22d.s:429    .text.VectorFC:0000000000000024 $d
-     /tmp/ccagl22d.s:435    .text.Vector120:0000000000000000 $t
-     /tmp/ccagl22d.s:442    .text.Vector120:0000000000000000 Vector120
-     /tmp/ccagl22d.s:481    .text.Vector120:0000000000000020 $d
-     /tmp/ccagl22d.s:487    .text.Vector124:0000000000000000 $t
-     /tmp/ccagl22d.s:494    .text.Vector124:0000000000000000 Vector124
-     /tmp/ccagl22d.s:533    .text.Vector124:0000000000000024 $d
-     /tmp/ccagl22d.s:539    .text.Vector128:0000000000000000 $t
-     /tmp/ccagl22d.s:546    .text.Vector128:0000000000000000 Vector128
-     /tmp/ccagl22d.s:585    .text.Vector128:0000000000000024 $d
-     /tmp/ccagl22d.s:591    .text.Vector12C:0000000000000000 $t
-     /tmp/ccagl22d.s:598    .text.Vector12C:0000000000000000 Vector12C
-     /tmp/ccagl22d.s:637    .text.Vector12C:0000000000000024 $d
-     /tmp/ccagl22d.s:643    .text.Vector130:0000000000000000 $t
-     /tmp/ccagl22d.s:650    .text.Vector130:0000000000000000 Vector130
-     /tmp/ccagl22d.s:689    .text.Vector130:0000000000000020 $d
-     /tmp/ccagl22d.s:695    .text.Vector150:0000000000000000 $t
-     /tmp/ccagl22d.s:702    .text.Vector150:0000000000000000 Vector150
-     /tmp/ccagl22d.s:741    .text.Vector150:0000000000000024 $d
-     /tmp/ccagl22d.s:747    .text.Vector154:0000000000000000 $t
-     /tmp/ccagl22d.s:754    .text.Vector154:0000000000000000 Vector154
-     /tmp/ccagl22d.s:793    .text.Vector154:0000000000000024 $d
-     /tmp/ccagl22d.s:799    .text.Vector158:0000000000000000 $t
-     /tmp/ccagl22d.s:806    .text.Vector158:0000000000000000 Vector158
-     /tmp/ccagl22d.s:845    .text.Vector158:0000000000000024 $d
-     /tmp/ccagl22d.s:851    .text.dmaInit:0000000000000000 $t
-     /tmp/ccagl22d.s:858    .text.dmaInit:0000000000000000 dmaInit
-     /tmp/ccagl22d.s:914    .text.dmaInit:0000000000000038 $d
-     /tmp/ccagl22d.s:921    .text.dmaStreamAllocI:0000000000000000 $t
-     /tmp/ccagl22d.s:928    .text.dmaStreamAllocI:0000000000000000 dmaStreamAllocI
-     /tmp/ccagl22d.s:1056   .text.dmaStreamAllocI:00000000000000a4 $d
-     /tmp/ccagl22d.s:1063   .text.dmaStreamAlloc:0000000000000000 $t
-ARM GAS  /tmp/ccagl22d.s 			page 209
+     /tmp/ccxJ4h6H.s:18     .text.Vector6C:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:25     .text.Vector6C:0000000000000000 Vector6C
+     /tmp/ccxJ4h6H.s:65     .text.Vector6C:0000000000000020 $d
+     /tmp/ccxJ4h6H.s:71     .text.Vector70:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:78     .text.Vector70:0000000000000000 Vector70
+     /tmp/ccxJ4h6H.s:117    .text.Vector70:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:123    .text.Vector74:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:130    .text.Vector74:0000000000000000 Vector74
+     /tmp/ccxJ4h6H.s:169    .text.Vector74:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:175    .text.Vector78:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:182    .text.Vector78:0000000000000000 Vector78
+     /tmp/ccxJ4h6H.s:221    .text.Vector78:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:227    .text.Vector7C:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:234    .text.Vector7C:0000000000000000 Vector7C
+     /tmp/ccxJ4h6H.s:273    .text.Vector7C:0000000000000020 $d
+     /tmp/ccxJ4h6H.s:279    .text.Vector80:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:286    .text.Vector80:0000000000000000 Vector80
+     /tmp/ccxJ4h6H.s:325    .text.Vector80:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:331    .text.Vector84:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:338    .text.Vector84:0000000000000000 Vector84
+     /tmp/ccxJ4h6H.s:377    .text.Vector84:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:383    .text.VectorFC:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:390    .text.VectorFC:0000000000000000 VectorFC
+     /tmp/ccxJ4h6H.s:429    .text.VectorFC:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:435    .text.Vector120:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:442    .text.Vector120:0000000000000000 Vector120
+     /tmp/ccxJ4h6H.s:481    .text.Vector120:0000000000000020 $d
+     /tmp/ccxJ4h6H.s:487    .text.Vector124:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:494    .text.Vector124:0000000000000000 Vector124
+     /tmp/ccxJ4h6H.s:533    .text.Vector124:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:539    .text.Vector128:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:546    .text.Vector128:0000000000000000 Vector128
+     /tmp/ccxJ4h6H.s:585    .text.Vector128:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:591    .text.Vector12C:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:598    .text.Vector12C:0000000000000000 Vector12C
+     /tmp/ccxJ4h6H.s:637    .text.Vector12C:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:643    .text.Vector130:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:650    .text.Vector130:0000000000000000 Vector130
+     /tmp/ccxJ4h6H.s:689    .text.Vector130:0000000000000020 $d
+     /tmp/ccxJ4h6H.s:695    .text.Vector150:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:702    .text.Vector150:0000000000000000 Vector150
+     /tmp/ccxJ4h6H.s:741    .text.Vector150:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:747    .text.Vector154:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:754    .text.Vector154:0000000000000000 Vector154
+     /tmp/ccxJ4h6H.s:793    .text.Vector154:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:799    .text.Vector158:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:806    .text.Vector158:0000000000000000 Vector158
+     /tmp/ccxJ4h6H.s:845    .text.Vector158:0000000000000024 $d
+     /tmp/ccxJ4h6H.s:851    .text.dmaInit:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:858    .text.dmaInit:0000000000000000 dmaInit
+     /tmp/ccxJ4h6H.s:914    .text.dmaInit:0000000000000038 $d
+     /tmp/ccxJ4h6H.s:921    .text.dmaStreamAllocI:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:928    .text.dmaStreamAllocI:0000000000000000 dmaStreamAllocI
+     /tmp/ccxJ4h6H.s:1056   .text.dmaStreamAllocI:00000000000000a4 $d
+     /tmp/ccxJ4h6H.s:1063   .text.dmaStreamAlloc:0000000000000000 $t
+ARM GAS  /tmp/ccxJ4h6H.s 			page 209
 
 
-     /tmp/ccagl22d.s:1070   .text.dmaStreamAlloc:0000000000000000 dmaStreamAlloc
-     /tmp/ccagl22d.s:1131   .text.dmaStreamFreeI:0000000000000000 $t
-     /tmp/ccagl22d.s:1138   .text.dmaStreamFreeI:0000000000000000 dmaStreamFreeI
-     /tmp/ccagl22d.s:1201   .text.dmaStreamFreeI:0000000000000054 $d
-     /tmp/ccagl22d.s:1209   .text.dmaStreamFree:0000000000000000 $t
-     /tmp/ccagl22d.s:1216   .text.dmaStreamFree:0000000000000000 dmaStreamFree
-     /tmp/ccagl22d.s:1287   .rodata._stm32_dma_streams:0000000000000000 _stm32_dma_streams
-     /tmp/ccagl22d.s:1276   .bss.dma:0000000000000000 $d
-     /tmp/ccagl22d.s:1280   .bss.dma:0000000000000000 dma
-     /tmp/ccagl22d.s:1283   .rodata._stm32_dma_streams:0000000000000000 $d
+     /tmp/ccxJ4h6H.s:1070   .text.dmaStreamAlloc:0000000000000000 dmaStreamAlloc
+     /tmp/ccxJ4h6H.s:1131   .text.dmaStreamFreeI:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:1138   .text.dmaStreamFreeI:0000000000000000 dmaStreamFreeI
+     /tmp/ccxJ4h6H.s:1201   .text.dmaStreamFreeI:0000000000000054 $d
+     /tmp/ccxJ4h6H.s:1209   .text.dmaStreamFree:0000000000000000 $t
+     /tmp/ccxJ4h6H.s:1216   .text.dmaStreamFree:0000000000000000 dmaStreamFree
+     /tmp/ccxJ4h6H.s:1287   .rodata._stm32_dma_streams:0000000000000000 _stm32_dma_streams
+     /tmp/ccxJ4h6H.s:1276   .bss.dma:0000000000000000 $d
+     /tmp/ccxJ4h6H.s:1280   .bss.dma:0000000000000000 dma
+     /tmp/ccxJ4h6H.s:1283   .rodata._stm32_dma_streams:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
