@@ -522,7 +522,4 @@ libraries/AP_HAL_ChibiOS/HAL_ChibiOS_Class.cpp.3.o: \
  ../../libraries/AP_InertialSensor/AP_InertialSensor_Backend.h \
  ../../libraries/AP_Vehicle/ModeReason.h \
  ../../libraries/AP_Logger/LoggerMessageWriter.h \
- ../../libraries/AP_Logger/AP_Logger_Backend.h \
- ../../libraries/AP_IOMCU/AP_IOMCU.h \
- ../../libraries/AP_IOMCU/iofirmware/ioprotocol.h \
- ../../libraries/AP_RCMapper/AP_RCMapper.h
+ ../../libraries/AP_Logger/AP_Logger_Backend.h

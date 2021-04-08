@@ -503,7 +503,4 @@ libraries/AP_HAL_ChibiOS/Scheduler.cpp.0.o: \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/watchdog.h \
  ../../libraries/AP_Filesystem/AP_Filesystem.h \
  ../../libraries/AP_Filesystem/AP_Filesystem_FATFS.h \
- ../../libraries/AP_Filesystem/AP_Filesystem_backend.h \
- ../../libraries/AP_IOMCU/AP_IOMCU.h \
- ../../libraries/AP_IOMCU/iofirmware/ioprotocol.h \
- ../../libraries/AP_RCMapper/AP_RCMapper.h
+ ../../libraries/AP_Filesystem/AP_Filesystem_backend.h

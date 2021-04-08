@@ -161,11 +161,6 @@ libraries/AP_HAL_ChibiOS/Util.cpp.0.o: \
  ../../libraries/AP_ROMFS/AP_ROMFS.h \
  ../../libraries/AP_Common/ExpandingString.h \
  ../../libraries/AP_HAL_ChibiOS/sdcard.h \
- ../../libraries/AP_BoardConfig/AP_BoardConfig.h \
- ../../libraries/AP_RTC/AP_RTC.h ../../libraries/AC_PID/AC_PI.h \
- ../../libraries/AP_IOMCU/AP_IOMCU.h \
- ../../libraries/AP_IOMCU/iofirmware/ioprotocol.h \
- ../../libraries/AP_RCMapper/AP_RCMapper.h \
  ../../libraries/GCS_MAVLink/GCS.h \
  ../../libraries/GCS_MAVLink/GCS_MAVLink.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/version.h \

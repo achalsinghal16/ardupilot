@@ -136,10 +136,4 @@ libraries/AP_IOMCU/fw_uploader.cpp.0.o: \
  ../../libraries/AP_HAL/system.h ../../libraries/AP_HAL/OpticalFlow.h \
  ../../libraries/AP_HAL/DSP.h ../../libraries/AP_HAL/utility/RingBuffer.h \
  ../../libraries/AP_HAL/CANIface.h ../../libraries/AP_HAL/Scheduler.h \
- ../../libraries/AP_HAL/Util.h ../../libraries/AP_HAL/Flash.h \
- ../../libraries/AP_IOMCU/AP_IOMCU.h \
- ../../libraries/AP_IOMCU/iofirmware/ioprotocol.h \
- ../../libraries/AP_RCMapper/AP_RCMapper.h \
- ../../libraries/AP_Param/AP_Param.h \
- ../../libraries/StorageManager/StorageManager.h \
- ../../libraries/AP_ROMFS/AP_ROMFS.h ../../libraries/AP_Math/crc.h
+ ../../libraries/AP_HAL/Util.h ../../libraries/AP_HAL/Flash.h

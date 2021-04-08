@@ -145,8 +145,6 @@ libraries/AP_BoardConfig/IMU_heater.cpp.0.o: \
  ../../libraries/AP_Math/polygon.h ../../libraries/AP_Math/quaternion.h \
  ../../libraries/AP_Math/spline5.h ../../libraries/AP_Math/location.h \
  ../../libraries/AP_IOMCU/AP_IOMCU.h \
- ../../libraries/AP_IOMCU/iofirmware/ioprotocol.h \
- ../../libraries/AP_RCMapper/AP_RCMapper.h \
  ../../libraries/AP_Logger/AP_Logger.h \
  ../../libraries/AP_Filesystem/AP_Filesystem_Available.h \
  ../../libraries/AP_AHRS/AP_AHRS.h \

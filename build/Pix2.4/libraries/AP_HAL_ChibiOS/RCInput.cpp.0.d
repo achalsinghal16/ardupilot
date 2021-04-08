@@ -152,19 +152,14 @@ libraries/AP_HAL_ChibiOS/RCInput.cpp.0.o: \
  ../../libraries/AP_Common/missing/byteswap.h \
  ../../libraries/AP_Common/missing/endian.h \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/ppm.h \
- ../../libraries/AP_BoardConfig/AP_BoardConfig.h \
- ../../libraries/AP_Param/AP_Param.h \
+ ../../libraries/AP_Math/AP_Math.h ../../libraries/AP_Param/AP_Param.h \
  ../../libraries/StorageManager/StorageManager.h \
- ../../libraries/AP_RTC/AP_RTC.h ../../libraries/AC_PID/AC_PI.h \
- ../../libraries/AP_IOMCU/AP_IOMCU.h \
- ../../libraries/AP_IOMCU/iofirmware/ioprotocol.h \
- ../../libraries/AP_RCMapper/AP_RCMapper.h \
- ../../libraries/AP_Math/AP_Math.h ../../libraries/AP_Math/definitions.h \
- ../../libraries/AP_Math/crc.h ../../libraries/AP_Math/matrix3.h \
- ../../libraries/AP_Math/vector3.h ../../libraries/AP_Math/rotations.h \
- ../../libraries/AP_Math/vector2.h ../../libraries/AP_Math/polygon.h \
- ../../libraries/AP_Math/quaternion.h ../../libraries/AP_Math/spline5.h \
- ../../libraries/AP_Math/location.h ../../libraries/GCS_MAVLink/GCS.h \
+ ../../libraries/AP_Math/definitions.h ../../libraries/AP_Math/crc.h \
+ ../../libraries/AP_Math/matrix3.h ../../libraries/AP_Math/vector3.h \
+ ../../libraries/AP_Math/rotations.h ../../libraries/AP_Math/vector2.h \
+ ../../libraries/AP_Math/polygon.h ../../libraries/AP_Math/quaternion.h \
+ ../../libraries/AP_Math/spline5.h ../../libraries/AP_Math/location.h \
+ ../../libraries/GCS_MAVLink/GCS.h \
  ../../libraries/GCS_MAVLink/GCS_MAVLink.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/version.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/mavlink_types.h \

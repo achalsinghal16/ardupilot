@@ -601,6 +601,4 @@ libraries/AP_Arming/AP_Arming.cpp.3.o: \
  ../../libraries/AP_UAVCAN/AP_UAVCAN_DNA_Server.h \
  ../../libraries/AP_UAVCAN/AP_UAVCAN_IfaceMgr.h \
  ../../libraries/AP_UAVCAN/AP_UAVCAN_Clock.h \
- ../../modules/uavcan/libuavcan/include/uavcan/helpers/heap_based_pool_allocator.hpp \
- ../../libraries/AP_IOMCU/AP_IOMCU.h \
- ../../libraries/AP_IOMCU/iofirmware/ioprotocol.h
+ ../../modules/uavcan/libuavcan/include/uavcan/helpers/heap_based_pool_allocator.hpp

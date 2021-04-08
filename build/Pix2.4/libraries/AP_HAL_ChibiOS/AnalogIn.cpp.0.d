@@ -146,11 +146,6 @@ libraries/AP_HAL_ChibiOS/AnalogIn.cpp.0.o: \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/ffconf.h \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/stdio.h \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/hrt.h \
- ../../libraries/AP_IOMCU/AP_IOMCU.h \
- ../../libraries/AP_IOMCU/iofirmware/ioprotocol.h \
- ../../libraries/AP_RCMapper/AP_RCMapper.h \
- ../../libraries/AP_Param/AP_Param.h \
- ../../libraries/StorageManager/StorageManager.h \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/stm32_util.h \
  ../../libraries/GCS_MAVLink/GCS_MAVLink.h \
  libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/version.h \

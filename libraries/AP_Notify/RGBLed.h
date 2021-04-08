@@ -93,7 +93,7 @@ private:
 #define YELLOW (RED|GREEN)
 #define WHITE (RED|GREEN|BLUE)
 
-    const uint32_t sequence_initialising = DEFINE_COLOUR_SEQUENCE_ALTERNATE(RED,BLUE);
+    const uint32_t sequence_initialising = DEFINE_COLOUR_SEQUENCE_ALTERNATE(BLUE,RED);
     const uint32_t sequence_trim_or_esc = DEFINE_COLOUR_SEQUENCE(RED,BLUE,GREEN,RED,BLUE,GREEN,RED,BLUE,GREEN,BLACK);
     const uint32_t sequence_failsafe_leak = DEFINE_COLOUR_SEQUENCE_FAILSAFE(WHITE);
     const uint32_t sequence_failsafe_ekf = DEFINE_COLOUR_SEQUENCE_FAILSAFE(RED);

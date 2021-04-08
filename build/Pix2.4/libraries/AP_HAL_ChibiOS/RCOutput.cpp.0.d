@@ -160,7 +160,4 @@ libraries/AP_HAL_ChibiOS/RCOutput.cpp.0.o: \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/stm32_util.h \
  ../../libraries/AP_HAL_ChibiOS/hwdef/common/watchdog.h \
  ../../libraries/AP_InternalError/AP_InternalError.h \
- ../../libraries/AP_Vehicle/AP_Vehicle_Type.h \
- ../../libraries/AP_IOMCU/AP_IOMCU.h \
- ../../libraries/AP_IOMCU/iofirmware/ioprotocol.h \
- ../../libraries/AP_RCMapper/AP_RCMapper.h
+ ../../libraries/AP_Vehicle/AP_Vehicle_Type.h
